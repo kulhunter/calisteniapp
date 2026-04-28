@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useMemo } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { useGLTF, useAnimations } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
@@ -8,6 +8,7 @@ import muscles from '../data/muscles.json';
 
 export function HumanModel(props) {
   const group = useRef();
+  const [hovered, setHovered] = useState(false);
   
   // For MVP, we'll default to the primitive model if no path is provided or load fails
   const modelPath = null; 
@@ -20,6 +21,11 @@ export function HumanModel(props) {
   const isPlaying = useExerciseStore((state) => state.isPlaying);
   const animationSpeed = useExerciseStore((state) => state.animationSpeed);
   const setSelectedMuscle = useExerciseStore((state) => state.setSelectedMuscle);
+
+  // Change cursor on hover
+  useEffect(() => {
+    document.body.style.cursor = hovered ? 'pointer' : 'auto';
+  }, [hovered]);
 
   useEffect(() => {
     if (selectedExercise && actions[selectedExercise.animation]) {
@@ -69,16 +75,28 @@ export function HumanModel(props) {
 
   const handlePointerDown = (e) => {
     e.stopPropagation();
-    const muscleId = getMuscleFromMeshName(e.object.name);
+    const meshName = e.object.name;
+    const muscleId = getMuscleFromMeshName(meshName);
+    console.log('Clicked mesh:', meshName, 'Muscle ID:', muscleId);
+    
     if (muscleId) {
       const muscle = muscles.find(m => m.id === muscleId);
-      if (muscle) setSelectedMuscle(muscle);
+      if (muscle) {
+        console.log('Selecting muscle:', muscle.name);
+        setSelectedMuscle(muscle);
+      }
     }
   };
 
   if (Object.keys(nodes).length === 0) {
     return (
-      <group ref={group} {...props} onPointerDown={handlePointerDown}>
+      <group 
+        ref={group} 
+        {...props} 
+        onPointerDown={handlePointerDown}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
+      >
         {/* Torso Front (Chest/Abs) */}
         <mesh name="torso_front" position={[0, 1.2, 0.05]}>
           <boxGeometry args={[0.5, 0.7, 0.15]} />
@@ -130,7 +148,14 @@ export function HumanModel(props) {
   }
 
   return (
-    <group ref={group} {...props} dispose={null} onPointerDown={handlePointerDown}>
+    <group 
+      ref={group} 
+      {...props} 
+      dispose={null} 
+      onPointerDown={handlePointerDown}
+      onPointerOver={() => setHovered(true)}
+      onPointerOut={() => setHovered(false)}
+    >
       {Object.keys(nodes).map((key) => {
         const node = nodes[key];
         if (node.isMesh) {
