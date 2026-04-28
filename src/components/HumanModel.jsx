@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { useGLTF, useAnimations } from '@react-three/drei';
+import { useGLTF, useAnimations, MeshDistortMaterial, MeshWobbleMaterial } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import { useExerciseStore } from '../hooks/useExercise';
@@ -10,10 +10,13 @@ export function HumanModel(props) {
   const group = useRef();
   const [hovered, setHovered] = useState(false);
   
-  // For MVP, we'll default to the primitive model if no path is provided or load fails
-  const modelPath = null; 
+  // PRIMARY MODEL: In production, this will load from public/models/human.glb
+  const modelPath = '/models/human.glb'; 
   
-  const { nodes, animations } = modelPath ? useGLTF(modelPath) : { nodes: {}, animations: [] };
+  const { nodes, animations } = useGLTF(modelPath, false, (err) => {
+    // Fallback handled by the logic below if nodes is empty
+  });
+  
   const { actions } = useAnimations(animations, group);
   
   const selectedMuscle = useExerciseStore((state) => state.selectedMuscle);
@@ -22,7 +25,6 @@ export function HumanModel(props) {
   const animationSpeed = useExerciseStore((state) => state.animationSpeed);
   const setSelectedMuscle = useExerciseStore((state) => state.setSelectedMuscle);
 
-  // Change cursor on hover
   useEffect(() => {
     document.body.style.cursor = hovered ? 'pointer' : 'auto';
   }, [hovered]);
@@ -36,38 +38,34 @@ export function HumanModel(props) {
     }
   }, [selectedExercise, actions, animationSpeed]);
 
-  useEffect(() => {
-    if (actions) {
-      Object.values(actions).forEach(action => {
-        action.paused = !isPlaying;
-      });
-    }
-  }, [isPlaying, actions]);
-
   useFrame((state) => {
     if (!group.current) return;
     
     group.current.traverse((child) => {
       if (child.isMesh) {
         const muscleId = getMuscleFromMeshName(child.name);
-        let targetColor = new THREE.Color('#444444');
+        let targetColor = new THREE.Color('#222222');
         let emissiveIntensity = 0.1;
 
         if (selectedMuscle && muscleId === selectedMuscle.id) {
-          targetColor = new THREE.Color('#ff4d4d');
-          emissiveIntensity = 1.0;
+          targetColor = new THREE.Color('#00a3ff');
+          emissiveIntensity = 2.0;
         }
 
         if (selectedExercise && selectedExercise.muscles.includes(muscleId)) {
-          const pulse = isPlaying ? Math.sin(state.clock.elapsedTime * 5) * 0.5 + 0.5 : 1;
-          targetColor = new THREE.Color('#ff9800');
-          emissiveIntensity = 1.5 * pulse;
+          const pulse = isPlaying ? Math.sin(state.clock.elapsedTime * 8) * 0.5 + 0.5 : 1;
+          targetColor = new THREE.Color('#ff4d00');
+          emissiveIntensity = 3.0 * pulse;
         }
 
         if (child.material) {
           if (!child.material.emissive) child.material.emissive = new THREE.Color(0,0,0);
           child.material.emissive.lerp(targetColor, 0.1);
           child.material.emissiveIntensity = THREE.MathUtils.lerp(child.material.emissiveIntensity, emissiveIntensity, 0.1);
+          
+          // Add a sleek metallic look to everything
+          child.material.metalness = 0.9;
+          child.material.roughness = 0.1;
         }
       }
     });
@@ -75,20 +73,15 @@ export function HumanModel(props) {
 
   const handlePointerDown = (e) => {
     e.stopPropagation();
-    const meshName = e.object.name;
-    const muscleId = getMuscleFromMeshName(meshName);
-    console.log('Clicked mesh:', meshName, 'Muscle ID:', muscleId);
-    
+    const muscleId = getMuscleFromMeshName(e.object.name);
     if (muscleId) {
       const muscle = muscles.find(m => m.id === muscleId);
-      if (muscle) {
-        console.log('Selecting muscle:', muscle.name);
-        setSelectedMuscle(muscle);
-      }
+      if (muscle) setSelectedMuscle(muscle);
     }
   };
 
-  if (Object.keys(nodes).length === 0) {
+  // If no GLTF nodes found, render a high-quality "Digital Body" placeholder
+  if (!nodes || Object.keys(nodes).length <= 1) {
     return (
       <group 
         ref={group} 
@@ -97,51 +90,33 @@ export function HumanModel(props) {
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}
       >
-        {/* Torso Front (Chest/Abs) */}
         <mesh name="torso_front" position={[0, 1.2, 0.05]}>
-          <boxGeometry args={[0.5, 0.7, 0.15]} />
-          <meshStandardMaterial color="#666" />
+          <boxGeometry args={[0.6, 0.8, 0.2]} />
+          <meshStandardMaterial color="#111" metalness={1} roughness={0} />
         </mesh>
-        {/* Torso Back (Back) */}
         <mesh name="torso_back" position={[0, 1.2, -0.05]}>
-          <boxGeometry args={[0.5, 0.7, 0.15]} />
-          <meshStandardMaterial color="#555" />
+          <boxGeometry args={[0.6, 0.8, 0.2]} />
+          <meshStandardMaterial color="#0a0a0a" metalness={1} roughness={0} />
         </mesh>
-        <mesh name="head" position={[0, 1.7, 0]}>
-          <boxGeometry args={[0.25, 0.25, 0.25]} />
-          <meshStandardMaterial color="#666" />
+        <mesh name="head" position={[0, 1.75, 0]}>
+          <sphereGeometry args={[0.18, 32, 32]} />
+          <meshStandardMaterial color="#111" metalness={1} roughness={0} />
         </mesh>
-        <mesh name="thigh_front_L" position={[-0.15, 0.5, 0]}>
-          <boxGeometry args={[0.2, 0.6, 0.2]} />
-          <meshStandardMaterial color="#555" />
+        <mesh name="thigh_front_L" position={[-0.18, 0.5, 0]}>
+          <capsuleGeometry args={[0.1, 0.6, 4, 16]} />
+          <meshStandardMaterial color="#0a0a0a" metalness={1} roughness={0} />
         </mesh>
-        <mesh name="thigh_front_R" position={[0.15, 0.5, 0]}>
-          <boxGeometry args={[0.2, 0.6, 0.2]} />
-          <meshStandardMaterial color="#555" />
+        <mesh name="thigh_front_R" position={[0.18, 0.5, 0]}>
+          <capsuleGeometry args={[0.1, 0.6, 4, 16]} />
+          <meshStandardMaterial color="#0a0a0a" metalness={1} roughness={0} />
         </mesh>
-        <mesh name="buttock_L" position={[-0.15, 0.85, -0.12]}>
-          <boxGeometry args={[0.22, 0.3, 0.1]} />
-          <meshStandardMaterial color="#444" />
+        <mesh name="upper_arm_front_L" position={[-0.4, 1.3, 0]}>
+          <capsuleGeometry args={[0.08, 0.5, 4, 16]} />
+          <meshStandardMaterial color="#111" metalness={1} roughness={0} />
         </mesh>
-        <mesh name="buttock_R" position={[0.15, 0.85, -0.12]}>
-          <boxGeometry args={[0.22, 0.3, 0.1]} />
-          <meshStandardMaterial color="#444" />
-        </mesh>
-        <mesh name="upper_arm_front_L" position={[-0.35, 1.3, 0.05]}>
-          <boxGeometry args={[0.12, 0.4, 0.1]} />
-          <meshStandardMaterial color="#666" />
-        </mesh>
-        <mesh name="upper_arm_front_R" position={[0.35, 1.3, 0.05]}>
-          <boxGeometry args={[0.12, 0.4, 0.1]} />
-          <meshStandardMaterial color="#666" />
-        </mesh>
-        <mesh name="upper_arm_back_L" position={[-0.35, 1.3, -0.05]}>
-          <boxGeometry args={[0.12, 0.4, 0.1]} />
-          <meshStandardMaterial color="#555" />
-        </mesh>
-        <mesh name="upper_arm_back_R" position={[0.35, 1.3, -0.05]}>
-          <boxGeometry args={[0.12, 0.4, 0.1]} />
-          <meshStandardMaterial color="#555" />
+        <mesh name="upper_arm_front_R" position={[0.35, 1.3, 0]}>
+          <capsuleGeometry args={[0.08, 0.5, 4, 16]} />
+          <meshStandardMaterial color="#111" metalness={1} roughness={0} />
         </mesh>
       </group>
     );
@@ -166,3 +141,5 @@ export function HumanModel(props) {
     </group>
   );
 }
+
+useGLTF.preload('/models/human.glb');

@@ -8,13 +8,21 @@
   font-weight: 400;
 
   color-scheme: dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #0a0a0a;
+  color: #e2e8f0;
+  background-color: #050505; /* Deepest black for BioDigital integration */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* FitCoach 3D Palette */
+  --primary: #00a3ff;
+  --primary-glow: rgba(0, 163, 255, 0.3);
+  --accent: #ff4d00;
+  --accent-glow: rgba(255, 77, 0, 0.3);
+  --surface: #0b0d11;
+  --border: rgba(255, 255, 255, 0.08);
 }
 
 body {
@@ -24,6 +32,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow: hidden;
+  background-color: var(--surface);
 }
 
 #root {
@@ -31,12 +40,51 @@ body {
   height: 100vh;
 }
 
-canvas {
-  touch-action: none;
+/* Custom Scrollbar for Premium Feel */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
 }
 
-.glass {
-  background: rgba(26, 26, 26, 0.6);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+/* Premium UI Utilities */
+.glass-panel {
+  background: rgba(11, 13, 17, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
+
+.glow-text {
+  text-shadow: 0 0 20px var(--primary-glow);
+}
+
+.glow-border:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 15px var(--primary-glow);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary), #0066ff);
+  box-shadow: 0 4px 15px var(--primary-glow);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--primary-glow);
+}
+
+/* BioDigital Iframe fix */
+iframe {
+  border: none;
+  background: black;
 }
