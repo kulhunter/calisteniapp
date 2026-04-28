@@ -4,6 +4,7 @@ import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import { useExerciseStore } from '../hooks/useExercise';
 import { getMuscleFromMeshName } from '../utils/muscleMap';
+import muscles from '../data/muscles.json';
 
 export function HumanModel(props) {
   const group = useRef();
@@ -43,18 +44,18 @@ export function HumanModel(props) {
     group.current.traverse((child) => {
       if (child.isMesh) {
         const muscleId = getMuscleFromMeshName(child.name);
-        let targetColor = new THREE.Color('#333333');
-        let emissiveIntensity = 0;
+        let targetColor = new THREE.Color('#444444');
+        let emissiveIntensity = 0.1;
 
         if (selectedMuscle && muscleId === selectedMuscle.id) {
           targetColor = new THREE.Color('#ff4d4d');
-          emissiveIntensity = 0.5;
+          emissiveIntensity = 1.0;
         }
 
         if (selectedExercise && selectedExercise.muscles.includes(muscleId)) {
           const pulse = isPlaying ? Math.sin(state.clock.elapsedTime * 5) * 0.5 + 0.5 : 1;
           targetColor = new THREE.Color('#ff9800');
-          emissiveIntensity = 0.8 * pulse;
+          emissiveIntensity = 1.5 * pulse;
         }
 
         if (child.material) {
@@ -70,10 +71,8 @@ export function HumanModel(props) {
     e.stopPropagation();
     const muscleId = getMuscleFromMeshName(e.object.name);
     if (muscleId) {
-      import('../data/muscles.json').then(muscles => {
-        const muscle = muscles.default.find(m => m.id === muscleId);
-        if (muscle) setSelectedMuscle(muscle);
-      });
+      const muscle = muscles.find(m => m.id === muscleId);
+      if (muscle) setSelectedMuscle(muscle);
     }
   };
 
@@ -83,48 +82,48 @@ export function HumanModel(props) {
         {/* Torso Front (Chest/Abs) */}
         <mesh name="torso_front" position={[0, 1.2, 0.05]}>
           <boxGeometry args={[0.5, 0.7, 0.15]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#666" />
         </mesh>
         {/* Torso Back (Back) */}
         <mesh name="torso_back" position={[0, 1.2, -0.05]}>
           <boxGeometry args={[0.5, 0.7, 0.15]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#555" />
         </mesh>
         <mesh name="head" position={[0, 1.7, 0]}>
           <boxGeometry args={[0.25, 0.25, 0.25]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#666" />
         </mesh>
         <mesh name="thigh_front_L" position={[-0.15, 0.5, 0]}>
           <boxGeometry args={[0.2, 0.6, 0.2]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#555" />
         </mesh>
         <mesh name="thigh_front_R" position={[0.15, 0.5, 0]}>
           <boxGeometry args={[0.2, 0.6, 0.2]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#555" />
         </mesh>
         <mesh name="buttock_L" position={[-0.15, 0.85, -0.12]}>
           <boxGeometry args={[0.22, 0.3, 0.1]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#444" />
         </mesh>
         <mesh name="buttock_R" position={[0.15, 0.85, -0.12]}>
           <boxGeometry args={[0.22, 0.3, 0.1]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#444" />
         </mesh>
         <mesh name="upper_arm_front_L" position={[-0.35, 1.3, 0.05]}>
           <boxGeometry args={[0.12, 0.4, 0.1]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#666" />
         </mesh>
         <mesh name="upper_arm_front_R" position={[0.35, 1.3, 0.05]}>
           <boxGeometry args={[0.12, 0.4, 0.1]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#666" />
         </mesh>
         <mesh name="upper_arm_back_L" position={[-0.35, 1.3, -0.05]}>
           <boxGeometry args={[0.12, 0.4, 0.1]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#555" />
         </mesh>
         <mesh name="upper_arm_back_R" position={[0.35, 1.3, -0.05]}>
           <boxGeometry args={[0.12, 0.4, 0.1]} />
-          <meshStandardMaterial color="#222" />
+          <meshStandardMaterial color="#555" />
         </mesh>
       </group>
     );
