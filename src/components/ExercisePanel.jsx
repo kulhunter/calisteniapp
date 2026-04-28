@@ -1,6 +1,7 @@
 import React from 'react';
 import { useExerciseStore } from '../hooks/useExercise';
 import exercises from '../data/exercises.json';
+import musclesList from '../data/muscles.json';
 import { Play, Pause, RotateCcw, Activity, ChevronRight, Zap, Target } from 'lucide-react';
 
 export function ExercisePanel() {
@@ -35,10 +36,11 @@ export function ExercisePanel() {
 
       {selectedMuscle ? (
         <div className="space-y-8 animate-in fade-in slide-in-from-right-4 duration-500">
-          <div className="p-6 glass-panel border-l-4 border-l-primary rounded-2xl">
-            <p className="text-[10px] text-primary font-black uppercase tracking-widest mb-1">Músculo Seleccionado</p>
-            <h3 className="text-2xl font-black glow-text">{selectedMuscle.name}</h3>
-            <p className="text-xs text-white/40 mt-2 leading-relaxed">
+          <div className="p-6 glass-panel border-l-4 border-l-primary rounded-2xl relative overflow-hidden">
+            <div className="absolute -right-4 -top-4 w-24 h-24 bg-primary/10 rounded-full blur-xl pointer-events-none" />
+            <p className="text-[10px] text-primary font-black uppercase tracking-widest mb-1 relative z-10">Músculo Seleccionado</p>
+            <h3 className="text-2xl font-black glow-text relative z-10">{selectedMuscle.name}</h3>
+            <p className="text-xs text-white/40 mt-2 leading-relaxed relative z-10">
               Explora ejercicios específicos para optimizar tu técnica en este grupo muscular.
             </p>
           </div>
@@ -86,14 +88,26 @@ export function ExercisePanel() {
           </div>
         </div>
       ) : (
-        <div className="flex-1 flex flex-col items-center justify-center text-center p-8">
-          <div className="w-20 h-20 rounded-full bg-primary/5 flex items-center justify-center mb-6 border border-primary/10 animate-pulse">
-            <Activity size={40} className="text-primary/20" />
+        <div className="flex-1 flex flex-col items-center justify-center text-center p-2 animate-in fade-in duration-500">
+          <div className="w-16 h-16 rounded-full bg-primary/5 flex items-center justify-center mb-4 border border-primary/10">
+            <Activity size={28} className="text-primary/40" />
           </div>
-          <h3 className="text-lg font-bold mb-2">Explorador Anatómico</h3>
-          <p className="text-xs text-white/30 leading-relaxed max-w-[200px]">
-            Selecciona un grupo muscular en el modelo 3D para desbloquear la guía de ejercicios.
+          <h3 className="text-lg font-bold mb-2">Selecciona un Músculo</h3>
+          <p className="text-xs text-white/30 leading-relaxed max-w-[200px] mb-8">
+            Haz clic en el modelo 3D o elige uno de la lista para ver los ejercicios.
           </p>
+          
+          <div className="w-full grid grid-cols-2 gap-2">
+            {musclesList.map((muscle) => (
+              <button
+                key={muscle.id}
+                onClick={() => useExerciseStore.getState().setSelectedMuscle(muscle)}
+                className="p-3 glass-panel rounded-xl border border-white/5 hover:border-primary/50 hover:bg-primary/10 transition-all text-sm font-medium text-white/70 hover:text-white"
+              >
+                {muscle.name}
+              </button>
+            ))}
+          </div>
         </div>
       )}
 
