@@ -1,204 +1,3051 @@
 [
   {
-    "id": "casa_1",
-    "name": "Full Body en Casa",
+    "id": "casa_gen_1",
+    "name": "Esculpir ABDOMINALES",
     "category": "Casa",
-    "description": "Ideal para entrenar en cualquier lugar, 100% sin equipo.",
-    "level": "Principiante",
-    "duration": "15 min",
-    "exercises": [
-      {
-        "id": "0274",
-        "name_es": "Abdominales Básicos",
-        "target_es": "ABDOMEN",
-        "gif_url": "videos/0274-TFqbd8t.gif",
-        "work_time": 45,
-        "rest_time": 15,
-        "tempo": "2-1-2",
-        "instructions": [
-          "Acuéstate boca arriba con las rodillas dobladas.",
-          "Levanta lentamente el torso contrayendo los abdominales.",
-          "Baja con control a la posición inicial."
-        ]
-      },
-      {
-        "id": "3543",
-        "name_es": "Sentadilla Explosiva",
-        "target_es": "PIERNAS",
-        "gif_url": "videos/3543-wfotm7S.gif",
-        "work_time": 45,
-        "rest_time": 15,
-        "tempo": "1-0-X",
-        "instructions": [
-          "Baja en sentadilla manteniendo la espalda recta.",
-          "Impúlsate explosivamente hacia arriba.",
-          "Aterriza suavemente con las rodillas flexionadas."
-        ]
-      },
-      {
-        "id": "1421",
-        "name_es": "Flexiones de Rodillas",
-        "target_es": "PECHO",
-        "gif_url": "videos/1421-arvaszz.gif",
-        "work_time": 40,
-        "rest_time": 20,
-        "tempo": "2-0-2",
-        "instructions": [
-          "Apoya las rodillas y las manos al ancho de hombros.",
-          "Baja el pecho hacia el suelo manteniendo el core activo.",
-          "Empuja de vuelta a la posición inicial."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "gym_1",
-    "name": "Fuerza Pro (Gimnasio)",
-    "category": "Gimnasio",
-    "description": "Uso de barras y paralelas para máxima potencia muscular.",
-    "level": "Avanzado",
-    "duration": "25 min",
-    "exercises": [
-      {
-        "id": "3293",
-        "name_es": "Dominada Arquero",
-        "target_es": "ESPALDA",
-        "gif_url": "videos/3293-72BC5Za.gif",
-        "work_time": 40,
-        "rest_time": 20,
-        "tempo": "2-1-2",
-        "instructions": [
-          "Cuelga de la barra con agarre ancho.",
-          "Sube llevando el pecho hacia una mano.",
-          "Alterna lados en cada repetición."
-        ]
-      },
-      {
-        "id": "1273",
-        "name_es": "Flexión con Palmada",
-        "target_es": "PECHO",
-        "gif_url": "videos/1273-wigSg76.gif",
-        "work_time": 30,
-        "rest_time": 30,
-        "tempo": "X-0-X",
-        "instructions": [
-          "Empuja el suelo con fuerza explosiva.",
-          "Aplaude en el aire y aterriza suavemente.",
-          "Mantén el core de acero."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "casa_4",
-    "name": "Cardio Calisténico",
-    "category": "Casa",
-    "description": "Quema grasa y mejora tu resistencia sin máquinas.",
+    "description": "Entrenamiento intensivo enfocado en abdominales para mejores resultados.",
     "level": "Intermedio",
     "duration": "20 min",
     "exercises": [
       {
-        "id": "1160",
-        "name_es": "Burpee Clásico",
-        "target_es": "FULL BODY",
-        "gif_url": "videos/1160-RUDzYpX.gif",
-        "work_time": 40,
-        "rest_time": 20,
-        "tempo": "Fluido",
+        "id": "3419",
+        "name_es": "L-sit on floor",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/3419-UpWmA5E.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
         "instructions": [
-          "Baja a posición de flexión rápidamente.",
-          "Haz una flexión y salta hacia adelante con los pies.",
-          "Termina con un salto vertical explosivo."
+          "Sit on the floor con las piernas estiradas.",
+          "Place your hands on the floor beside your hips, fingers pointing forward.",
+          "Activa el core and lift your legs del suelo, manteniéndolas estiradas.",
+          "Try to bring your legs parallel to the floor, forming an 'L' shape with your body.",
+          "Hold this position for as long as you can.",
+          "Slowly lower your legs a la posición inicial.",
+          "Repite las veces necesarias."
         ]
       },
       {
-        "id": "2466",
-        "name_es": "Escaladores Cruzados",
-        "target_es": "CORE / CARDIO",
-        "gif_url": "videos/2466-9Jv5UUb.gif",
+        "id": "3201",
+        "name_es": "Quarter abdominal",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/3201-enxnJcM.gif",
         "work_time": 45,
         "rest_time": 15,
-        "tempo": "Rápido",
+        "tempo": "2-0-2",
         "instructions": [
-          "En posición de plancha alta, lleva la rodilla al codo opuesto.",
-          "Alterna piernas lo más rápido posible.",
-          "Mantén la cadera baja y el core activo."
+          "Acuéstate boca arriba con las rodillas dobladas and los pies apoyados en el suelo.",
+          "Coloca las manos detrás de la cabeza con los codos hacia afuera.",
+          "Contrayendo los abdominales, levanta lentamente el torso del suelo, inclinándote hacia adelante hasta que tu torso esté en un ángulo de 45 grados.",
+          "Pausa un momento en la parte superior, then baja lentamente el torso a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3298",
+        "name_es": "Straddle planche",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/3298-BL3GHeY.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Empieza en posición de flexión with your hands shoulder-width apart and your feet spread wide apart.",
+          "Activa el core and slowly shift your weight forward, bringing your shoulders over your hands.",
+          "Bend your elbows and lower your body towards the ground, keeping your elbows close to your sides.",
+          "Pausa un momento en la parte inferior, then push through your hands to straighten your arms and lift your body back up to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "2333",
+        "name_es": "Elevación de piernas colgado",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/2333-PXTIwgu.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Cuelga de la barra con brazos estirados and las piernas estiradas hacia abajo.",
+          "Activa el core and levanta las piernas frente a ti until they are paralelo al suelo.",
+          "Hold for a moment en la parte superior, then baja las piernas lentamente a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0691",
+        "name_es": "Seated lateral encogimiento (pared)",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/0691-Y9hNPcN.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on the floor with your back against a wall and your legs extended in front of you.",
+          "Bend your knees and place your feet flat on the floor, hip-width apart.",
+          "Coloca las manos detrás de la cabeza con los codos hacia afuera.",
+          "Engage your abs and lean to one side, bringing your elbow towards your hip.",
+          "Pausa un momento, then regresa a la posición inicial.",
+          "Repite en el otro lado.",
+          "Continúa alternando lados for the desired number of repetitions."
         ]
       }
     ]
   },
   {
-    "id": "gym_2",
-    "name": "Espalda de Hierro",
-    "category": "Gimnasio",
-    "description": "Domina la barra y construye una espalda en V.",
-    "level": "Intermedio",
-    "duration": "22 min",
+    "id": "casa_gen_2",
+    "name": "Blast de PIERNAS",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en piernas para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "20 min",
     "exercises": [
       {
-        "id": "3168",
-        "name_es": "Remo en Barra",
-        "target_es": "DORSALES",
-        "gif_url": "videos/3168-arvaszz.gif",
+        "id": "1473",
+        "name_es": "Backward salto",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/1473-SaDOwk7.gif",
         "work_time": 45,
         "rest_time": 15,
-        "tempo": "2-1-2",
+        "tempo": "2-0-2",
         "instructions": [
-          "Sujeta la barra a la altura de la cadera.",
-          "Tira de tu cuerpo hacia la barra apretando la espalda.",
-          "Baja con control total."
+          "Párate con los pies al ancho de los hombros.",
+          "Bend your knees slightly and jump backwards, pushing off with both feet.",
+          "Land softly on the balls of your feet, bending your knees to absorb the impact.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0613",
+        "name_es": "Lying (lateral) quads stretch",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/0613-BWnJR72.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on your side with your legs straight.",
+          "Bend your top leg and grab your ankle or foot with your hand.",
+          "Gently pull your ankle or foot towards your glutes until you feel a stretch in your quads.",
+          "Hold the stretch for 20-30 seconds.",
+          "Release the stretch and repeat on the other side."
+        ]
+      },
+      {
+        "id": "1686",
+        "name_es": "Sentadilla to overhead reach with twist",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/1686-5BZHW9s.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and toes slightly turned out.",
+          "Lower your body into a squat position by bending your knees and pushing your hips back.",
+          "As you come up from the squat, raise your arms overhead and twist your torso to one side.",
+          "Regresa a la posición inicial and repeat the squat, this time twisting your torso to the opposite side.",
+          "Continúa alternando lados with each squat repetition."
+        ]
+      },
+      {
+        "id": "1512",
+        "name_es": "Estiramiento de cuádriceps a gatas",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/1512-qBcKorM.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Empieza a cuatro patas with your manos bajo los hombros and your rodillas bajo las caderas.",
+          "Extiende una pierna hacia atrás, manteniendo la rodilla doblada.",
+          "Baja lentamente la cadera al suelo, sintiendo el estiramiento en los cuádriceps.",
+          "Mantén la posición 20-30 segundos.",
+          "Cambia de pierna and repite el estiramiento al otro lado."
+        ]
+      },
+      {
+        "id": "0809",
+        "name_es": "Suspended split sentadilla",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/0809-QpXqiq8.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand facing away from a suspension trainer with your feet shoulder-width apart.",
+          "Extend one leg forward and place the top of your foot in the foot cradle of the suspension trainer.",
+          "Bend your standing leg and lower your body down into a Zancada position, keeping your chest up and your knee in line with your toes.",
+          "Push through your heel to regresa a la posición inicial.",
+          "Repite las veces necesarias, then switch legs."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_3",
+    "name": "Esculpir GEMELOS",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en gemelos para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "1368",
+        "name_es": "Círculos de tobillo",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/1368-uL9CsKm.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Siéntate en el suelo con las piernas estiradas.",
+          "Lift one leg del suelo and gira el tobillo en círculos.",
+          "Haz los círculos necesarios en una dirección, luego cambia de dirección.",
+          "Repite con la otra pierna."
+        ]
+      },
+      {
+        "id": "1390",
+        "name_es": "Seated calf stretch (male)",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/1390-17bqEXD.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on the edge of a chair or bench with your los pies apoyados en el suelo.",
+          "Extend one leg straight out in front of you, keeping your heel on the ground.",
+          "Lean forward slightly, feeling a stretch in your calf muscle.",
+          "Hold the stretch for 20-30 seconds.",
+          "Cambia de pierna and repeat the stretch."
+        ]
+      },
+      {
+        "id": "1387",
+        "name_es": "One pierna floor calf elevación",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/1387-0jp9Rlz.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand with your feet hip-width apart and place your hands on a wall or sturdy object for balance.",
+          "Lift one foot del suelo and balance on the other foot.",
+          "Slowly raise your heel del suelo, lifting your body up onto the ball of your foot.",
+          "Pausa un momento en la parte superior, then slowly lower your heel a la posición inicial.",
+          "Repite las veces necesarias, then switch legs and repeat."
+        ]
+      },
+      {
+        "id": "1373",
+        "name_es": "Bodyweight standing calf elevación",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/1373-bJYHBIN.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros, toes pointing forward.",
+          "Place your hands on a wall or stable surface for balance.",
+          "Slowly raise your heels del suelo, lifting your body weight onto the balls of your feet.",
+          "Pausa un momento en la parte superior, then slowly lower your heels a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1386",
+        "name_es": "One pierna donkey calf elevación",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/1386-A2upspL.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros, toes pointing forward.",
+          "Place your hands on a stable surface for support, such as a wall or a bar.",
+          "Lift one leg del suelo, keeping your knee slightly bent.",
+          "Raise your heel as high as possible, using your calf muscles.",
+          "Pausa un momento en la parte superior, then slowly lower your heel back down.",
+          "Repite las veces necesarias, then switch legs."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_4",
+    "name": "Poder en ESPALDA",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en espalda para mejores resultados.",
+    "level": "Principiante",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "0674",
+        "name_es": "Inverso grip dominada",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/0674-YAk5dIw.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Grab the pull-up bar with an underhand grip, hands shoulder-width apart.",
+          "Hang from the bar with your arms fully extended and your body straight.",
+          "Engage your back muscles and pull your body up towards the bar, leading with your chest.",
+          "Sigue subiendo hasta que la barbilla pase la barra.",
+          "Pausa un momento en la parte superior, then slowly lower your body a la posición inicial.",
+          "Repite las veces necesarias."
         ]
       },
       {
         "id": "3293",
-        "name_es": "Dominada Prona",
-        "target_es": "DORSALES",
+        "name_es": "Dominada de arquero",
+        "target_es": "ESPALDA",
         "gif_url": "videos/3293-72BC5Za.gif",
-        "work_time": 40,
-        "rest_time": 20,
+        "work_time": 45,
+        "rest_time": 15,
         "tempo": "2-0-2",
         "instructions": [
-          "Cuelga de la barra con palmas hacia adelante.",
-          "Sube hasta que tu barbilla pase la barra.",
-          "Baja lentamente sin balancearte."
+          "Cuelga de una barra de dominadas con agarre prono, ligeramente más ancho que los hombros.",
+          "Activa el core and lleva las escápulas hacia abajo y atrás.",
+          "Al subir, dobla un brazo llevando el codo al costado, while manteniendo el otro brazo recto.",
+          "Sigue subiendo hasta que la barbilla pase la barra and tu brazo doblado esté flexionado.",
+          "Baja con control, estirando el brazo doblado and repeating the movement on the other side.",
+          "Alterna lados en cada repetición."
+        ]
+      },
+      {
+        "id": "1326",
+        "name_es": "Chin-up",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/1326-T2mxWqc.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Hang from a pull-up bar with your palms facing towards you and your hands shoulder-width apart.",
+          "Activa el core and pull your body up towards the bar, leading with your chest.",
+          "Sigue subiendo hasta que la barbilla pase la barra.",
+          "Pausa un momento en la parte superior, then slowly lower your body a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0720",
+        "name_es": "Lateral-to-lateral chin",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/0720-isAAZWA.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your knees slightly bent.",
+          "Grasp a pull-up bar con agarre prono, hands ligeramente más ancho que los hombros.",
+          "Hang from the bar with your arms fully extended and your body relaxed.",
+          "Pull yourself up by bending your elbows and bringing your chin towards the bar, while keeping your body straight.",
+          "Once your chin is above the bar, lower yourself a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1401",
+        "name_es": "Muscle-up (on vertical bar)",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/1401-Af0EW2I.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Start by hanging from a vertical bar with your palms facing away from you and your arms fully extended.",
+          "Activa el core and pull your body up towards the bar, leading with your chest.",
+          "Al subir, lean back slightly and bring your elbows towards your sides.",
+          "Continue pulling until your chest reaches the bar and your elbows are fully bent.",
+          "Pausa un momento en la parte superior, then slowly lower yourself a la posición inicial.",
+          "Repite las veces necesarias."
         ]
       }
     ]
   },
   {
-    "id": "casa_5",
-    "name": "Piernas de Acero",
+    "id": "casa_gen_5",
+    "name": "Rutina PECHO Pro",
     "category": "Casa",
-    "description": "Potencia y definición para tu tren inferior.",
-    "level": "Principiante",
-    "duration": "18 min",
+    "description": "Entrenamiento intensivo enfocado en pecho para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "20 min",
     "exercises": [
       {
-        "id": "3769",
-        "name_es": "Zancada de Cortesía",
-        "target_es": "GLÚTEOS",
-        "gif_url": "videos/3769-Xg4U7jB.gif",
+        "id": "0258",
+        "name_es": "Clock flexión",
+        "target_es": "PECHO",
+        "gif_url": "videos/0258-CMAxnsG.gif",
         "work_time": 45,
         "rest_time": 15,
         "tempo": "2-0-2",
         "instructions": [
-          "Cruza una pierna por detrás de la otra al bajar.",
-          "Mantén el torso erguido en todo momento.",
-          "Baja hasta que la rodilla trasera casi toque el suelo."
+          "Start in a high Plancha position with your manos bajo los hombros and your body in a straight line.",
+          "Lower your body towards the ground by bending your elbows, keeping them close to your sides.",
+          "As you lower, rotate your body to the left, extending your left arm straight out to the side.",
+          "Empuja de vuelta al inicio, while rotating your body to the center.",
+          "Repeat the push-up, this time rotating your body to the right and extending your right arm out to the side.",
+          "Continúa alternando lados with each repetition."
         ]
       },
       {
-        "id": "3543",
-        "name_es": "Sentadilla de Prisionero",
-        "target_es": "CUÁDRICEPS",
-        "gif_url": "videos/3543-wfotm7S.gif",
-        "work_time": 50,
-        "rest_time": 10,
-        "tempo": "3-0-1",
+        "id": "1167",
+        "name_es": "Dynamic chest stretch (male)",
+        "target_es": "PECHO",
+        "gif_url": "videos/1167-3uj0Ozg.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
         "instructions": [
-          "Manos detrás de la cabeza, pies al ancho de hombros.",
-          "Baja lentamente manteniendo la espalda recta.",
-          "Sube de forma controlada."
+          "Stand tall with your feet shoulder-width apart.",
+          "Extiende los brazos hacia los lados, paralelo al suelo.",
+          "Slowly bring your arms forward, crossing them in front of your body.",
+          "Feel the stretch in your chest muscles.",
+          "Hold the stretch for 10-30 seconds.",
+          "Regresa a la posición inicial and repeat for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "0666",
+        "name_es": "Elevación single brazo flexión",
+        "target_es": "PECHO",
+        "gif_url": "videos/0666-13TpY4H.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Empieza en posición de flexión with your hands ligeramente más ancho que los hombros and your feet together.",
+          "Extiende un brazo hacia el lado, paralelo al suelo.",
+          "Lower your body towards the ground by bending your elbows, keeping your back straight and core engaged.",
+          "Empuja de vuelta al inicio, using your chest muscles to lift your body.",
+          "Repeat with the other arm extended."
+        ]
+      },
+      {
+        "id": "0725",
+        "name_es": "Single brazo flexión",
+        "target_es": "PECHO",
+        "gif_url": "videos/0725-MUic5zN.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Empieza en posición de flexión with your hands shoulder-width apart and one hand placed slightly wider than the other.",
+          "Activa el core and lower your body towards the ground by bending your elbows, keeping your back straight.",
+          "As you lower yourself, shift your weight to one side and lift the opposite arm del suelo, extending it straight out to the side.",
+          "Push through your chest and triceps to raise your body back up to the starting position, while simultaneously lowering your extended arm back to the ground.",
+          "Repeat the movement, alternating the arm you extend with each repetition."
+        ]
+      },
+      {
+        "id": "1689",
+        "name_es": "Push and pull bodyweight",
+        "target_es": "PECHO",
+        "gif_url": "videos/1689-wXvUZC8.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Empieza en posición de flexión with your hands ligeramente más ancho que los hombros and your body in a straight line.",
+          "Lower your chest towards the ground by bending your elbows, keeping your body straight.",
+          "Push through your palms to extend your arms and regresa a la posición inicial.",
+          "From the push-up position, pull your chest towards the ground by bending your elbows, keeping your body straight.",
+          "Push through your palms to extend your arms and regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_6",
+    "name": "Rutina GLÚTEOS Pro",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en glúteos para mejores resultados.",
+    "level": "Principiante",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "3218",
+        "name_es": "Hands clasped circular toe touch (male)",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/3218-B5xca8s.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your hands clasped together in front of your chest.",
+          "Bend your knees slightly and hinge forward at the hips, keeping your back straight.",
+          "Lower your hands towards your toes in a circular motion, reaching as far as you can without straining.",
+          "Pausa un momento en la parte inferior, then slowly regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3639",
+        "name_es": "Bent rodilla lying twist (male)",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/3639-6sYyrRX.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Acuéstate boca arriba con las rodillas dobladas and los pies apoyados en el suelo.",
+          "Extend your arms out to the sides, perpendicular to your body.",
+          "Keeping your knees together, slowly lower them to one side, aiming to touch the ground with your knees.",
+          "Pausa un momento, then engage your core and slowly lift your knees back to the starting position.",
+          "Repeat the movement to the other side.",
+          "Continúa alternando lados for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "3433",
+        "name_es": "Swimmer kicks v. 2 (male)",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/3433-SP3hUez.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie face down on a mat with your arms extended overhead.",
+          "Activa el core and lift your chest and legs del suelo simultaneously.",
+          "Kick your legs up and down in a fluttering motion, as if you were swimming.",
+          "Continue kicking for the desired number of repetitions.",
+          "Lower your chest and legs a la posición inicial."
+        ]
+      },
+      {
+        "id": "0668",
+        "name_es": "Rear decline puente",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/0668-UpAlold.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on your back with your los pies apoyados en el suelo and your knees bent.",
+          "Place your arms by your sides with your palms facing down.",
+          "Engage your glutes and hamstrings, and lift your hips del suelo until your body forms a straight line from your knees to your shoulders.",
+          "Hold this position for a few seconds, then slowly lower your hips a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0628",
+        "name_es": "Monster walk",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/0628-O95afRA.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Place a resistance band around your ankles.",
+          "Párate con los pies al ancho de los hombros and slightly bend your knees.",
+          "Take a step to the side with your right foot, maintaining tension on the resistance band.",
+          "Follow with your left foot, stepping to the side to regresa a la posición inicial.",
+          "Repite las veces necesarias, then switch sides."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_7",
+    "name": "Rutina CARDIO Pro",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en cardio para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "3220",
+        "name_es": "Astride jumps (male)",
+        "target_es": "CARDIO",
+        "gif_url": "videos/3220-f9lVSSI.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros.",
+          "Bend your knees and lower your body into a squat position.",
+          "Jump explosively upwards, extending your legs and arms.",
+          "While in the air, spread your legs apart and bring your arms out to the sides.",
+          "Land softly with your feet shoulder-width apart, bending your knees to absorb the impact.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3672",
+        "name_es": "Espalda and forth step",
+        "target_es": "CARDIO",
+        "gif_url": "videos/3672-fNGumX0.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros.",
+          "Step forward with your right foot, bending your knee and lowering your body into a Zancada position.",
+          "Push off with your right foot and step back to the starting position.",
+          "Repeat the movement with your left foot, alternating legs with each step.",
+          "Continue stepping back and forth, maintaining a steady pace.",
+          "Repeat for the desired duration or number of repetitions."
+        ]
+      },
+      {
+        "id": "0630",
+        "name_es": "Escalador",
+        "target_es": "CARDIO",
+        "gif_url": "videos/0630-RJgzwny.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Start in a high Plancha position with your manos bajo los hombros and your body in a straight line.",
+          "Activa el core and bring your right knee towards your chest, then quickly switch and bring your left knee towards your chest.",
+          "Continue alternating legs in a running motion, keeping your hips low and el core activo.",
+          "Maintain a steady pace and breathe evenly throughout the exercise.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3219",
+        "name_es": "Scissor jumps (male)",
+        "target_es": "CARDIO",
+        "gif_url": "videos/3219-Eh2v5Iu.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros.",
+          "Jump del suelo and simultaneously cross your right leg in front of your left leg.",
+          "As you land, quickly switch legs, crossing your left leg in front of your right leg.",
+          "Continue alternating legs and jumping as quickly as possible.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3636",
+        "name_es": "High rodilla against pared",
+        "target_es": "CARDIO",
+        "gif_url": "videos/3636-ealLwvX.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand facing a wall with your feet hip-width apart.",
+          "Place your hands on the wall for support.",
+          "Activa el core and lift your right knee up towards your chest, while keeping your left foot on the ground.",
+          "Quickly switch legs, bringing your left knee up towards your chest and lowering your right foot back down.",
+          "Continue alternating legs in a running motion, bringing your knees up as high as possible.",
+          "Maintain a fast pace and keep your upper body stable throughout the exercise.",
+          "Repeat for the desired duration or number of repetitions."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_8",
+    "name": "Blast de ESPALDA ALTA",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en espalda alta para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "3161",
+        "name_es": "Bodyweight standing one brazo remo (with towel)",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/3161-O4oIqQD.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros, knees slightly bent, and hold a towel with one hand.",
+          "Bend forward at the hips, keeping your back straight and el core activo.",
+          "Pull the towel towards your chest, juntando las escápulas.",
+          "Pausa un momento en la parte superior, then slowly lower the towel back to the starting position.",
+          "Repite las veces necesarias, then switch to the other arm."
+        ]
+      },
+      {
+        "id": "3165",
+        "name_es": "Bodyweight standing remo (with towel)",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/3165-uTv34oq.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and hold a towel in front of you with both hands.",
+          "Bend your knees slightly and hinge forward at the hips, keeping your back straight.",
+          "Pull the towel towards your chest, juntando las escápulas.",
+          "Pausa un momento en la parte superior, then slowly release the tension and regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0499",
+        "name_es": "Inverted remo",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/0499-bZGHsAZ.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set up a bar at waist height or use a suspension trainer.",
+          "Stand facing the bar or suspension trainer, with your feet shoulder-width apart.",
+          "Grab the bar or handles con agarre prono, ligeramente más ancho que los hombros.",
+          "Lean back, keeping your body straight and your heels on the ground.",
+          "Pull your chest towards the bar or handles, juntando las escápulas.",
+          "Pausa un momento en la parte superior, then slowly lower yourself back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3292",
+        "name_es": "Elevator",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/3292-zYmNaoY.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your knees slightly bent.",
+          "Place your hands on your hips or cross them in front of your chest.",
+          "Manteniendo la espalda recta, slowly bend forward at the waist, lowering your upper body towards the ground.",
+          "Pausa un momento en la parte inferior, then slowly raise your upper body back up to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0497",
+        "name_es": "Inverted remo v. 2",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/0497-uX3sUBz.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set up a bar at waist height on a Smith machine or use a suspension trainer.",
+          "Stand facing the bar or suspension trainer and grab it con agarre prono, hands shoulder-width apart.",
+          "Walk your feet forward, leaning back until your body is at a slight angle.",
+          "Keep your body straight and pull your chest up towards the bar or handles, juntando las escápulas.",
+          "Pausa un momento en la parte superior, then slowly lower yourself a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_9",
+    "name": "Blast de TRÍCEPS",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en tríceps para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "3289",
+        "name_es": "Impossible fondos",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/3289-05Cf2v8.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Position yourself between two parallel bars with your arms fully extended and your body suspended in the air.",
+          "Bend your knees and cross your ankles.",
+          "Baja doblando los codos until your upper arms are paralelo al suelo.",
+          "Pausa un momento, then push yourself back up to the starting position by straightening your arms.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0471",
+        "name_es": "Handstand flexión",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/0471-rQxwMxO.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Find a wall and face away from it, standing a few feet away.",
+          "Place your hands on the ground shoulder-width apart and kick your feet up against the wall, coming into a handstand position.",
+          "Bend your elbows and lower your head towards the ground, keeping your body in a straight line.",
+          "Push through your hands and extend your arms to regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3302",
+        "name_es": "Handstand",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/3302-XooAdhl.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Find an open space with enough room to perform a handstand.",
+          "Place your hands on the ground shoulder-width apart, fingers pointing forward.",
+          "Kick your legs up towards the wall, using your core and shoulders to maintain balance.",
+          "Once in a handstand position, engage your triceps to support your body weight.",
+          "Hold the handstand for as long as you can maintain balance.",
+          "To come down, baja las piernas lentamente back to the ground.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0816",
+        "name_es": "Triceps press",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/0816-fSrPP6B.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your knees slightly bent.",
+          "Extend your arms straight out in front of you, paralelo al suelo.",
+          "Bend your elbows and lower your body towards the ground, keeping your upper arms close to your sides.",
+          "Pausa un momento en la parte inferior, then push yourself back up to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0129",
+        "name_es": "Bench fondo (knees bent)",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/0129-RrLske5.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on the edge of a bench or chair with your hands gripping the edge next to your hips.",
+          "Slide your butt off the bench and straighten your legs in front of you, keeping your heels on the ground.",
+          "Bend your elbows and lower your body towards the ground, keeping your back close to the bench.",
+          "Pausa un momento en la parte inferior, then push yourself back up to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_10",
+    "name": "Rutina BÍCEPS Pro",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en bíceps para mejores resultados.",
+    "level": "Principiante",
+    "duration": "16 min",
+    "exercises": [
+      {
+        "id": "0140",
+        "name_es": "Biceps dominada",
+        "target_es": "BÍCEPS",
+        "gif_url": "videos/0140-guT8YnS.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Hang from a pull-up bar with your palms facing away from you and your hands shoulder-width apart.",
+          "Activa el core and pull yourself up by bending your elbows, bringing your chest towards the bar.",
+          "Pause en la parte superior of the movement, then slowly lower yourself a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0139",
+        "name_es": "Biceps narrow pull-ups",
+        "target_es": "BÍCEPS",
+        "gif_url": "videos/0139-50BETrz.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Hang from a pull-up bar with your palms facing towards you and your hands shoulder-width apart.",
+          "Activa el core and pull yourself up towards the bar, focusing on using your biceps to lift your body.",
+          "Pausa un momento en la parte superior, then slowly lower yourself a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1770",
+        "name_es": "Biceps pierna concentration curl",
+        "target_es": "BÍCEPS",
+        "gif_url": "videos/1770-sJFIDIp.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on a bench with your legs spread apart and your los pies apoyados en el suelo.",
+          "Hold a dumbbell in one hand and place your elbow on the inside of your thigh, just above the knee.",
+          "With your palm facing up, curl the dumbbell towards your shoulder while keeping your upper arm stationary.",
+          "Squeeze your biceps en la parte superior of the movement, then slowly lower the dumbbell back to the starting position.",
+          "Repite las veces necesarias, then switch arms."
+        ]
+      },
+      {
+        "id": "1769",
+        "name_es": "Bodyweight lateral lying biceps curl",
+        "target_es": "BÍCEPS",
+        "gif_url": "videos/1769-gscGLOU.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on your side with your legs extended and your head supported by your arm.",
+          "Hold your upper arm against your side and bend your elbow to curl your forearm towards your shoulder.",
+          "Pausa un momento en la parte superior, then slowly lower your forearm a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_11",
+    "name": "Esculpir ADDUCTORS",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en adductors para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "12 min",
+    "exercises": [
+      {
+        "id": "1775",
+        "name_es": "Lateral plancha hip adduction",
+        "target_es": "ADDUCTORS",
+        "gif_url": "videos/1775-VO2qeJg.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Start by lying on your side with your legs extended and stacked on top of each other.",
+          "Prop yourself up on your forearm, keeping your elbow directly below your shoulder.",
+          "Activa el core and lift your hips del suelo, creating a straight line from your head to your feet.",
+          "While maintaining the side Plancha position, lift your top leg towards the ceiling, keeping it straight.",
+          "Slowly lower your leg a la posición inicial.",
+          "Repite las veces necesarias, then switch sides."
+        ]
+      },
+      {
+        "id": "3667",
+        "name_es": "Lateral lying hip adduction (male)",
+        "target_es": "ADDUCTORS",
+        "gif_url": "videos/3667-c8f5cSY.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on your side with your legs straight and stacked on top of each other.",
+          "Place your bottom arm under your head for support.",
+          "Engage your adductors and lift your top leg as high as possible without rotating your hips or leaning backward.",
+          "Pausa un momento en la parte superior, then slowly lower your leg a la posición inicial.",
+          "Repite las veces necesarias, then switch sides."
+        ]
+      },
+      {
+        "id": "1494",
+        "name_es": "Butterfly yoga pose",
+        "target_es": "ADDUCTORS",
+        "gif_url": "videos/1494-bWlZvXh.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on the floor con las piernas estiradas.",
+          "Bend your knees and bring the soles of your feet together, allowing your knees to fall out to the sides.",
+          "Hold onto your ankles or feet with your hands.",
+          "Sit up tall and lengthen your spine.",
+          "Gently press your knees down towards the floor, feeling a stretch in your inner thighs.",
+          "Hold this position for a few breaths.",
+          "To release, slowly bring your knees back up and extend your legs."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_12",
+    "name": "Rutina PIERNAS (POSTERIOR) Pro",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en piernas (posterior) para mejores resultados.",
+    "level": "Principiante",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "0730",
+        "name_es": "Single pierna platform slide",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/0730-LNE3wfo.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Start by standing with one foot on a platform or slide board.",
+          "Bend your knee slightly and slide the foot on the platform backward, extending your leg.",
+          "Keep el core activo and maintain a straight posture throughout the movement.",
+          "Slowly regresa a la posición inicial by sliding your foot back to the initial position.",
+          "Repeat the movement for the desired number of repetitions, then switch legs."
+        ]
+      },
+      {
+        "id": "1576",
+        "name_es": "Pierna up hamstring stretch",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/1576-sU5BrfP.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Acuéstate boca arriba with your legs extended.",
+          "Bend one knee and bring it towards your chest, holding onto your thigh or shin.",
+          "Straighten your leg as much as possible while keeping it elevated.",
+          "Hold the stretch for 20-30 seconds.",
+          "Repite con la otra pierna."
+        ]
+      },
+      {
+        "id": "0555",
+        "name_es": "Patada out sit",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/0555-v7p5bYl.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on the edge of a bench or chair with your los pies apoyados en el suelo and your rodillas dobladas a 90 grados.",
+          "Inclínate un poco hacia atrás and place your hands on the edge of the bench or chair for support.",
+          "Engaging your hamstrings, lift your feet del suelo and extend your legs straight out in front of you.",
+          "Pausa un momento en la parte superior, then slowly bend your knees and bring your feet back towards your body.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "2400",
+        "name_es": "Inverse pierna curl (on dominada cable machine)",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/2400-0rHfvy9.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the cable machine so that the ankle straps are at the lowest setting.",
+          "Lie face down on the bench with your legs extended and the ankle straps attached to your feet.",
+          "Hold onto the handles of the bench for stability.",
+          "Bend your knees and curl your legs towards your glutes, squeezing your hamstrings.",
+          "Pausa un momento en la parte superior of the movement, then baja las piernas lentamente back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1585",
+        "name_es": "Runners stretch",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/1585-0mB6wHO.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand with your feet hip-width apart.",
+          "Take a step forward with your right foot, keeping your left foot planted.",
+          "Bend your right knee and lower your body down, keeping your left leg straight.",
+          "Place your hands on your right thigh for support.",
+          "Hold the stretch for 20-30 seconds, then switch sides and repeat."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_13",
+    "name": "Rutina LUMBARES Pro",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en lumbares para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "1363",
+        "name_es": "Spine stretch",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/1363-JbC2iaV.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Siéntate en el suelo con las piernas estiradas.",
+          "Place your hands on the ground behind you, fingers pointing towards your body.",
+          "Activa el core and slowly lean back, keeping your back straight.",
+          "Continue leaning back until you feel a stretch in your spine.",
+          "Hold the stretch for a few seconds, then slowly regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1352",
+        "name_es": "Lower espalda curl",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/1352-ANbbry2.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie flat on your stomach with your legs extended and your arms by your sides.",
+          "Engage your glutes and hamstrings, and levanta lentamente el torso del suelo, curling your back upwards.",
+          "Pausa un momento en la parte superior, then baja lentamente el torso a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0489",
+        "name_es": "Hyperextension",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/0489-zhMwOwE.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the hyperextension bench so that your upper thighs are resting on the pad and your feet are secured.",
+          "Cross your arms over your chest or place your hands behind your head.",
+          "Lower your upper body towards the ground while keeping your back straight.",
+          "Pausa un momento en la parte inferior, then raise your upper body back up until it is in line with your legs.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1362",
+        "name_es": "Sphinx",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/1362-DIVyqrU.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie face down on the ground with your forearms flat on the floor, elbows directly under your shoulders.",
+          "Activa el core and lift your chest del suelo, keeping your forearms and toes on the floor.",
+          "Hold this position for a few seconds, making sure to keep your neck in a neutral position.",
+          "Slowly lower your chest a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3231",
+        "name_es": "Two toe touch (male)",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/3231-p195zsJ.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your arms extended out to the sides.",
+          "Bend forward at the waist, keeping your back straight and your knees slightly bent.",
+          "Reach down towards your toes with both hands, keeping your legs straight.",
+          "Pausa un momento en la parte inferior, then slowly regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_14",
+    "name": "Rutina FOREARMS Pro",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en forearms para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "12 min",
+    "exercises": [
+      {
+        "id": "1428",
+        "name_es": "Wrist circles",
+        "target_es": "FOREARMS",
+        "gif_url": "videos/1428-2zNKRUB.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Extend your arms straight out in front of you.",
+          "Make a fist with both hands.",
+          "Rotate your wrists in a circular motion, keeping your arms still.",
+          "Continue the wrist circles for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "0721",
+        "name_es": "Lateral wrist pull stretch",
+        "target_es": "FOREARMS",
+        "gif_url": "videos/0721-UtmIqcI.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your arms extended in front of you.",
+          "Extend your right arm out to the side, paralelo al suelo, with your palm facing down.",
+          "With your left hand, grab your right hand and gently pull it towards your body, feeling a stretch in your right forearm.",
+          "Hold the stretch for 15-30 seconds, then release.",
+          "Repite en el otro lado."
+        ]
+      },
+      {
+        "id": "1421",
+        "name_es": "Modified flexión to lower arms",
+        "target_es": "FOREARMS",
+        "gif_url": "videos/1421-arvaszz.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Empieza en posición de flexión with your manos bajo los hombros and your body in a straight line.",
+          "Lower your body down towards the ground by bending your elbows, keeping them close to your sides.",
+          "Once your elbows are at a 90-degree angle, lower your forearms to the ground, keeping your elbows directly under your shoulders.",
+          "Pausa un momento, then push through your palms to lift your forearms back up to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_gen_15",
+    "name": "Rutina ABDUCTORS Pro",
+    "category": "Casa",
+    "description": "Entrenamiento intensivo enfocado en abductors para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "12 min",
+    "exercises": [
+      {
+        "id": "1774",
+        "name_es": "Lateral puente hip abduction",
+        "target_es": "ABDUCTORS",
+        "gif_url": "videos/1774-WL4EmxJ.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on your side with your legs extended and stacked on top of each other.",
+          "Prop yourself up on your forearm, keeping your elbow directly below your shoulder.",
+          "Activa el core and lift your hips del suelo, creating a straight line from your head to your feet.",
+          "While keeping el core activo, lift your top leg as high as possible without rotating your hips.",
+          "Pausa un momento en la parte superior, then lower your leg back down.",
+          "Repite las veces necesarias, then switch sides."
+        ]
+      },
+      {
+        "id": "0710",
+        "name_es": "Lateral hip abduction",
+        "target_es": "ABDUCTORS",
+        "gif_url": "videos/0710-7WaDzyL.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your hands on your hips.",
+          "Shift your weight to one leg and lift the opposite leg out to the side, keeping it straight.",
+          "Pausa un momento en la parte superior, then slowly lower your leg a la posición inicial.",
+          "Repite en el otro lado.",
+          "Continúa alternando lados for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "1427",
+        "name_es": "Straight pierna outer hip abductor",
+        "target_es": "ABDUCTORS",
+        "gif_url": "videos/1427-mQ1tBXn.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on your side with your legs straight and stacked on top of each other.",
+          "Place your bottom arm under your head for support.",
+          "Activa el core and lift your top leg as high as possible without rotating your hips or leaning backward.",
+          "Pausa un momento en la parte superior, then slowly lower your leg a la posición inicial.",
+          "Repite las veces necesarias, then switch sides."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_16",
+    "name": "Poder en ESPALDA",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en espalda para mejores resultados.",
+    "level": "Principiante",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "2616",
+        "name_es": "Cable lateral pulldown with v-bar",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/2616-4c9BhzB.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit down on the cable pulldown machine and grab the v-bar attachment con agarre prono.",
+          "Adjust the knee pad so that your thighs are secured under it.",
+          "Keep your back straight and lean back slightly.",
+          "Pull the v-bar down towards your upper chest while keeping your elbows close to your body.",
+          "Squeeze your back muscles en la parte inferior of the movement.",
+          "Slowly return the v-bar to the starting position and repeat for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "0037",
+        "name_es": "Barbell decline wide-grip pullover",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/0037-Hj4FOCd.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on a decline bench with your head lower than your hips and your feet secured.",
+          "Hold a barbell with a wide grip and extend your arms straight above your chest.",
+          "Lower the barbell behind your head in a controlled manner, keeping your arms straight.",
+          "Pausa un momento, then raise the barbell back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0017",
+        "name_es": "Assisted dominada",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/0017-kiJ4Z2K.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the machine to your desired weight and height settings.",
+          "Sujeta los agarres con agarre prono, ligeramente más ancho que los hombros.",
+          "Hang with your arms fully extended and your feet del suelo.",
+          "Engage your back muscles and pull your body up towards the handles, keeping your elbows close to your body.",
+          "Continue pulling until your chin is above the handles.",
+          "Pausa un momento en la parte superior, then slowly lower your body a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0572",
+        "name_es": "Lever assisted chin-up",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/0572-MaMuGH6.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the leverage machine to your desired resistance level.",
+          "Stand on the foot platform and grip the handles con agarre prono, ligeramente más ancho que los hombros.",
+          "Hang with your arms fully extended, keeping your body straight.",
+          "Engage your back muscles and pull your body up towards the handles, leading with your chest.",
+          "Continue pulling until your chin is above the handles.",
+          "Pausa un momento en la parte superior, then slowly lower your body a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1717",
+        "name_es": "Cable sentadilla remo (with rope attachment)",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/1717-f7fnAIB.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Attach a rope to a cable machine at waist height.",
+          "Stand facing the cable machine with your feet shoulder-width apart.",
+          "Bend your knees and lower your body into a squat position, keeping your back straight and chest up.",
+          "Grasp the rope con agarre prono, with your hands shoulder-width apart.",
+          "Activa el core and pull the rope towards your body, juntando las escápulas.",
+          "Keep your elbows close to your body and continue pulling until your hands reach your chest.",
+          "Pausa un momento en la parte superior of the movement, then slowly release the rope and extend your arms back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_17",
+    "name": "Blast de PECHO",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en pecho para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "1272",
+        "name_es": "Chest stretch with exercise ball",
+        "target_es": "PECHO",
+        "gif_url": "videos/1272-ykA5tU7.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on the stability ball with your los pies apoyados en el suelo and your back straight.",
+          "Hold the exercise ball with both hands and extend your arms straight out in front of you.",
+          "Slowly bring the exercise ball towards your chest, feeling a stretch in your chest muscles.",
+          "Hold the stretch for a few seconds, then slowly regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0321",
+        "name_es": "Dumbbell incline hammer press",
+        "target_es": "PECHO",
+        "gif_url": "videos/0321-PG1kcIb.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set an incline bench to a 45-degree angle and sit on it with a dumbbell in each hand, resting on your thighs.",
+          "Lie back on the bench and position the dumbbells at shoulder level with your palms facing each other.",
+          "Press the dumbbells up and away from your body until your arms are fully extended.",
+          "Pausa un momento en la parte superior, then slowly lower the dumbbells a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0655",
+        "name_es": "Flexión (on stability ball)",
+        "target_es": "PECHO",
+        "gif_url": "videos/0655-Y4BRNQF.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Place the stability ball on the ground and position yourself facing down with your hands on the ball, shoulder-width apart.",
+          "Extend your legs straight out behind you, balancing on your toes.",
+          "Activa el core and lower your chest towards the ball by bending your elbows, keeping your body in a straight line.",
+          "Pausa un momento en la parte inferior, then push yourself back up to the starting position by straightening your arms.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0191",
+        "name_es": "Cable one brazo lateral bent-over",
+        "target_es": "PECHO",
+        "gif_url": "videos/0191-dB07vDu.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros, facing a cable machine.",
+          "Grasp the handle with one hand and step back to create tension on the cable.",
+          "Bend forward at the waist, keeping your back straight and el core activo.",
+          "Extend your arm out to the side, paralelo al suelo, with a slight bend in your elbow.",
+          "Slowly bring your arm back to the starting position, maintaining control throughout the movement.",
+          "Repite las veces necesarias, then switch sides."
+        ]
+      },
+      {
+        "id": "0319",
+        "name_es": "Dumbbell incline apertura",
+        "target_es": "PECHO",
+        "gif_url": "videos/0319-ESOd5Pl.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set an incline bench to a 45-degree angle.",
+          "Sit on the bench with a dumbbell in each hand, palms facing each other.",
+          "Lie back on the bench and press the dumbbells up to the starting position, directly above your chest.",
+          "Lower the dumbbells out to the sides in a wide arc until you feel a stretch in your chest.",
+          "Pausa un momento, then squeeze your chest muscles to bring the dumbbells back up to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_18",
+    "name": "Poder en ABDOMINALES",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en abdominales para mejores resultados.",
+    "level": "Principiante",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "0972",
+        "name_es": "Band bicycle encogimiento",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/0972-tZkGYZ9.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Acuéstate boca arriba with your hands behind your head and your knees bent.",
+          "Lift your feet del suelo and bring your right knee towards your chest while simultaneously twisting your torso to bring your left elbow towards your right knee.",
+          "Straighten your right leg while bringing your left knee towards your chest and twisting your torso to bring your right elbow towards your left knee.",
+          "Continue alternating the twisting motion, as if you are pedaling a bicycle, while keeping el core activo throughout the movement.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0242",
+        "name_es": "Cable tuck inverso encogimiento",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/0242-TXtXc84.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Attach a cable to a low pulley and lie down on a mat facing up.",
+          "Hold the cable with both hands and extend your arms straight up above your chest.",
+          "Bend your knees and lift your legs up, bringing your knees towards your chest.",
+          "At the same time, curl your pelvis up towards your chest, lifting your hips del suelo.",
+          "Pausa un momento en la parte superior, then baja las piernas lentamente and hips a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0517",
+        "name_es": "Kettlebell advanced windmill",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/0517-Kal9cQQ.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand with your feet wider than shoulder-width apart, toes pointing slightly outward.",
+          "Hold a kettlebell in your right hand, with your arm extended overhead and your palm facing forward.",
+          "Rotate your left foot slightly to the right, and shift your weight onto your left leg.",
+          "Bend your left knee and hinge at the hip, lowering your torso towards the left side.",
+          "Keep your right arm extended overhead and your eyes on the kettlebell.",
+          "As you lower your torso, allow your right leg to straighten and your right foot to pivot slightly.",
+          "Lower your torso until you feel a stretch in your left hamstring and your right arm is pointing towards the ground.",
+          "Pausa un momento, then engage your core and push through your left heel to regresa a la posición inicial.",
+          "Repite las veces necesarias, then switch sides."
+        ]
+      },
+      {
+        "id": "0857",
+        "name_es": "Wheel rollerout",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/0857-NAgVB3t.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Kneel on the floor and place the wheel roller in front of you.",
+          "Place your hands on the handles of the wheel roller and extend your arms straight out in front of you.",
+          "Activa el core muscles and slowly roll the wheel forward, keeping your back straight and your abs tight.",
+          "Continue rolling forward until your body is fully extended and your arms are overhead.",
+          "Pausa un momento, then slowly roll the wheel back towards your knees, maintaining control and keeping your abs engaged.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "2800",
+        "name_es": "Barbell sitted alternate pierna elevación (female)",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/2800-BCs0G2F.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on a bench with your back straight and hold a barbell across your thighs.",
+          "Place your hands on the sides of the bench for support.",
+          "Keeping your legs straight, lift one leg up as high as possible while keeping it paralelo al suelo.",
+          "Lower the leg back down and repeat with the other leg.",
+          "Continue alternating legs for the desired number of repetitions."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_19",
+    "name": "Blast de GEMELOS",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en gemelos para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "1369",
+        "name_es": "Band two legs calf elevación - (band under both legs) v. 2",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/1369-jl6uxZV.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and place a resistance band under both feet.",
+          "Hold the ends of the band with your hands for stability.",
+          "Raise your heels del suelo as high as possible, using your calves.",
+          "Pausa un momento en la parte superior, then slowly lower your heels a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1385",
+        "name_es": "Lever seated sentadilla calf elevación on pierna press machine",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/1385-IeDEXTe.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the seat of the leg press machine so that your knees are slightly bent when your feet are on the footplate.",
+          "Sit on the machine with your back against the backrest and your feet flat on the footplate, shoulder-width apart.",
+          "Place your toes and the balls of your feet on the footplate, keeping your heels off the edge.",
+          "Release the safety handles and push the footplate away from you by extending your knees.",
+          "Once your knees are fully extended, slowly lower your heels by flexing your calves.",
+          "Pausa un momento en la parte inferior, then push the footplate back up by extending your calves.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0409",
+        "name_es": "Dumbbell single pierna calf elevación",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/0409-1kB3Wmk.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand on the edge of a step or platform with your heels hanging off and your toes on the step.",
+          "Hold a dumbbell in one hand and place your other hand on a wall or railing for support.",
+          "Raise your heel as high as possible, lifting your body up onto your toes.",
+          "Pausa un momento en la parte superior, then slowly lower your heel back down below the step.",
+          "Repite las veces necesarias, then switch to the other leg."
+        ]
+      },
+      {
+        "id": "0594",
+        "name_es": "Lever seated calf elevación",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/0594-bOOdeyc.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the seat height so that your knees are slightly bent and your feet are flat on the footplate.",
+          "Place your toes on the footplate with your heels hanging off the edge.",
+          "Sujeta los agarres or the sides of the seat for stability.",
+          "Push through the balls of your feet to raise your heels as high as possible.",
+          "Pausa un momento en la parte superior, then slowly lower your heels a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1379",
+        "name_es": "Dumbbell seated calf elevación",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/1379-r29jP7S.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on a bench or chair with your los pies apoyados en el suelo and a dumbbell resting on your thighs.",
+          "Place the balls of your feet on a raised surface such as a step or block, with your heels hanging off the edge.",
+          "Hold onto the dumbbell for stability.",
+          "Raise your heels as high as possible, lifting your body weight onto the balls of your feet.",
+          "Pausa un momento en la parte superior, then slowly lower your heels a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_20",
+    "name": "Poder en GLÚTEOS",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en glúteos para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "0752",
+        "name_es": "Smith deadlift",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/0752-UfePqpx.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set up the smith machine with the bar at hip height.",
+          "Párate con los pies al ancho de los hombros, toes pointing slightly outward.",
+          "Bend at the hips and knees, keeping your back straight and chest up, and grip the bar con agarre prono ligeramente más ancho que los hombros.",
+          "Activa el core and lift the bar by extending your hips and knees, keeping the bar close to your body.",
+          "Stand up straight, fully extending your hips and knees.",
+          "Lower the bar back down by bending at the hips and knees, maintaining control and keeping your back straight.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0058",
+        "name_es": "Barbell lying lifting (on hip)",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/0058-SNFfUff.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Acuéstate boca arriba on a bench with your los pies apoyados en el suelo and your knees bent.",
+          "Hold the barbell con agarre prono and position it on your hips.",
+          "Engaging your glutes, lift your hips off the bench until your body forms a straight line from your knees to your shoulders.",
+          "Pausa un momento en la parte superior, then slowly lower your hips a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1709",
+        "name_es": "Estiramiento de glúteos asistido",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/1709-yn0LjwL.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on your back with your legs extended.",
+          "Bend your right knee and place your right ankle on your left thigh, just above the knee.",
+          "Grasp your left thigh with both hands and gently pull it towards your chest.",
+          "Hold the stretch for 20-30 seconds.",
+          "Release and repeat on the other side."
+        ]
+      },
+      {
+        "id": "0291",
+        "name_es": "Dumbbell bench sentadilla",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/0291-mnzcrIB.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Place a dumbbell on the ground in front of a bench.",
+          "Stand facing away from the bench with your feet shoulder-width apart.",
+          "Bend at the knees and hips to lower yourself down towards the bench, keeping your chest up and back straight.",
+          "Once your glutes touch the bench, push through your heels to stand back up to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0769",
+        "name_es": "Smith sprint zancada",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/0769-HsjbB1z.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set up the smith machine with the barbell at hip height.",
+          "Stand facing away from the machine with your feet shoulder-width apart.",
+          "Step back with your right foot and place it on the barbell, resting the top of your foot on the bar.",
+          "Bend your left knee and lower your body into a Zancada position, keeping your back straight.",
+          "Push through your left heel to regresa a la posición inicial.",
+          "Repite en el otro lado, stepping back with your left foot.",
+          "Continúa alternando lados for the desired number of repetitions."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_21",
+    "name": "Rutina PIERNAS (POSTERIOR) Pro",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en piernas (posterior) para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "0016",
+        "name_es": "Assisted prone hamstring",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/0016-VedGSby.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie face down on a mat or bench with your legs fully extended.",
+          "Have a partner or use a resistance band to secure your ankles.",
+          "Engage your hamstrings and lift your legs towards your glutes, keeping your knees straight.",
+          "Pausa un momento en la parte superior, then baja las piernas lentamente a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0044",
+        "name_es": "Barbell good morning",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/0044-XlZ4lAC.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Start by standing with your feet shoulder-width apart and the barbell resting on your upper back.",
+          "Manteniendo la espalda recta and el core activo, hinge forward at the hips, pushing your buttocks back as if you were trying to touch the wall behind you with your glutes.",
+          "Lower your torso until it is paralelo al suelo, feeling a stretch in your hamstrings.",
+          "Pausa un momento, then regresa a la posición inicial by squeezing your glutes and pushing your hips forward.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1582",
+        "name_es": "Reclining big toe pose with rope",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/1582-K5xgdvI.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on your back with your legs extended and your arms by your sides.",
+          "Loop the rope around the ball of your right foot and hold the ends of the rope with your hands.",
+          "Slowly raise your right leg towards your chest, keeping your knee straight and your foot flexed.",
+          "Hold the stretch for a few seconds, then slowly lower your leg a la posición inicial.",
+          "Repeat with your left leg.",
+          "Continue alternating legs for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "0116",
+        "name_es": "Barbell straight pierna deadlift",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/0116-hrVQWvE.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your toes pointing forward.",
+          "Hold the barbell con agarre prono, hands ligeramente más ancho que los hombros.",
+          "Bend at your hips and lower the barbell towards the ground, keeping your back straight and your knees slightly bent.",
+          "Lower the barbell until you feel a stretch in your hamstrings.",
+          "Engage your hamstrings and glutes to lift the barbell back up to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3235",
+        "name_es": "Cable assisted inverse pierna curl",
+        "target_es": "PIERNAS (POSTERIOR)",
+        "gif_url": "videos/3235-zHEpuuc.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the cable machine so that the ankle attachment is at the lowest setting.",
+          "Lie face down on the bench with your legs straight and the ankle attachment secured to your ankles.",
+          "Hold onto the handles of the bench for stability.",
+          "Keeping your upper body stationary, exhale and curl your legs up towards your glutes by flexing your knees.",
+          "Pausa un momento en la parte superior of the movement, squeezing your hamstrings.",
+          "Inhale and baja las piernas lentamente back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_22",
+    "name": "Esculpir PIERNAS",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en piernas para mejores resultados.",
+    "level": "Principiante",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "2810",
+        "name_es": "Barbell split sentadilla v. 2",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/2810-HBYyX94.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Start by standing with your feet shoulder-width apart, holding a barbell across your upper back.",
+          "Take a large step forward with your right foot, keeping your torso upright.",
+          "Lower your body by bending your knees and hips until your right thigh is paralelo al suelo.",
+          "Pausa un momento, then push through your right heel to regresa a la posición inicial.",
+          "Repeat with your left leg forward for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "0097",
+        "name_es": "Barbell lateral split sentadilla v. 2",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/0097-HUEqZ1y.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand with your feet wider than shoulder-width apart, toes pointing slightly outwards.",
+          "Hold a barbell across your upper back, resting it on your shoulders.",
+          "Take a big step to the side with your right foot, keeping your left foot planted.",
+          "Bend your right knee and lower your body down into a squat position, keeping your chest up and your back straight.",
+          "Push through your right heel to regresa a la posición inicial.",
+          "Repite en el otro lado, stepping out with your left foot.",
+          "Continúa alternando lados for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "0585",
+        "name_es": "Lever pierna extensión",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/0585-my33uHU.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the seat height and backrest of the machine to fit your body.",
+          "Sit on the machine with your back against the backrest and your feet on the footpad.",
+          "Sujeta los agarres or sidebars for stability.",
+          "Extend your legs forward by straightening your knees, lifting the weight.",
+          "Pausa un momento en la parte superior, then slowly lower the weight back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0026",
+        "name_es": "Barbell bench sentadilla",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/0026-W9pFVv1.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set up a barbell on a squat rack at chest height.",
+          "Stand facing away from the rack, with your feet shoulder-width apart.",
+          "Bend your knees and lower your body down into a squat position, keeping your back straight and chest up.",
+          "Grasp the barbell con agarre prono, ligeramente más ancho que los hombros.",
+          "Lift the barbell off the rack and step back, ensuring your feet are still shoulder-width apart.",
+          "Lower your body down into a squat, keeping your knees in line with your toes.",
+          "Pausa un momento en la parte inferior, then push through your heels to regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0068",
+        "name_es": "Barbell one pierna sentadilla",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/0068-uKyN64F.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and hold a barbell across your upper back.",
+          "Lift one foot del suelo and extend it forward, keeping it paralelo al suelo.",
+          "Bend your standing leg and lower your body down as if sitting back into a chair, keeping your chest up and your back straight.",
+          "Lower yourself until your thigh is paralelo al suelo, then push through your heel to regresa a la posición inicial.",
+          "Repite las veces necesarias, then switch legs and repeat."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_23",
+    "name": "Esculpir ADDUCTORS",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en adductors para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "12 min",
+    "exercises": [
+      {
+        "id": "1712",
+        "name_es": "Assisted lateral lying adductor stretch",
+        "target_es": "ADDUCTORS",
+        "gif_url": "videos/1712-hC6oYY5.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie on your side with your legs straight and stacked on top of each other.",
+          "Bend your bottom leg slightly for stability.",
+          "Place your top foot on a stable surface, such as a bench or step.",
+          "Keeping your top leg straight, slowly lower it towards the ground, feeling a stretch in your inner thigh.",
+          "Hold the stretch for 20-30 seconds.",
+          "Regresa a la posición inicial and repeat on the other side."
+        ]
+      },
+      {
+        "id": "0168",
+        "name_es": "Cable hip adduction",
+        "target_es": "ADDUCTORS",
+        "gif_url": "videos/0168-hBGWILP.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Attach the ankle cuff to your ankle and stand facing the cable machine.",
+          "Position yourself far enough away from the machine so that there is tension on the cable.",
+          "Place your hands on the machine for support.",
+          "Keeping your leg straight, slowly move your leg across your body towards the midline.",
+          "Pausa un momento at the end of the movement, then slowly regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0598",
+        "name_es": "Lever seated hip adduction",
+        "target_es": "ADDUCTORS",
+        "gif_url": "videos/0598-oHsrypV.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the seat height and position yourself on the machine with your back against the backrest.",
+          "Place your feet on the footrests and grasp the handles for stability.",
+          "Engage your adductor muscles and slowly bring your legs together, squeezing your inner thighs.",
+          "Pausa un momento at the peak contraction, then slowly regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_24",
+    "name": "Poder en TRÍCEPS",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en tríceps para mejores resultados.",
+    "level": "Principiante",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "0998",
+        "name_es": "Band lateral triceps extensión",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/0998-obe5LMq.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and hold the band with both hands, palms facing down.",
+          "Extiende los brazos hacia los lados, keeping them paralelo al suelo.",
+          "Slowly bend your elbows and bring your hands towards your shoulders, keeping your upper arms still.",
+          "Pausa un momento, then slowly extend your arms back out to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0200",
+        "name_es": "Cable pushdown (with rope attachment)",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/0200-dU605di.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Attach a rope attachment to a high pulley on a cable machine.",
+          "Stand facing the machine with your feet shoulder-width apart and a slight bend in your knees.",
+          "Grasp the rope con agarre prono, palms facing each other.",
+          "Keep your elbows close to your sides and your upper arms stationary throughout the exercise.",
+          "Exhale and push the rope downward by extending your elbows until your arms are fully extended.",
+          "Pausa un momento, then inhale and slowly regresa a la posición inicial by allowing your elbows to flex.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1725",
+        "name_es": "Cable rope incline tricep extensión",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/1725-ZujAdR9.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Attach a rope to a high pulley and adjust the incline bench to a comfortable angle.",
+          "Stand facing away from the pulley with your feet shoulder-width apart.",
+          "Grasp the rope con agarre prono and extend your arms straight overhead.",
+          "Keep your elbows close to your head and your upper arms stationary throughout the exercise.",
+          "Lower the rope behind your head by bending your elbows until your forearms touch your biceps.",
+          "Pausa un momento, then extend your arms back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "2188",
+        "name_es": "Dumbbell seated triceps extensión",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/2188-kont8Ut.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on a bench with your back straight and los pies apoyados en el suelo.",
+          "Hold a dumbbell with both hands and extend your arms straight up overhead.",
+          "Bend your elbows and lower the dumbbell behind your head, keeping your upper arms close to your ears.",
+          "Pausa un momento, then straighten your arms and regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0351",
+        "name_es": "Dumbbell lying triceps extensión",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/0351-mpKZGWz.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie flat on a bench with a dumbbell in each hand, palms facing each other.",
+          "Extend your arms straight up over your chest, keeping your elbows close to your body.",
+          "Lower the dumbbells down towards your forehead, bending your elbows.",
+          "Pausa un momento, then extend your arms back up to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_25",
+    "name": "Esculpir LUMBARES",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en lumbares para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "1334",
+        "name_es": "Exercise ball espalda extensión with hands behind head",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/1334-o1HGDSq.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Place the stability ball on the ground and lie face down on top of it with your hips resting on the ball.",
+          "Position your feet against a wall or other stable surface for support.",
+          "Cross your arms behind your head, with your hands touching the back of your head.",
+          "Activa el core and levanta lentamente el torso off the ball, extending your back until your body forms a straight line from your head to your hips.",
+          "Pausa un momento en la parte superior of the movement, then baja lentamente el torso a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1010",
+        "name_es": "Band straight pierna deadlift",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/1010-KUaoUV8.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and place the band around your feet.",
+          "Hold the band with both hands, palms facing your body, and keep your arms straight.",
+          "Activa el core and maintain a slight bend in your knees.",
+          "Slowly hinge forward at your hips, keeping your back straight and chest lifted.",
+          "Lower the band towards the ground while keeping your legs straight.",
+          "Pausa un momento en la parte inferior, then squeeze your glutes and hamstrings to regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1336",
+        "name_es": "Exercise ball espalda extensión with rotation",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/1336-WVD66ff.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Start by lying face down on the stability ball with your hips resting on the ball and your feet firmly planted on the ground.",
+          "Coloca las manos detrás de la cabeza or cross them over your chest.",
+          "Activa el core and levanta lentamente el torso off the ball, extending your back until your body forms a straight line from your head to your heels.",
+          "Pausa un momento en la parte superior, then slowly rotate your torso to one side, keeping your hips and legs stable.",
+          "Return to the center and repeat the rotation to the other side.",
+          "Lower your upper body a la posición inicial and repeat for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "1343",
+        "name_es": "Exercise ball prone pierna elevación",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/1343-lCKm4Rs.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Lie face down on a mat with your legs extended and your toes resting on top of the stability ball.",
+          "Place your hands on the ground, shoulder-width apart, and engage your core muscles.",
+          "Keeping your legs straight, slowly lift them del suelo, using your lower back and glutes to raise them as high as possible.",
+          "Pausa un momento en la parte superior, then baja las piernas lentamente a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1314",
+        "name_es": "Espalda extensión on exercise ball",
+        "target_es": "LUMBARES",
+        "gif_url": "videos/1314-qLpO4vV.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Place the stability ball on the ground and lie face down on top of it, with your hips resting on the ball and your feet against a wall or other stable surface.",
+          "Position your hands behind your head or crossed over your chest.",
+          "Activa el core and levanta lentamente el torso off the ball, extending your back until your body forms a straight line from your head to your heels.",
+          "Pausa un momento en la parte superior, then baja lentamente el torso a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_26",
+    "name": "Esculpir BÍCEPS",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en bíceps para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "1657",
+        "name_es": "Dumbbell cross body hammer curl v. 2",
+        "target_es": "BÍCEPS",
+        "gif_url": "videos/1657-HDYiZcY.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand up straight with a dumbbell in each hand, palms facing your body.",
+          "Keep your elbows close to your torso and your upper arms stationary.",
+          "Exhale and curl the weights while contracting your biceps, bringing the dumbbells as close to your opposite shoulder as possible.",
+          "Hold the contracted position for a brief pause as you squeeze your biceps.",
+          "Inhale and slowly begin to lower the dumbbells back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1643",
+        "name_es": "Cable seated overhead curl",
+        "target_es": "BÍCEPS",
+        "gif_url": "videos/1643-DpWMFP5.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on a bench facing the cable machine with your los pies apoyados en el suelo.",
+          "Grasp the cable attachment with an underhand grip, palms facing up, and your hands shoulder-width apart.",
+          "Keep your upper arms stationary and your elbows close to your sides.",
+          "Exhale and curl the cable attachment towards your shoulders, contracting your biceps.",
+          "Pausa un momento en la parte superior of the movement, squeezing your biceps.",
+          "Inhale and slowly lower the cable attachment back to the starting position, fully extending your arms.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1651",
+        "name_es": "Dumbbell bicep curl zancada with bowling motion",
+        "target_es": "BÍCEPS",
+        "gif_url": "videos/1651-1VpF8db.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros, holding a dumbbell in each hand with your palms facing forward.",
+          "Take a step forward with your right foot, bending your right knee and lowering your body into a Zancada position.",
+          "As you Zancada forward, curl the dumbbells up towards your shoulders, keeping your elbows close to your body.",
+          "At the bottom of the Zancada, rotate your torso to the right, as if you were bowling a ball.",
+          "Reverse the motion, stepping back with your right foot and returning to the starting position while lowering the dumbbells back down.",
+          "Repeat the Zancada and curl motion, this time rotating your torso to the left.",
+          "Continúa alternando lados for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "1652",
+        "name_es": "Dumbbell bicep curl on exercise ball with pierna raised",
+        "target_es": "BÍCEPS",
+        "gif_url": "videos/1652-2NImIAG.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on an exercise ball with your los pies apoyados en el suelo and your back straight.",
+          "Hold a dumbbell in each hand with your palms facing forward and your arms fully extended.",
+          "Slowly curl the dumbbells towards your shoulders, keeping your elbows close to your sides.",
+          "Pausa un momento en la parte superior of the movement, then slowly lower the dumbbells back to the starting position.",
+          "While performing the bicep curl, raise one leg del suelo and hold it in the air for the duration of the exercise.",
+          "Repite las veces necesarias, then switch legs and repeat."
+        ]
+      },
+      {
+        "id": "2401",
+        "name_es": "Dumbbell biceps curl (with brazo blaster)",
+        "target_es": "BÍCEPS",
+        "gif_url": "videos/2401-nlJsbkW.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand up straight with a dumbbell in each hand, palms facing forward.",
+          "Keep your elbows close to your torso and your upper arms stationary.",
+          "Exhale and curl the weights while contracting your biceps.",
+          "Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level.",
+          "Hold the contracted position for a brief pause as you squeeze your biceps.",
+          "Inhale and slowly begin to lower the dumbbells back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_27",
+    "name": "Poder en HOMBROS",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en hombros para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "0105",
+        "name_es": "Barbell standing bradford press",
+        "target_es": "HOMBROS",
+        "gif_url": "videos/0105-dCPESfR.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and hold the barbell in front of your shoulders con agarre prono.",
+          "Press the barbell overhead, fully extending your arms.",
+          "Lower the barbell a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0977",
+        "name_es": "Band frontal lateral elevación",
+        "target_es": "HOMBROS",
+        "gif_url": "videos/0977-sTg7iys.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and hold the band in front of your thighs with your palms facing down.",
+          "Keep your arms straight and lift the band up in front of you until your arms are paralelo al suelo.",
+          "Pausa un momento en la parte superior, then slowly lower the band a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0978",
+        "name_es": "Band frontal elevación",
+        "target_es": "HOMBROS",
+        "gif_url": "videos/0978-TFA88iB.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and hold the band in front of your thighs with your palms facing down.",
+          "Keep your arms straight and slowly raise them forward until they are paralelo al suelo.",
+          "Pausa un momento en la parte superior, then slowly lower your arms a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3697",
+        "name_es": "Cable kneeling rear delt remo (with rope) (male)",
+        "target_es": "HOMBROS",
+        "gif_url": "videos/3697-G61cXLk.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Attach a rope handle to a low cable pulley and kneel down facing the machine.",
+          "Grasp the rope with a neutral grip (palms facing each other) and extend your arms fully in front of you.",
+          "Manteniendo la espalda recta and core engaged, pull the rope towards your body by retracting your shoulder blades.",
+          "Squeeze your shoulder blades together at the end of the movement and hold for a brief pause.",
+          "Slowly release the tension and regresa a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0161",
+        "name_es": "Cable forward elevación",
+        "target_es": "HOMBROS",
+        "gif_url": "videos/0161-hvHhCv8.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your knees slightly bent.",
+          "Hold the cable handle con agarre prono, palms facing down, and your arms fully extended in front of you.",
+          "Keeping your arms straight, raise the cable handle up to shoulder level.",
+          "Pausa un momento en la parte superior, then slowly lower the cable handle a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_28",
+    "name": "Esculpir ESPALDA ALTA",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en espalda alta para mejores resultados.",
+    "level": "Principiante",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "2327",
+        "name_es": "Dumbbell inverso grip remo (female)",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/2327-Nh3mvOO.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and knees slightly bent.",
+          "Hold a dumbbell in each hand con agarre prono, palms facing your body.",
+          "Bend forward at the waist, keeping your back straight and el core activo.",
+          "Let your arms hang straight down, fully extended, with a slight bend in your elbows.",
+          "Pull the dumbbells up towards your chest, juntando las escápulas.",
+          "Pausa un momento en la parte superior, then slowly lower the dumbbells a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0049",
+        "name_es": "Barbell incline remo",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/0049-dmgMp3n.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set up an incline bench at a 45-degree angle.",
+          "Lie face down on the bench with your chest against the pad and your los pies apoyados en el suelo.",
+          "Grasp the barbell con agarre prono, ligeramente más ancho que los hombros.",
+          "Keep your back straight and el core activo.",
+          "Pull the barbell towards your chest, juntando las escápulas.",
+          "Pausa un momento en la parte superior, then slowly lower the barbell back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0522",
+        "name_es": "Kettlebell alternating remo",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/0522-Ca76jUE.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros, knees slightly bent, and hold a kettlebell in each hand with your palms facing your body.",
+          "Bend forward at the hips, keeping your back straight and el core activo.",
+          "Pull one kettlebell up towards your chest, keeping your elbow close to your body and juntando las escápulas.",
+          "Lower the kettlebell a la posición inicial and repeat with the other arm.",
+          "Continue alternating arms for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "0027",
+        "name_es": "Barbell bent over remo",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/0027-eZyBC3j.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and knees slightly bent.",
+          "Bend forward at the hips while keeping your back straight and chest up.",
+          "Grasp the barbell con agarre prono, hands ligeramente más ancho que los hombros.",
+          "Pull the barbell towards your lower chest by retracting your shoulder blades and squeezing your back muscles.",
+          "Pausa un momento en la parte superior, then slowly lower the barbell back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1331",
+        "name_es": "Dumbbell inverso grip incline bench two brazo remo",
+        "target_es": "ESPALDA ALTA",
+        "gif_url": "videos/1331-9pQSkH8.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set up an incline bench at a 45-degree angle.",
+          "Sit on the bench with your chest against the backrest and your los pies apoyados en el suelo.",
+          "Hold a dumbbell in each hand with an underhand grip.",
+          "Lean forward and let your arms hang straight down, fully extended.",
+          "Pull the dumbbells up towards your chest, juntando las escápulas.",
+          "Pausa un momento en la parte superior, then slowly lower the dumbbells a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_29",
+    "name": "Esculpir FOREARMS",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en forearms para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "0126",
+        "name_es": "Barbell wrist curl",
+        "target_es": "FOREARMS",
+        "gif_url": "videos/0126-82LxxkW.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on a bench with your los pies apoyados en el suelo and your forearms resting on your thighs, holding a barbell with an underhand grip.",
+          "Allow the barbell to roll down to your fingertips, keeping your wrists straight.",
+          "Slowly curl the barbell up towards your forearms by flexing your wrists.",
+          "Pausa un momento en la parte superior, then slowly lower the barbell a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0082",
+        "name_es": "Barbell inverso wrist curl",
+        "target_es": "FOREARMS",
+        "gif_url": "videos/0082-LsZkfU6.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on a bench with your los pies apoyados en el suelo and hold a barbell con agarre prono, palms facing down.",
+          "Rest your forearms on your thighs, allowing your wrists to hang off the edge.",
+          "Slowly curl your wrists upward, bringing the barbell towards your body.",
+          "Pausa un momento en la parte superior, then slowly lower the barbell a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0771",
+        "name_es": "Smith standing espalda wrist curl",
+        "target_es": "FOREARMS",
+        "gif_url": "videos/0771-hfmQ0Tz.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand facing the smith machine with your feet shoulder-width apart.",
+          "Grasp the barbell con agarre prono, hands shoulder-width apart.",
+          "Keep your back straight and your elbows close to your body.",
+          "Slowly curl your wrists upwards, bringing the barbell towards your body.",
+          "Pausa un momento en la parte superior, then slowly lower the barbell a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0125",
+        "name_es": "Barbell wrist curl v. 2",
+        "target_es": "FOREARMS",
+        "gif_url": "videos/0125-6kSxYnw.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Sit on a bench with your los pies apoyados en el suelo and your knees bent.",
+          "Hold a barbell with an underhand grip, palms facing up, and your hands shoulder-width apart.",
+          "Rest your forearms on your thighs, allowing your wrists to hang off the edge.",
+          "Slowly curl your wrists upward, bringing the barbell towards your forearms.",
+          "Pausa un momento en la parte superior, then slowly lower the barbell a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "2706",
+        "name_es": "Dumbbell lying supination on floor",
+        "target_es": "FOREARMS",
+        "gif_url": "videos/2706-rEhi2o5.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Acuéstate boca arriba on the floor with your legs extended and your arms by your sides, holding a dumbbell in each hand.",
+          "Rotate your palms to face up, keeping your elbows close to your sides.",
+          "Slowly curl the dumbbells towards your shoulders, squeezing your forearms.",
+          "Pausa un momento en la parte superior, then slowly lower the dumbbells a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_30",
+    "name": "Poder en TRAPS",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en traps para mejores resultados.",
+    "level": "Principiante",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "0746",
+        "name_es": "Smith espalda shrug",
+        "target_es": "TRAPS",
+        "gif_url": "videos/0746-MzNnwx9.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your knees slightly bent.",
+          "Grasp the barbell con agarre prono, hands ligeramente más ancho que los hombros.",
+          "Keep your arms straight and allow the barbell to hang in front of your thighs.",
+          "Lift your shoulders straight up towards your ears, squeezing your traps en la parte superior.",
+          "Hold for a moment, then lower your shoulders a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1439",
+        "name_es": "Lever gripless shrug v. 2",
+        "target_es": "TRAPS",
+        "gif_url": "videos/1439-cbuFJrn.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the seat height and position yourself on the machine with your back against the pad.",
+          "Sujeta los agarres or bars con agarre prono, keeping your arms straight.",
+          "Manteniendo la espalda recta, lift your shoulders up towards your ears as high as possible.",
+          "Hold the contraction for a moment, then slowly lower your shoulders a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0220",
+        "name_es": "Cable shrug",
+        "target_es": "TRAPS",
+        "gif_url": "videos/0220-Eg98Ft9.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Stand facing the cable machine with your feet shoulder-width apart.",
+          "Grasp the cable handles con agarre prono and let your arms hang down in front of you.",
+          "Keeping your arms straight, shrug your shoulders up towards your ears.",
+          "Hold the contraction for a moment, then slowly lower your shoulders a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0305",
+        "name_es": "Dumbbell decline shrug",
+        "target_es": "TRAPS",
+        "gif_url": "videos/0305-cwsAI4G.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set up a decline bench at a 45-degree angle.",
+          "Lie face down on the bench with your chest and stomach resting against it.",
+          "Hold a dumbbell in each hand with your arms fully extended towards the floor.",
+          "Keeping your arms straight, raise your shoulders towards your ears as high as possible.",
+          "Hold the contraction for a moment, then slowly lower the dumbbells back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0406",
+        "name_es": "Dumbbell shrug",
+        "target_es": "TRAPS",
+        "gif_url": "videos/0406-NJzBsGJ.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and hold a dumbbell in each hand with your palms facing your body.",
+          "Keep your arms straight and let the dumbbells hang by your sides.",
+          "Raise your shoulders as high as possible, as if you are trying to touch your ears with your shoulders.",
+          "Hold the contraction for a second, then slowly lower your shoulders a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_31",
+    "name": "Blast de SERRATUS ANTERIOR",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en serratus anterior para mejores resultados.",
+    "level": "Intermedio",
+    "duration": "12 min",
+    "exercises": [
+      {
+        "id": "0050",
+        "name_es": "Barbell incline shoulder elevación",
+        "target_es": "SERRATUS ANTERIOR",
+        "gif_url": "videos/0050-xi0yckC.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set up an incline bench at a 45-degree angle.",
+          "Sit on the bench with your back against the pad and los pies apoyados en el suelo.",
+          "Hold a barbell con agarre prono, ligeramente más ancho que los hombros.",
+          "Lift the barbell up to shoulder height, keeping your elbows slightly bent.",
+          "Slowly raise the barbell overhead, extending your arms fully.",
+          "Pausa un momento en la parte superior, then slowly lower the barbell back to shoulder height.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0328",
+        "name_es": "Dumbbell incline shoulder elevación",
+        "target_es": "SERRATUS ANTERIOR",
+        "gif_url": "videos/0328-6e2DcYX.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Set an incline bench to a 45-degree angle and sit on it with a dumbbell in each hand, palms facing down.",
+          "Rest the dumbbells on your thighs and lean back onto the bench.",
+          "Use your thighs to help raise the dumbbells to shoulder height, then rotate your wrists so that your palms are facing forward.",
+          "Exhale and slowly raise the dumbbells above your head, keeping a slight bend in your elbows.",
+          "Pausa un momento en la parte superior, then inhale and slowly lower the dumbbells back to shoulder height.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0759",
+        "name_es": "Smith incline shoulder elevaciones",
+        "target_es": "SERRATUS ANTERIOR",
+        "gif_url": "videos/0759-ayAHcEm.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the smith machine to an incline position.",
+          "Stand facing the machine with your feet shoulder-width apart.",
+          "Grasp the bar con agarre prono, ligeramente más ancho que los hombros.",
+          "Keep your back straight and core engaged.",
+          "Raise the barbell up towards the ceiling, leading with your elbows.",
+          "Pausa un momento en la parte superior, then slowly lower the barbell a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gimnasio_gen_32",
+    "name": "Poder en CARDIO",
+    "category": "Gimnasio",
+    "description": "Entrenamiento intensivo enfocado en cardio para mejores resultados.",
+    "level": "Avanzado",
+    "duration": "20 min",
+    "exercises": [
+      {
+        "id": "3666",
+        "name_es": "Walking on incline treadmill",
+        "target_es": "CARDIO",
+        "gif_url": "videos/3666-rjiM4L3.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the incline level on the treadmill to your desired intensity.",
+          "Stand on the treadmill with your feet shoulder-width apart.",
+          "Start walking at a comfortable pace, ensuring that you maintain proper form.",
+          "Activa el core muscles and keep your back straight throughout the exercise.",
+          "Continue walking on the incline treadmill for the desired duration of your cardio workout.",
+          "Gradually decrease the incline and speed of the treadmill to cool down before stopping."
+        ]
+      },
+      {
+        "id": "2138",
+        "name_es": "Stationary bike run v. 3",
+        "target_es": "CARDIO",
+        "gif_url": "videos/2138-H1PESYI.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the seat height and position to ensure proper alignment.",
+          "Place your feet on the pedals and secure them with the straps if available.",
+          "Start pedaling at a comfortable pace.",
+          "Maintain a steady rhythm and increase the resistance as desired.",
+          "Activa el core muscles to maintain stability and proper posture.",
+          "Continue pedaling for the desired duration of your workout.",
+          "Gradually decrease the resistance and slow down before coming to a complete stop.",
+          "Stretch your legs and cool down after the workout."
+        ]
+      },
+      {
+        "id": "2612",
+        "name_es": "Salto rope",
+        "target_es": "CARDIO",
+        "gif_url": "videos/2612-e1e76I2.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Hold the handles of the jump rope with your hands, palms facing inward.",
+          "Párate con los pies al ancho de los hombros and knees slightly bent.",
+          "Swing the rope over your head and jump over it as it comes towards your feet.",
+          "Land softly on the balls of your feet and repeat the jump as the rope comes around again.",
+          "Continue jumping for the desired duration or number of repetitions."
+        ]
+      },
+      {
+        "id": "2311",
+        "name_es": "Walking on stepmill",
+        "target_es": "CARDIO",
+        "gif_url": "videos/2311-j9Q5crt.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the stepmill machine to a comfortable level.",
+          "Step onto the machine and place your hands on the handrails for support.",
+          "Start walking by placing one foot on a step and then the other, alternating between legs.",
+          "Maintain an upright posture and engage your core muscles.",
+          "Continue walking for the desired duration or distance.",
+          "Gradually increase the intensity or speed as you become more comfortable with the exercise.",
+          "Remember to cool down and stretch after completing the exercise."
+        ]
+      },
+      {
+        "id": "2141",
+        "name_es": "Walk elliptical cross trainer",
+        "target_es": "CARDIO",
+        "gif_url": "videos/2141-rjtuP6X.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Adjust the resistance level and incline of the elliptical machine to your desired settings.",
+          "Step onto the pedals of the machine and grip the handles lightly.",
+          "Begin by pushing down with your feet and pulling the handles towards your body.",
+          "Continue this motion, alternating between pushing and pulling, to simulate a walking or running motion.",
+          "Maintain a steady pace and keep el core activo throughout the exercise.",
+          "Continue for the desired duration of your cardio workout.",
+          "Gradually decrease the intensity and speed of the machine before stepping off."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mixed_33",
+    "name": "Full Body Guerrero",
+    "category": "Casa",
+    "description": "Una combinación perfecta para un entrenamiento completo de full body guerrero.",
+    "level": "Intermedio",
+    "duration": "16 min",
+    "exercises": [
+      {
+        "id": "0474",
+        "name_es": "Hanging straight pierna hip elevación",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/0474-pj0X0tF.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Cuelga de la barra con brazos estirados and your palms facing away from you.",
+          "Activa el core and levanta las piernas frente a ti until they are paralelo al suelo.",
+          "Pausa un momento en la parte superior, then baja las piernas lentamente a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1685",
+        "name_es": "Sentadilla to overhead reach",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/1685-QChZi3x.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and toes slightly turned out.",
+          "Lower your body down into a squat position by bending your knees and pushing your hips back.",
+          "As you come up from the squat, extend your arms overhead, reaching towards the ceiling.",
+          "Regresa a la posición inicial by lowering your arms and bending your knees to squat down again.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "1297",
+        "name_es": "Isometric chest squeeze",
+        "target_es": "PECHO",
+        "gif_url": "videos/1297-HbSG1Pw.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and your knees slightly bent.",
+          "Extend your arms straight out in front of you, paralelo al suelo, with your palms facing each other.",
+          "Squeeze your chest muscles together as hard as you can, while keeping your arms straight.",
+          "Hold this position for a few seconds, focusing on contracting your chest muscles.",
+          "Release the squeeze and relax your chest muscles.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3222",
+        "name_es": "Semi sentadilla salto (male)",
+        "target_es": "CARDIO",
+        "gif_url": "videos/3222-6FMU51h.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros.",
+          "Bend your knees and lower your body into a squat position.",
+          "Jump explosively, extending your hips and knees while swinging your arms for momentum.",
+          "Land softly on the balls of your feet and immediately go into the next repetition.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mixed_34",
+    "name": "Torso Superior Elite",
+    "category": "Gimnasio",
+    "description": "Una combinación perfecta para un entrenamiento completo de torso superior elite.",
+    "level": "Intermedio",
+    "duration": "16 min",
+    "exercises": [
+      {
+        "id": "0340",
+        "name_es": "Dumbbell lying hammer press",
+        "target_es": "PECHO",
+        "gif_url": "videos/0340-7gdLIXa.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Lie flat on a bench with a dumbbell in each hand, palms facing each other and arms extended straight up.",
+          "Lower the dumbbells to the sides of your chest, keeping your elbows at a 90-degree angle.",
+          "Press the dumbbells back up to the starting position, fully extending your arms.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0034",
+        "name_es": "Barbell decline bent brazo pullover",
+        "target_es": "ESPALDA",
+        "gif_url": "videos/0034-hMEptv0.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Lie down on a decline bench with your head lower than your hips and your feet secured.",
+          "Hold a barbell with a pronated grip (palms facing away from you) and extend your arms straight above your chest.",
+          "Lower the barbell behind your head in a controlled manner, keeping your arms slightly bent.",
+          "Pausa un momento, then raise the barbell back to the starting position by contracting your lats.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0076",
+        "name_es": "Barbell rear delt remo",
+        "target_es": "HOMBROS",
+        "gif_url": "videos/0076-S9zHIvU.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and knees slightly bent.",
+          "Hold a barbell con agarre prono, hands ligeramente más ancho que los hombros.",
+          "Bend forward at the hips, keeping your back straight and chest up.",
+          "Pull the barbell towards your chest, juntando las escápulas.",
+          "Pausa un momento en la parte superior, then slowly lower the barbell back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "0173",
+        "name_es": "Cable incline triceps extensión",
+        "target_es": "TRÍCEPS",
+        "gif_url": "videos/0173-Hx1WC8I.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Adjust the cable machine to a low pulley position.",
+          "Attach a straight bar to the cable.",
+          "Stand facing away from the machine with your feet shoulder-width apart.",
+          "Grasp the bar con agarre prono and extend your arms straight overhead.",
+          "Lean forward slightly, keeping your back straight and core engaged.",
+          "Bend your elbows and lower the bar behind your head, keeping your upper arms close to your ears.",
+          "Pausa un momento, then extend your arms back to the starting position.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mixed_35",
+    "name": "Tren Inferior Potencia",
+    "category": "Gimnasio",
+    "description": "Una combinación perfecta para un entrenamiento completo de tren inferior potencia.",
+    "level": "Intermedio",
+    "duration": "12 min",
+    "exercises": [
+      {
+        "id": "0068",
+        "name_es": "Barbell one pierna sentadilla",
+        "target_es": "PIERNAS",
+        "gif_url": "videos/0068-uKyN64F.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and hold a barbell across your upper back.",
+          "Lift one foot del suelo and extend it forward, keeping it paralelo al suelo.",
+          "Bend your standing leg and lower your body down as if sitting back into a chair, keeping your chest up and your back straight.",
+          "Lower yourself until your thigh is paralelo al suelo, then push through your heel to regresa a la posición inicial.",
+          "Repite las veces necesarias, then switch legs and repeat."
+        ]
+      },
+      {
+        "id": "0769",
+        "name_es": "Smith sprint zancada",
+        "target_es": "GLÚTEOS",
+        "gif_url": "videos/0769-HsjbB1z.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Set up the smith machine with the barbell at hip height.",
+          "Stand facing away from the machine with your feet shoulder-width apart.",
+          "Step back with your right foot and place it on the barbell, resting the top of your foot on the bar.",
+          "Bend your left knee and lower your body into a Zancada position, keeping your back straight.",
+          "Push through your left heel to regresa a la posición inicial.",
+          "Repite en el otro lado, stepping back with your left foot.",
+          "Continúa alternando lados for the desired number of repetitions."
+        ]
+      },
+      {
+        "id": "1369",
+        "name_es": "Band two legs calf elevación - (band under both legs) v. 2",
+        "target_es": "GEMELOS",
+        "gif_url": "videos/1369-jl6uxZV.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros and place a resistance band under both feet.",
+          "Hold the ends of the band with your hands for stability.",
+          "Raise your heels del suelo as high as possible, using your calves.",
+          "Pausa un momento en la parte superior, then slowly lower your heels a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mixed_36",
+    "name": "Core y Cardio Mix",
+    "category": "Casa",
+    "description": "Una combinación perfecta para un entrenamiento completo de core y cardio mix.",
+    "level": "Intermedio",
+    "duration": "8 min",
+    "exercises": [
+      {
+        "id": "0826",
+        "name_es": "Vertical pierna elevación (on parallel bars)",
+        "target_es": "ABDOMINALES",
+        "gif_url": "videos/0826-ZNgOYQU.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Hang from the parallel bars with your arms fully extended and your body straight.",
+          "Activa el core and levanta las piernas frente a ti, manteniéndolas estiradas.",
+          "Continue lifting until your legs are paralelo al suelo or slightly higher.",
+          "Pausa un momento en la parte superior, then baja las piernas lentamente a la posición inicial.",
+          "Repite las veces necesarias."
+        ]
+      },
+      {
+        "id": "3222",
+        "name_es": "Semi sentadilla salto (male)",
+        "target_es": "CARDIO",
+        "gif_url": "videos/3222-6FMU51h.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Párate con los pies al ancho de los hombros.",
+          "Bend your knees and lower your body into a squat position.",
+          "Jump explosively, extending your hips and knees while swinging your arms for momentum.",
+          "Land softly on the balls of your feet and immediately go into the next repetition.",
+          "Repite las veces necesarias."
         ]
       }
     ]
