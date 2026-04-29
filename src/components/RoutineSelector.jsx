@@ -5,11 +5,12 @@ import { Play, Clock, BarChart, Home, ShieldCheck, Dumbbell, Search, Plus } from
 
 import { CustomRoutineBuilder } from './CustomRoutineBuilder';
 
-export const RoutineSelector = () => {
+export const RoutineSelector = ({ userData }) => {
   const { startRoutine } = useExerciseStore();
   const [activeCategory, setActiveCategory] = useState('Todas');
   const [searchTerm, setSearchTerm] = useState('');
   const [showBuilder, setShowBuilder] = useState(false);
+  
   const [customRoutines, setCustomRoutines] = useState(() => {
     const saved = localStorage.getItem('calisteniapp_custom_routines');
     return saved ? JSON.parse(saved) : [];
@@ -22,6 +23,9 @@ export const RoutineSelector = () => {
     .filter(r => (activeCategory === 'Todas' || r.category === activeCategory))
     .filter(r => r.name.toLowerCase().includes(searchTerm.toLowerCase()));
 
+  // Recommendation logic
+  const recommendedRoutines = allRoutines.filter(r => r.level === userData?.strengthLevel).slice(0, 3);
+
   const saveCustomRoutine = (newRoutine) => {
     const updated = [...customRoutines, newRoutine];
     setCustomRoutines(updated);
@@ -31,41 +35,55 @@ export const RoutineSelector = () => {
   };
 
   return (
-    <div className="w-full h-full p-6 md:p-12 overflow-y-auto bg-[#030014]">
+    <div className="w-full h-full p-4 md:p-12 overflow-y-auto bg-[#030014] scroll-smooth">
       <div className="max-w-7xl mx-auto">
-        <header className="mb-12">
-          <div className="flex items-center gap-2 text-primary font-bold uppercase tracking-[0.2em] text-xs mb-4">
-            <ShieldCheck size={16} />
-            <span>Plataforma Premium</span>
+        <header className="mb-12 pt-8">
+          <div className="flex items-center gap-2 text-primary font-bold uppercase tracking-[0.2em] text-[10px] mb-4">
+            <Zap size={14} className="animate-pulse" />
+            <span>Plan de Entrenamiento Inteligente</span>
           </div>
-          <h2 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
-            ENTRENA <br/> <span className="text-primary glow-text">COMO UN PRO</span>
-          </h2>
-          <p className="text-white/40 mb-10 max-w-2xl text-lg leading-relaxed">
-            Selecciona tu entorno y nivel. Nuestra tecnología guiará cada segundo de tu entrenamiento con tiempos y técnicas precisas.
+          
+          <div className="mb-8">
+            <h2 className="text-4xl md:text-6xl font-black mb-2 leading-none uppercase">
+              HOLA, <span className="text-primary glow-text">{userData?.name || 'GUERRERO'}</span>
+            </h2>
+            <div className="flex flex-wrap items-center gap-3 mt-4">
+              <div className="bg-white/5 border border-white/10 px-4 py-2 rounded-2xl flex items-center gap-2">
+                <span className="text-[10px] font-black text-white/40 uppercase">Nivel:</span>
+                <span className="text-[10px] font-black text-primary uppercase">{userData?.strengthLevel || 'Calculando...'}</span>
+              </div>
+              <div className="bg-white/5 border border-white/10 px-4 py-2 rounded-2xl flex items-center gap-2">
+                <span className="text-[10px] font-black text-white/40 uppercase">IMC:</span>
+                <span className="text-[10px] font-black text-white/80 uppercase">{userData?.imc || '--'}</span>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-white/60 mb-10 max-w-2xl text-base md:text-lg leading-relaxed font-medium">
+            Basado en tu nivel de <strong>{userData?.strengthLevel}</strong>, hemos seleccionado estas rutinas para maximizar tus resultados hoy.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between mb-8">
-            <div className="relative w-full md:w-96">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-white/20" size={18} />
+          <div className="flex flex-col lg:flex-row gap-6 items-start lg:items-center justify-between mb-12">
+            <div className="relative w-full lg:w-96 group">
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-white/20 group-focus-within:text-primary transition-colors" size={18} />
               <input 
                 type="text" 
-                placeholder="Buscar rutina..."
-                className="w-full bg-white/5 border border-white/10 rounded-2xl pl-12 pr-6 py-4 font-bold outline-none focus:border-primary transition-all"
+                placeholder="Buscar por músculo o nombre..."
+                className="w-full bg-white/5 border border-white/10 rounded-2xl pl-12 pr-6 py-4 font-bold outline-none focus:border-primary/50 transition-all text-sm"
                 value={searchTerm}
                 onChange={e => setSearchTerm(e.target.value)}
               />
             </div>
 
-            <div className="flex flex-wrap gap-4 items-center">
-              <div className="flex gap-2 p-1 bg-white/5 rounded-2xl">
+            <div className="flex flex-wrap gap-3 items-center w-full lg:w-auto">
+              <div className="flex gap-1 p-1.5 bg-white/5 rounded-2xl border border-white/5">
                 {categories.map(cat => (
                   <button
                     key={cat}
                     onClick={() => setActiveCategory(cat)}
-                    className={`px-6 py-3 rounded-xl font-bold text-[10px] transition-all ${
+                    className={`px-5 py-2.5 rounded-xl font-black text-[9px] uppercase tracking-wider transition-all ${
                       activeCategory === cat 
-                        ? 'bg-primary text-black shadow-[0_0_20px_var(--primary-glow)]' 
+                        ? 'bg-primary text-black shadow-[0_0_20px_rgba(168,85,247,0.3)]' 
                         : 'text-white/40 hover:text-white hover:bg-white/5'
                     }`}
                   >
@@ -76,10 +94,10 @@ export const RoutineSelector = () => {
               
               <button 
                 onClick={() => setShowBuilder(true)}
-                className="flex items-center gap-2 px-6 py-3 rounded-xl bg-white/5 border border-white/10 font-bold text-[10px] hover:bg-primary hover:text-black transition-all group"
+                className="flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-white/5 border border-white/10 font-black text-[9px] uppercase tracking-wider hover:bg-primary hover:text-black transition-all group"
               >
                 <Plus size={14} className="text-primary group-hover:text-black" />
-                <span>CREAR PLAN</span>
+                <span>NUEVA RUTINA</span>
               </button>
             </div>
           </div>
@@ -87,51 +105,61 @@ export const RoutineSelector = () => {
 
         {showBuilder && <CustomRoutineBuilder onSave={saveCustomRoutine} onCancel={() => setShowBuilder(false)} />}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 pb-20">
           {filteredRoutines.map((routine) => (
             <div 
               key={routine.id}
-              className="glass-panel p-8 rounded-[32px] border border-white/5 hover:border-primary/30 transition-all cursor-pointer group relative overflow-hidden flex flex-col h-full"
+              className="glass-panel p-6 md:p-8 rounded-[40px] border border-white/5 hover:border-primary/30 transition-all cursor-pointer group relative overflow-hidden flex flex-col h-full active:scale-[0.98]"
               onClick={() => startRoutine(routine)}
             >
-              {/* Background Glow */}
-              <div className="absolute -top-24 -right-24 w-48 h-48 bg-primary/10 blur-[80px] group-hover:bg-primary/20 transition-all" />
+              {/* Recommended Badge */}
+              {routine.level === userData?.strengthLevel && (
+                <div className="absolute top-6 right-6 bg-primary text-black text-[8px] font-black px-3 py-1.5 rounded-full shadow-[0_0_15px_rgba(168,85,247,0.4)] z-10 animate-bounce">
+                  RECOMENDADA
+                </div>
+              )}
 
-              <div className="flex justify-between items-start mb-8">
-                <div className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-black transition-all shadow-xl">
-                  {routine.category === 'Casa' ? <Home size={28} /> : <Dumbbell size={28} />}
+              <div className="flex justify-between items-start mb-10">
+                <div className="w-16 h-16 rounded-3xl bg-white/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-black transition-all shadow-2xl border border-white/5">
+                  {routine.category === 'Casa' ? <Home size={32} /> : <Dumbbell size={32} />}
                 </div>
                 <div className="flex flex-col items-end gap-2">
-                  <span className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full bg-white/5 text-white/60">
-                    <Clock size={12} /> {routine.duration}
-                  </span>
-                  <span className={`flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full ${
-                    routine.level === 'Avanzado' ? 'bg-accent/10 text-accent' : 'bg-primary/10 text-primary'
+                  <div className="flex items-center gap-2 text-[9px] font-black text-white/60 uppercase bg-white/5 px-3 py-1.5 rounded-xl border border-white/5">
+                    <Clock size={12} className="text-primary" /> {routine.duration}
+                  </div>
+                  <div className={`flex items-center gap-2 text-[9px] font-black uppercase bg-white/5 px-3 py-1.5 rounded-xl border border-white/5 ${
+                    routine.level === 'Avanzado' || routine.level === 'Master' ? 'text-secondary' : 'text-primary'
                   }`}>
                     <BarChart size={12} /> {routine.level}
-                  </span>
+                  </div>
                 </div>
               </div>
 
-              <h3 className="text-2xl font-black mb-3 group-hover:text-primary transition-colors leading-tight">{routine.name}</h3>
-              <p className="text-white/40 text-sm mb-8 flex-1 leading-relaxed">{routine.description}</p>
+              <div className="flex-1">
+                <h3 className="text-2xl md:text-3xl font-black mb-3 group-hover:text-primary transition-colors leading-tight uppercase tracking-tight">{routine.name}</h3>
+                <p className="text-white/60 text-sm mb-10 leading-relaxed font-medium">{routine.description}</p>
+              </div>
               
-              <div className="flex items-center justify-between pt-6 border-t border-white/5">
-                <div className="flex -space-x-2">
-                  {routine.exercises.slice(0, 4).map((_, i) => (
-                    <div key={i} className="w-8 h-8 rounded-full border-2 border-[#030014] bg-white/10 flex items-center justify-center text-[10px] font-bold">
-                      {i + 1}
-                    </div>
-                  ))}
-                  {routine.exercises.length > 4 && (
-                    <div className="w-8 h-8 rounded-full border-2 border-[#030014] bg-white/10 flex items-center justify-center text-[10px] font-bold">
-                      +{routine.exercises.length - 4}
-                    </div>
-                  )}
+              <div className="flex items-center justify-between pt-6 mt-auto border-t border-white/5">
+                <div className="flex flex-col gap-1">
+                  <span className="text-[8px] font-black text-white/30 uppercase tracking-widest">Ejercicios</span>
+                  <div className="flex -space-x-2">
+                    {routine.exercises.slice(0, 4).map((_, i) => (
+                      <div key={i} className="w-8 h-8 rounded-full border-2 border-surface bg-white/5 flex items-center justify-center text-[10px] font-black text-white/60">
+                        {i + 1}
+                      </div>
+                    ))}
+                    {routine.exercises.length > 4 && (
+                      <div className="w-8 h-8 rounded-full border-2 border-surface bg-primary/10 flex items-center justify-center text-[10px] font-black text-primary">
+                        +{routine.exercises.length - 4}
+                      </div>
+                    )}
+                  </div>
                 </div>
-                <div className="text-primary font-black flex items-center gap-2 group-hover:translate-x-2 transition-transform">
-                  INICIAR <Play size={16} fill="currentColor" />
-                </div>
+                <button className="flex items-center gap-3 bg-white/5 hover:bg-primary hover:text-black px-6 py-3 rounded-2xl transition-all border border-white/5 group/btn">
+                  <span className="text-[10px] font-black uppercase tracking-[0.2em]">Entrenar</span>
+                  <Play size={14} fill="currentColor" className="group-hover/btn:translate-x-1 transition-transform" />
+                </button>
               </div>
             </div>
           ))}

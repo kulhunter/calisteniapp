@@ -13,117 +13,136 @@ export const Onboarding = ({ onComplete }) => {
 
   const next = () => setStep(s => s + 1);
 
+  const calculateScores = () => {
+    const heightM = data.height / 100;
+    const imc = (data.weight / (heightM * heightM)).toFixed(1);
+    
+    let strengthLevel = 'Principiante';
+    const pushups = parseInt(data.pushups);
+    if (pushups > 30) strengthLevel = 'Master';
+    else if (pushups > 15) strengthLevel = 'Avanzado';
+    else if (pushups > 5) strengthLevel = 'Intermedio';
+
+    return { imc, strengthLevel };
+  };
+
   const save = () => {
-    localStorage.setItem('calisteniapp_user', JSON.stringify(data));
+    const scores = calculateScores();
+    const userProfile = { ...data, ...scores };
+    localStorage.setItem('calisteniapp_user', JSON.stringify(userProfile));
     onComplete();
   };
 
   const steps = [
     {
       title: "Bienvenido a Calisteniapp Pro",
-      subtitle: "Tu viaje hacia la fuerza sobrehumana comienza aquí.",
+      subtitle: "Tu entrenador personal inteligente basado en calistenia pura.",
       content: (
-        <div className="flex flex-col items-center gap-8 py-10">
-          <img src="/logo.png" alt="Logo" className="w-32 h-32 drop-shadow-[0_0_30px_var(--primary-glow)]" />
-          <button onClick={next} className="btn-primary px-12 py-5 rounded-2xl font-black text-2xl uppercase tracking-wider flex items-center gap-3">
-            EMPEZAR <ChevronRight size={24} />
+        <div className="flex flex-col items-center gap-10 py-10">
+          <div className="relative group">
+            <div className="absolute inset-0 bg-primary/20 blur-[50px] rounded-full group-hover:bg-primary/30 transition-all" />
+            <img src="/logo.png" alt="Logo" className="w-48 h-48 relative drop-shadow-[0_0_30px_rgba(168,85,247,0.5)]" />
+          </div>
+          <div className="glass-panel p-8 rounded-3xl border border-white/10 max-w-md text-left space-y-4">
+            <div className="flex items-center gap-3 text-primary">
+              <Zap size={20} />
+              <span className="font-black text-xs uppercase tracking-widest">¿Cómo funciona?</span>
+            </div>
+            <p className="text-sm text-white/60 leading-relaxed">
+              Analizaremos tu <strong>IMC</strong> y <strong>resistencia física</strong> para recomendarte las mejores rutinas. Tendrás acceso a cientos de ejercicios con técnica guiada y cronómetros profesionales.
+            </p>
+          </div>
+          <button onClick={next} className="btn-primary px-16 py-5 rounded-2xl font-black text-xl uppercase tracking-[0.2em] shadow-[0_0_40px_rgba(168,85,247,0.4)]">
+            CONTINUAR
           </button>
         </div>
       )
     },
     {
-      title: "¿Cómo te llamas?",
-      subtitle: "Personalizaremos tu experiencia.",
+      title: "¿Tu Nombre?",
+      subtitle: "Para personalizar tu plan de entrenamiento.",
       content: (
-        <div className="flex flex-col gap-6 w-full max-w-md mx-auto py-10">
-          <div className="glass-panel p-6 rounded-3xl border border-white/10">
-            <div className="flex items-center gap-4 mb-4 text-primary">
-              <User size={24} />
-              <span className="font-bold uppercase tracking-widest text-xs">Información Básica</span>
-            </div>
+        <div className="flex flex-col gap-8 w-full max-w-md mx-auto py-10">
+          <div className="glass-panel p-8 rounded-[32px] border border-white/10 focus-within:border-primary/50 transition-all">
             <input 
               type="text" 
-              placeholder="Tu nombre..."
-              className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-xl font-bold focus:border-primary transition-all outline-none"
+              placeholder="Escribe tu nombre..."
+              className="w-full bg-transparent border-none text-4xl font-black focus:outline-none placeholder:text-white/10"
               value={data.name}
               onChange={e => setData({...data, name: e.target.value})}
+              autoFocus
             />
           </div>
-          <button disabled={!data.name} onClick={next} className="btn-primary w-full py-5 rounded-2xl font-black text-xl uppercase disabled:opacity-50">
+          <button disabled={!data.name} onClick={next} className="btn-primary w-full py-6 rounded-2xl font-black text-xl uppercase tracking-widest disabled:opacity-30">
             SIGUIENTE
           </button>
         </div>
       )
     },
     {
-      title: "Tus Medidas",
-      subtitle: "Calcularemos el impacto de cada ejercicio.",
+      title: "Medidas Pro",
+      subtitle: "Calcularemos tu IMC para ajustar la intensidad.",
       content: (
         <div className="flex flex-col gap-6 w-full max-w-md mx-auto py-10">
           <div className="grid grid-cols-2 gap-4">
             <div className="glass-panel p-6 rounded-3xl border border-white/10">
-              <p className="text-[10px] font-black text-white/40 uppercase mb-4 tracking-widest">Edad</p>
+              <p className="text-[10px] font-black text-white/30 uppercase mb-4 tracking-widest">Edad</p>
               <input 
                 type="number" 
-                placeholder="Años"
-                className="w-full bg-transparent border-none text-3xl font-black focus:outline-none"
+                placeholder="00"
+                className="w-full bg-transparent border-none text-4xl font-black focus:outline-none"
                 value={data.age}
                 onChange={e => setData({...data, age: e.target.value})}
               />
             </div>
             <div className="glass-panel p-6 rounded-3xl border border-white/10">
-              <p className="text-[10px] font-black text-white/40 uppercase mb-4 tracking-widest">Peso (kg)</p>
+              <p className="text-[10px] font-black text-white/30 uppercase mb-4 tracking-widest">Peso (kg)</p>
               <input 
                 type="number" 
-                placeholder="Kg"
-                className="w-full bg-transparent border-none text-3xl font-black focus:outline-none"
+                placeholder="00"
+                className="w-full bg-transparent border-none text-4xl font-black focus:outline-none"
                 value={data.weight}
                 onChange={e => setData({...data, weight: e.target.value})}
               />
             </div>
           </div>
           <div className="glass-panel p-6 rounded-3xl border border-white/10">
-            <p className="text-[10px] font-black text-white/40 uppercase mb-4 tracking-widest">Altura (cm)</p>
+            <p className="text-[10px] font-black text-white/30 uppercase mb-4 tracking-widest">Altura (cm)</p>
             <input 
               type="number" 
-              placeholder="Cm"
-              className="w-full bg-transparent border-none text-3xl font-black focus:outline-none"
+              placeholder="000"
+              className="w-full bg-transparent border-none text-4xl font-black focus:outline-none"
               value={data.height}
               onChange={e => setData({...data, height: e.target.value})}
             />
           </div>
-          <button disabled={!data.age || !data.weight || !data.height} onClick={next} className="btn-primary w-full py-5 rounded-2xl font-black text-xl uppercase disabled:opacity-50">
+          <button disabled={!data.age || !data.weight || !data.height} onClick={next} className="btn-primary w-full py-6 rounded-2xl font-black text-xl uppercase tracking-widest disabled:opacity-30">
             SIGUIENTE
           </button>
         </div>
       )
     },
     {
-      title: "Test de Fuerza",
-      subtitle: "Dinos cuántas flexiones logras hacer en buena forma.",
+      title: "Test de Resistencia",
+      subtitle: "¿Cuántas flexiones puedes hacer sin parar?",
       content: (
-        <div className="flex flex-col gap-6 w-full max-w-md mx-auto py-10">
-          <div className="glass-panel p-8 rounded-3xl border border-white/10 text-center">
-            <div className="w-20 h-20 bg-primary/20 text-primary rounded-full flex items-center justify-center mx-auto mb-6 shadow-[0_0_30px_var(--primary-glow)]">
-              <Zap size={40} fill="currentColor" />
+        <div className="flex flex-col gap-8 w-full max-w-md mx-auto py-10">
+          <div className="glass-panel p-10 rounded-[40px] border border-white/10 text-center relative overflow-hidden">
+            <div className="absolute top-0 right-0 p-4">
+              <Zap className="text-primary opacity-20" size={64} />
             </div>
-            <p className="text-sm text-white/60 mb-8 leading-relaxed">
-              Las flexiones (push-ups) son el mejor indicador de tu nivel inicial de calistenia.
-            </p>
             <input 
               type="number" 
-              placeholder="Nº de Flexiones"
-              className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-6 text-5xl font-black text-center focus:border-primary transition-all outline-none mb-4"
+              placeholder="0"
+              className="w-full bg-transparent border-none text-8xl font-black text-center focus:outline-none mb-6 text-primary"
               value={data.pushups}
               onChange={e => setData({...data, pushups: e.target.value})}
+              autoFocus
             />
-            <div className="flex justify-between text-[10px] font-black text-white/30 uppercase tracking-widest">
-              <span>0-5 Principiante</span>
-              <span>20+ Pro</span>
-            </div>
+            <p className="text-sm text-white/40 font-medium">Flexiones seguidas</p>
           </div>
-          <button disabled={!data.pushups} onClick={save} className="btn-primary w-full py-5 rounded-2xl font-black text-xl uppercase disabled:opacity-50">
-            FINALIZAR PERFIL
+          <button disabled={!data.pushups} onClick={save} className="btn-primary w-full py-6 rounded-2xl font-black text-xl uppercase tracking-[0.2em] shadow-[0_0_40px_rgba(168,85,247,0.4)]">
+            CREAR MI PERFIL PRO
           </button>
         </div>
       )

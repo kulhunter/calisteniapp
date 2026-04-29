@@ -6,11 +6,11 @@ const CircularProgress = ({ progress, size = 280, strokeWidth = 16, isResting })
   const radius = (size - strokeWidth) / 2;
   const circumference = radius * 2 * Math.PI;
   const offset = circumference - (progress / 100) * circumference;
-  const colorClass = isResting ? 'text-accent' : 'text-primary';
-  const shadowClass = isResting ? 'drop-shadow-[0_0_20px_rgba(255,77,0,0.6)]' : 'drop-shadow-[0_0_20px_rgba(0,163,255,0.6)]';
+  const colorClass = isResting ? 'text-secondary' : 'text-primary';
+  const shadowClass = isResting ? 'drop-shadow-[0_0_20px_rgba(236,72,153,0.4)]' : 'drop-shadow-[0_0_20px_rgba(168,85,247,0.4)]';
   
   return (
-    <svg width={size} height={size} className="transform -rotate-90">
+    <svg width={size} height={size} className="transform -rotate-90 drop-shadow-2xl">
       <circle
         className="text-white/5"
         strokeWidth={strokeWidth}
@@ -91,18 +91,19 @@ export const WorkoutPlayer = () => {
   if (!activeRoutine || !stepData) return null;
 
   if (workoutState === 'finished') {
+    const userData = JSON.parse(localStorage.getItem('calisteniapp_user') || '{}');
     return (
       <div className="w-full h-full flex flex-col items-center justify-center p-8 bg-gradient-to-b from-primary/10 to-[#030014] overflow-y-auto">
-        <div className="w-32 h-32 rounded-full bg-primary/20 flex items-center justify-center mb-8 shadow-[0_0_80px_rgba(168,85,247,0.4)] border border-primary/30">
+        <div className="w-32 h-32 rounded-full bg-primary/20 flex items-center justify-center mb-8 shadow-[0_0_80px_rgba(168,85,247,0.3)] border border-primary/20">
           <CheckCircle2 size={64} className="text-primary" />
         </div>
-        <h2 className="text-5xl md:text-7xl font-black mb-4 glow-text text-center">¡MISIÓN CUMPLIDA!</h2>
-        <p className="text-2xl text-white/50 mb-12 text-center max-w-md">Has completado la rutina <span className="text-white font-bold">{activeRoutine.name}</span>. ¡Buen trabajo!</p>
+        <h2 className="text-5xl md:text-7xl font-black mb-4 glow-text text-center uppercase tracking-tighter">¡GRAN TRABAJO, {userData.name || 'GUERRERO'}!</h2>
+        <p className="text-xl md:text-2xl text-white/60 mb-12 text-center max-w-md font-medium leading-relaxed">Has completado la rutina <span className="text-white font-black">{activeRoutine.name}</span>. Tu resistencia está aumentando.</p>
         <button 
           onClick={endRoutine}
-          className="btn-primary px-16 py-5 rounded-2xl font-black text-2xl uppercase tracking-wider"
+          className="btn-primary px-16 py-5 rounded-2xl font-black text-2xl uppercase tracking-widest shadow-[0_0_40px_rgba(168,85,247,0.4)]"
         >
-          Finalizar
+          FINALIZAR
         </button>
       </div>
     );

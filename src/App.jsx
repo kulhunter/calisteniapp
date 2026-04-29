@@ -55,7 +55,7 @@ function App() {
         {activeRoutine ? (
           <WorkoutPlayer />
         ) : (
-          <RoutineSelector />
+          <RoutineSelector userData={userData} />
         )}
       </main>
     </div>
