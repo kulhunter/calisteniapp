@@ -89,16 +89,20 @@ export const WorkoutPlayer = () => {
     };
   }, [workoutState, stepData, nextStep, setWorkoutState, isResting, isPaused]);
 
+  const { addXP } = useGamificationStore();
+  const [hasAwardedXP, setHasAwardedXP] = useState(false);
+
+  useEffect(() => {
+    if (workoutState === 'finished' && activeRoutine && !hasAwardedXP) {
+      addXP(activeRoutine.xp || 200);
+      setHasAwardedXP(true);
+    }
+  }, [workoutState, activeRoutine, hasAwardedXP]);
+
   if (!activeRoutine || !stepData) return null;
 
   if (workoutState === 'finished') {
     const userData = JSON.parse(localStorage.getItem('calisteniapp_user') || '{}');
-    const { addXP } = useGamificationStore.getState();
-    
-    // Use a ref to ensure XP is only added once
-    React.useEffect(() => {
-      addXP(activeRoutine.xp || 200);
-    }, []);
 
     return (
       <div className="w-full h-full flex flex-col items-center justify-center p-8 bg-gradient-to-b from-primary/10 to-[#030014] overflow-y-auto">
