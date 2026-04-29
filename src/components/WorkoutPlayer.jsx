@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useExerciseStore } from '../hooks/useExercise';
-import { X, Play, Pause, ChevronRight, CheckCircle2, Flame, FastForward } from 'lucide-react';
+import { useGamificationStore } from '../hooks/useGamification';
+import { X, Play, Pause, ChevronRight, CheckCircle2, Flame, FastForward, Trophy, Zap } from 'lucide-react';
 
 const CircularProgress = ({ progress, size = 280, strokeWidth = 16, isResting }) => {
   const radius = (size - strokeWidth) / 2;
@@ -92,12 +93,28 @@ export const WorkoutPlayer = () => {
 
   if (workoutState === 'finished') {
     const userData = JSON.parse(localStorage.getItem('calisteniapp_user') || '{}');
+    const { addXP } = useGamificationStore.getState();
+    
+    // Use a ref to ensure XP is only added once
+    React.useEffect(() => {
+      addXP(activeRoutine.xp || 200);
+    }, []);
+
     return (
       <div className="w-full h-full flex flex-col items-center justify-center p-8 bg-gradient-to-b from-primary/10 to-[#030014] overflow-y-auto">
         <div className="w-32 h-32 rounded-full bg-primary/20 flex items-center justify-center mb-8 shadow-[0_0_80px_rgba(168,85,247,0.3)] border border-primary/20">
-          <CheckCircle2 size={64} className="text-primary" />
+          <Trophy size={64} className="text-primary animate-bounce" />
         </div>
         <h2 className="text-5xl md:text-7xl font-black mb-4 glow-text text-center uppercase tracking-tighter">¡GRAN TRABAJO, {userData.name || 'GUERRERO'}!</h2>
+        <div className="bg-white/5 border border-white/10 px-8 py-4 rounded-3xl mb-12 flex items-center gap-4">
+          <div className="w-12 h-12 bg-primary/20 rounded-2xl flex items-center justify-center text-primary">
+            <Zap size={24} fill="currentColor" />
+          </div>
+          <div className="flex flex-col text-left">
+            <span className="text-[10px] font-black text-white/40 uppercase tracking-widest">Recompensa</span>
+            <span className="text-2xl font-black text-primary">+{activeRoutine.xp || 200} XP</span>
+          </div>
+        </div>
         <p className="text-xl md:text-2xl text-white/60 mb-12 text-center max-w-md font-medium leading-relaxed">Has completado la rutina <span className="text-white font-black">{activeRoutine.name}</span>. Tu resistencia está aumentando.</p>
         <button 
           onClick={endRoutine}
