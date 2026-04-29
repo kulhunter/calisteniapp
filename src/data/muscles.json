@@ -1,37 +1,17 @@
 [
-  {
-    "id": "quadriceps",
-    "name": "Cuádriceps",
-    "mesh": "thigh_front"
-  },
-  {
-    "id": "biceps",
-    "name": "Bíceps",
-    "mesh": "upper_arm_front"
-  },
-  {
-    "id": "abs",
-    "name": "Abdominales",
-    "mesh": "torso_front"
-  },
-  {
-    "id": "glutes",
-    "name": "Glúteos",
-    "mesh": "buttocks"
-  },
-  {
-    "id": "triceps",
-    "name": "Tríceps",
-    "mesh": "upper_arm_back"
-  },
-  {
-    "id": "chest",
-    "name": "Pecho",
-    "mesh": "torso_front"
-  },
-  {
-    "id": "back",
-    "name": "Espalda",
-    "mesh": "torso_back"
-  }
+  { "id": "abs", "name": "Abdomen (Abs)" },
+  { "id": "biceps", "name": "Bíceps" },
+  { "id": "calves", "name": "Pantorrillas (Calves)" },
+  { "id": "delts", "name": "Hombros (Delts)" },
+  { "id": "forearms", "name": "Antebrazos" },
+  { "id": "glutes", "name": "Glúteos" },
+  { "id": "hamstrings", "name": "Isquiotibiales (Hamstrings)" },
+  { "id": "lats", "name": "Dorsales (Lats)" },
+  { "id": "pectorals", "name": "Pectorales" },
+  { "id": "quads", "name": "Cuádriceps" },
+  { "id": "traps", "name": "Trapecios" },
+  { "id": "triceps", "name": "Tríceps" },
+  { "id": "upper back", "name": "Espalda Alta" },
+  { "id": "spine", "name": "Espina Dorsal" },
+  { "id": "cardiovascular system", "name": "Cardio" }
 ]
