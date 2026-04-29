@@ -113,7 +113,7 @@ export function ExercisePanel() {
           <div className="glass-panel p-4 rounded-2xl border border-white/10 overflow-hidden relative group">
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
             <img 
-              src={`https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/${selectedExercise.gif_url}`} 
+              src={`/${selectedExercise.gif_url}`} 
               alt={selectedExercise.name}
               className="w-full h-auto rounded-xl object-cover"
             />
