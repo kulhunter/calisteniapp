@@ -16,37 +16,37 @@
         "rest_time": 15,
         "tempo": "2-1-2",
         "instructions": [
-          "Mantén la zona lumbar apoyada firmemente en el suelo.",
-          "Sube contrayendo el abdomen, no tirando del cuello.",
-          "Exhala al subir, inhala al bajar controladamente."
+          "Acuéstate boca arriba con las rodillas dobladas.",
+          "Levanta lentamente el torso contrayendo los abdominales.",
+          "Baja con control a la posición inicial."
         ]
       },
       {
         "id": "3543",
         "name_es": "Sentadilla Explosiva",
-        "target_es": "PIERNAS Y GLÚTEOS",
+        "target_es": "PIERNAS",
         "gif_url": "videos/3543-wfotm7S.gif",
         "work_time": 45,
         "rest_time": 15,
         "tempo": "1-0-X",
         "instructions": [
-          "Baja manteniendo la espalda recta y el pecho arriba.",
-          "Impúlsate desde los talones para saltar.",
-          "Aterriza suavemente absorbiendo el impacto."
+          "Baja en sentadilla manteniendo la espalda recta.",
+          "Impúlsate explosivamente hacia arriba.",
+          "Aterriza suavemente con las rodillas flexionadas."
         ]
       },
       {
         "id": "1421",
         "name_es": "Flexiones de Rodillas",
-        "target_es": "PECHO Y BRAZOS",
+        "target_es": "PECHO",
         "gif_url": "videos/1421-arvaszz.gif",
         "work_time": 40,
         "rest_time": 20,
         "tempo": "2-0-2",
         "instructions": [
-          "Apoya las rodillas para reducir la carga.",
-          "Baja el pecho casi hasta tocar el suelo.",
-          "Mantén el abdomen contraído para que la cadera no se hunda."
+          "Apoya las rodillas y las manos al ancho de hombros.",
+          "Baja el pecho hacia el suelo manteniendo el core activo.",
+          "Empuja de vuelta a la posición inicial."
         ]
       }
     ]
@@ -62,76 +62,114 @@
       {
         "id": "3293",
         "name_es": "Dominada Arquero",
-        "target_es": "DORSALES Y ESPALDA",
+        "target_es": "ESPALDA",
         "gif_url": "videos/3293-72BC5Za.gif",
         "work_time": 40,
         "rest_time": 20,
         "tempo": "2-1-2",
         "instructions": [
           "Cuelga de la barra con agarre ancho.",
-          "Lleva tu pecho hacia una mano mientras extiendes el otro brazo.",
-          "Baja con control y repite hacia el otro lado."
+          "Sube llevando el pecho hacia una mano.",
+          "Alterna lados en cada repetición."
         ]
       },
       {
         "id": "1273",
         "name_es": "Flexión con Palmada",
-        "target_es": "PECHO EXPLOSIVO",
+        "target_es": "PECHO",
         "gif_url": "videos/1273-wigSg76.gif",
         "work_time": 30,
         "rest_time": 30,
         "tempo": "X-0-X",
         "instructions": [
-          "Empuja el suelo con fuerza máxima.",
+          "Empuja el suelo con fuerza explosiva.",
           "Aplaude en el aire y aterriza suavemente.",
-          "Mantén los codos ligeramente hacia adentro."
+          "Mantén el core de acero."
         ]
       }
     ]
   },
   {
-    "id": "casa_2",
-    "name": "Core de Hierro",
+    "id": "casa_4",
+    "name": "Cardio Calisténico",
     "category": "Casa",
-    "description": "Enfoque total en el abdomen y oblicuos sin material.",
+    "description": "Quema grasa y mejora tu resistencia sin máquinas.",
     "level": "Intermedio",
-    "duration": "12 min",
+    "duration": "20 min",
     "exercises": [
       {
-        "id": "0262",
-        "name_es": "Abdominal Cruzado",
-        "target_es": "OBLICUOS",
-        "gif_url": "videos/0262-rbu5UUb.gif",
-        "work_time": 45,
-        "rest_time": 15,
-        "tempo": "1-1-1",
+        "id": "1160",
+        "name_es": "Burpee Clásico",
+        "target_es": "FULL BODY",
+        "gif_url": "videos/1160-RUDzYpX.gif",
+        "work_time": 40,
+        "rest_time": 20,
+        "tempo": "Fluido",
         "instructions": [
-          "Lleva el codo hacia la rodilla contraria.",
-          "Siente la contracción en los laterales del abdomen.",
-          "No fuerces el cuello, usa el core."
+          "Baja a posición de flexión rápidamente.",
+          "Haz una flexión y salta hacia adelante con los pies.",
+          "Termina con un salto vertical explosivo."
         ]
       },
       {
-        "id": "0464",
-        "name_es": "Plancha con Giro",
-        "target_es": "CORE",
-        "gif_url": "videos/0464-CosupLu.gif",
-        "work_time": 40,
-        "rest_time": 20,
-        "tempo": "Isométrico",
+        "id": "2466",
+        "name_es": "Escaladores Cruzados",
+        "target_es": "CORE / CARDIO",
+        "gif_url": "videos/2466-9Jv5UUb.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "Rápido",
         "instructions": [
-          "Mantén la posición de plancha baja.",
-          "Gira la cadera suavemente de lado a lado.",
-          "Mantén el cuerpo recto como una tabla."
+          "En posición de plancha alta, lleva la rodilla al codo opuesto.",
+          "Alterna piernas lo más rápido posible.",
+          "Mantén la cadera baja y el core activo."
         ]
       }
     ]
   },
   {
-    "id": "casa_3",
+    "id": "gym_2",
+    "name": "Espalda de Hierro",
+    "category": "Gimnasio",
+    "description": "Domina la barra y construye una espalda en V.",
+    "level": "Intermedio",
+    "duration": "22 min",
+    "exercises": [
+      {
+        "id": "3168",
+        "name_es": "Remo en Barra",
+        "target_es": "DORSALES",
+        "gif_url": "videos/3168-arvaszz.gif",
+        "work_time": 45,
+        "rest_time": 15,
+        "tempo": "2-1-2",
+        "instructions": [
+          "Sujeta la barra a la altura de la cadera.",
+          "Tira de tu cuerpo hacia la barra apretando la espalda.",
+          "Baja con control total."
+        ]
+      },
+      {
+        "id": "3293",
+        "name_es": "Dominada Prona",
+        "target_es": "DORSALES",
+        "gif_url": "videos/3293-72BC5Za.gif",
+        "work_time": 40,
+        "rest_time": 20,
+        "tempo": "2-0-2",
+        "instructions": [
+          "Cuelga de la barra con palmas hacia adelante.",
+          "Sube hasta que tu barbilla pase la barra.",
+          "Baja lentamente sin balancearte."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casa_5",
     "name": "Piernas de Acero",
     "category": "Casa",
-    "description": "Quema grasa y fortalece tus piernas sin pesas.",
+    "description": "Potencia y definición para tu tren inferior.",
     "level": "Principiante",
     "duration": "18 min",
     "exercises": [
@@ -145,22 +183,22 @@
         "tempo": "2-0-2",
         "instructions": [
           "Cruza una pierna por detrás de la otra al bajar.",
-          "Mantén el torso erguido.",
+          "Mantén el torso erguido en todo momento.",
           "Baja hasta que la rodilla trasera casi toque el suelo."
         ]
       },
       {
-        "id": "0514",
-        "name_es": "Salto de Sentadilla",
-        "target_es": "PIERNAS",
-        "gif_url": "videos/0514-N5D2fTz.gif",
-        "work_time": 40,
-        "rest_time": 20,
-        "tempo": "X-0-1",
+        "id": "3543",
+        "name_es": "Sentadilla de Prisionero",
+        "target_es": "CUÁDRICEPS",
+        "gif_url": "videos/3543-wfotm7S.gif",
+        "work_time": 50,
+        "rest_time": 10,
+        "tempo": "3-0-1",
         "instructions": [
-          "Baja en sentadilla profunda.",
-          "Salta lo más alto posible.",
-          "Cae de punta a talón suavemente."
+          "Manos detrás de la cabeza, pies al ancho de hombros.",
+          "Baja lentamente manteniendo la espalda recta.",
+          "Sube de forma controlada."
         ]
       }
     ]

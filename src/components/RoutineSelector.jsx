@@ -3,14 +3,31 @@ import routines from '../data/routines.json';
 import { useExerciseStore } from '../hooks/useExercise';
 import { Play, Clock, BarChart, Home, ShieldCheck, Dumbbell } from 'lucide-react';
 
+import { CustomRoutineBuilder } from './CustomRoutineBuilder';
+
 export const RoutineSelector = () => {
   const { startRoutine } = useExerciseStore();
   const [activeCategory, setActiveCategory] = useState('Todas');
+  const [showBuilder, setShowBuilder] = useState(false);
+  const [customRoutines, setCustomRoutines] = useState(() => {
+    const saved = localStorage.getItem('calisteniapp_custom_routines');
+    return saved ? JSON.parse(saved) : [];
+  });
 
-  const categories = ['Todas', 'Casa', 'Gimnasio'];
+  const allRoutines = [...routines, ...customRoutines];
+  const categories = ['Todas', 'Casa', 'Gimnasio', 'Personalizada'];
+  
   const filteredRoutines = activeCategory === 'Todas' 
-    ? routines 
-    : routines.filter(r => r.category === activeCategory);
+    ? allRoutines 
+    : allRoutines.filter(r => r.category === activeCategory);
+
+  const saveCustomRoutine = (newRoutine) => {
+    const updated = [...customRoutines, newRoutine];
+    setCustomRoutines(updated);
+    localStorage.setItem('calisteniapp_custom_routines', JSON.stringify(updated));
+    setShowBuilder(false);
+    setActiveCategory('Personalizada');
+  };
 
   return (
     <div className="w-full h-full p-6 md:p-12 overflow-y-auto bg-[#030014]">
@@ -28,22 +45,34 @@ export const RoutineSelector = () => {
           </p>
 
           {/* Category Tabs */}
-          <div className="flex gap-4 p-1 bg-white/5 rounded-2xl w-fit">
-            {categories.map(cat => (
-              <button
-                key={cat}
-                onClick={() => setActiveCategory(cat)}
-                className={`px-8 py-3 rounded-xl font-bold text-sm transition-all ${
-                  activeCategory === cat 
-                    ? 'bg-primary text-black shadow-[0_0_20px_var(--primary-glow)]' 
-                    : 'text-white/40 hover:text-white hover:bg-white/5'
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
+          <div className="flex flex-wrap gap-4 items-center justify-between">
+            <div className="flex gap-4 p-1 bg-white/5 rounded-2xl w-fit">
+              {categories.map(cat => (
+                <button
+                  key={cat}
+                  onClick={() => setActiveCategory(cat)}
+                  className={`px-6 py-3 rounded-xl font-bold text-xs transition-all ${
+                    activeCategory === cat 
+                      ? 'bg-primary text-black shadow-[0_0_20px_var(--primary-glow)]' 
+                      : 'text-white/40 hover:text-white hover:bg-white/5'
+                  }`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
+            
+            <button 
+              onClick={() => setShowBuilder(true)}
+              className="flex items-center gap-2 px-6 py-3 rounded-xl bg-white/5 border border-white/10 font-bold text-xs hover:bg-primary hover:text-black transition-all group"
+            >
+              <Plus size={16} className="text-primary group-hover:text-black" />
+              <span>CREAR MI PLAN</span>
+            </button>
           </div>
         </header>
+
+        {showBuilder && <CustomRoutineBuilder onSave={saveCustomRoutine} onCancel={() => setShowBuilder(false)} />}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredRoutines.map((routine) => (
