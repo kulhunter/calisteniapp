@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import routines from '../data/routines.json';
 import { useExerciseStore } from '../hooks/useExercise';
-import { Play, Clock, BarChart, Home, ShieldCheck, Dumbbell, Search, Plus, Zap } from 'lucide-react';
+import { Play, Clock, BarChart, Home, ShieldCheck, Dumbbell, Search, Plus, Activity } from 'lucide-react';
 
 import { CustomRoutineBuilder } from './CustomRoutineBuilder';
 
@@ -39,7 +39,7 @@ export const RoutineSelector = ({ userData }) => {
       <div className="max-w-7xl mx-auto">
         <header className="mb-12 pt-8">
           <div className="flex items-center gap-2 text-primary font-bold uppercase tracking-[0.2em] text-[10px] mb-4">
-            <Zap size={14} className="animate-pulse" />
+            <Activity size={14} className="animate-pulse" />
             <span>Plan de Entrenamiento Inteligente</span>
           </div>
           

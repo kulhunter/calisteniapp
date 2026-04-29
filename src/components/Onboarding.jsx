@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronRight, ShieldCheck, User, Zap, Activity } from 'lucide-react';
+import { ChevronRight, ShieldCheck, User, Activity } from 'lucide-react';
 
 export const Onboarding = ({ onComplete }) => {
   const [step, setStep] = useState(0);
@@ -45,7 +45,7 @@ export const Onboarding = ({ onComplete }) => {
           </div>
           <div className="glass-panel p-8 rounded-3xl border border-white/10 max-w-md text-left space-y-4">
             <div className="flex items-center gap-3 text-primary">
-              <Zap size={20} />
+              <Activity size={20} />
               <span className="font-black text-xs uppercase tracking-widest">¿Cómo funciona?</span>
             </div>
             <p className="text-sm text-white/60 leading-relaxed">
@@ -129,7 +129,7 @@ export const Onboarding = ({ onComplete }) => {
         <div className="flex flex-col gap-8 w-full max-w-md mx-auto py-10">
           <div className="glass-panel p-10 rounded-[40px] border border-white/10 text-center relative overflow-hidden">
             <div className="absolute top-0 right-0 p-4">
-              <Zap className="text-primary opacity-20" size={64} />
+              <Activity className="text-primary opacity-20" size={64} />
             </div>
             <input 
               type="number" 

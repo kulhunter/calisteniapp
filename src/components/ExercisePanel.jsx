@@ -2,7 +2,7 @@ import React from 'react';
 import { useExerciseStore } from '../hooks/useExercise';
 import exercises from '../data/hasan_exercises.json';
 import musclesList from '../data/muscles.json';
-import { Play, Pause, RotateCcw, Activity, ChevronRight, Zap, Target } from 'lucide-react';
+import { Play, Pause, RotateCcw, Activity, ChevronRight, Target } from 'lucide-react';
 
 export function ExercisePanel() {
   const { 
@@ -58,7 +58,7 @@ export function ExercisePanel() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-4">
                         <div className="w-10 h-10 rounded-xl flex items-center justify-center transition-colors bg-white/5 group-hover:bg-white/10">
-                          <Zap size={18} className="text-primary" />
+                          <Activity size={18} className="text-primary" />
                         </div>
                         <div>
                           <span className="block font-bold text-sm text-white/90 capitalize">{ex.name}</span>
