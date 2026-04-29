@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rutina_1",
+    "name": "Full Body Principiante",
+    "description": "Rutina ideal para empezar. Trabaja todo el cuerpo sin equipo.",
+    "level": "Principiante",
+    "duration": "15 min",
+    "exercises": [
+      { "id": "0274", "reps": 15, "rest": 30 },
+      { "id": "3543", "reps": 12, "rest": 30 },
+      { "id": "1421", "reps": 10, "rest": 45 }
+    ]
+  },
+  {
+    "id": "rutina_2",
+    "name": "Abdomen de Hierro",
+    "description": "Rutina intensa y rápida para quemar el core en menos tiempo.",
+    "level": "Intermedio",
+    "duration": "10 min",
+    "exercises": [
+      { "id": "0262", "reps": 20, "rest": 20 },
+      { "id": "0464", "reps": 30, "rest": 20 },
+      { "id": "0635", "reps": 15, "rest": 30 }
+    ]
+  },
+  {
+    "id": "rutina_3",
+    "name": "Tren Superior Explosivo",
+    "description": "Enfocado en pecho, espalda y brazos usando tu propio peso.",
+    "level": "Avanzado",
+    "duration": "20 min",
+    "exercises": [
+      { "id": "1273", "reps": 10, "rest": 45 },
+      { "id": "3293", "reps": 8, "rest": 45 },
+      { "id": "1306", "reps": 10, "rest": 60 }
+    ]
+  }
+]
