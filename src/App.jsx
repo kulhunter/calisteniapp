@@ -5,13 +5,15 @@ import { useExerciseStore } from './hooks/useExercise';
 import { SEO } from './components/SEO';
 import { Onboarding } from './components/Onboarding';
 import { useGamificationStore } from './hooks/useGamification';
-import { User, Flame, Award, Zap, Trophy } from 'lucide-react';
+import { WorldsMap } from './components/WorldsMap';
+import { User, Flame, Award, Zap, Trophy, LayoutGrid, Map as MapIcon, Settings } from 'lucide-react';
 
 function App() {
   const { activeRoutine } = useExerciseStore();
   const { streak, level, xp, updateStreak } = useGamificationStore();
   const [showOnboarding, setShowOnboarding] = React.useState(false);
   const [userData, setUserData] = React.useState(null);
+  const [activeTab, setActiveTab] = React.useState('map'); // 'map', 'library', 'profile'
 
   React.useEffect(() => {
     updateStreak();
@@ -28,49 +30,52 @@ function App() {
     setUserData(JSON.parse(localStorage.getItem('calisteniapp_user')));
   };
 
+  // Calculate XP progress to next level (500 XP per level)
+  const xpInLevel = xp % 500;
+  const progressPercent = (xpInLevel / 500) * 100;
+
   return (
-    <div className="flex flex-col h-screen bg-[#030014] text-white overflow-hidden font-['Outfit']">
+    <div className="flex flex-col h-screen bg-[#030014] text-white overflow-hidden font-['Outfit'] selection:bg-primary/30">
       <SEO />
       
       {showOnboarding && <Onboarding onComplete={handleOnboardingComplete} />}
 
-      {/* Header */}
+      {/* Premium Header */}
       {!activeRoutine && (
-        <header className="h-20 glass-panel border-b border-white/5 flex items-center justify-between px-6 md:px-12 z-30 shrink-0">
+        <header className="h-20 bg-[#030014]/80 backdrop-blur-2xl border-b border-white/5 flex items-center justify-between px-6 md:px-12 z-50 shrink-0">
           <div className="flex items-center gap-4">
-            <img src="/logo.png" alt="Logo" className="w-12 h-12 object-contain drop-shadow-[0_0_15px_rgba(168,85,247,0.5)]" />
-            <div className="hidden md:block">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full group-hover:bg-primary/40 transition-all" />
+              <img src="/logo.png" alt="Logo" className="w-12 h-12 relative object-contain drop-shadow-[0_0_10px_rgba(168,85,247,0.5)]" />
+            </div>
+            <div className="hidden sm:block">
               <h1 className="text-xl font-black tracking-tighter uppercase glow-text leading-none">Calisteniapp</h1>
-              <span className="text-[8px] font-black text-primary uppercase tracking-[0.3em]">Pro Edition</span>
+              <span className="text-[8px] font-black text-primary uppercase tracking-[0.4em] opacity-70">Pro Edition 4.0</span>
             </div>
           </div>
           
-          <div className="flex items-center gap-3 md:gap-8">
+          <div className="flex items-center gap-4 md:gap-8">
             {/* Gamification Stats */}
-            <div className="flex items-center gap-4 md:gap-6 border-r border-white/10 pr-6 mr-2">
-              <div className="flex flex-col items-center gap-0.5 group cursor-help">
+            <div className="flex items-center gap-6">
+              <div className="flex flex-col items-end">
                 <div className="flex items-center gap-1.5 text-secondary">
                   <Flame size={18} className="fill-current animate-pulse" />
                   <span className="text-lg font-black">{streak}</span>
                 </div>
-                <span className="text-[8px] font-black text-white/30 uppercase tracking-widest group-hover:text-secondary transition-colors">Racha</span>
+                <span className="text-[8px] font-black text-white/30 uppercase tracking-widest">Racha</span>
               </div>
-              <div className="flex flex-col items-center gap-0.5 group cursor-help">
-                <div className="flex items-center gap-1.5 text-primary">
-                  <Award size={18} />
-                  <span className="text-lg font-black">{level}</span>
+              
+              {/* Circular Progress Level */}
+              <div className="relative w-14 h-14 flex items-center justify-center group cursor-help">
+                <svg className="absolute inset-0 w-full h-full -rotate-90">
+                  <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="4" className="text-white/5" />
+                  <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="4" className="text-primary" 
+                    strokeDasharray={150} strokeDashoffset={150 - (150 * progressPercent) / 100} strokeLinecap="round" />
+                </svg>
+                <div className="flex flex-col items-center">
+                  <span className="text-xs font-black text-primary group-hover:scale-125 transition-transform">{level}</span>
+                  <span className="text-[6px] font-black text-white/40 uppercase">LVL</span>
                 </div>
-                <span className="text-[8px] font-black text-white/30 uppercase tracking-widest group-hover:text-primary transition-colors">Nivel</span>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3 cursor-pointer hover:bg-white/5 transition-all p-2 rounded-2xl group border border-transparent hover:border-white/10">
-              <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-black transition-all">
-                <User size={20} />
-              </div>
-              <div className="hidden sm:flex flex-col">
-                <span className="text-[10px] font-black uppercase tracking-widest text-white/40">Guerrero</span>
-                <span className="text-xs font-black uppercase tracking-tight">{userData?.name || 'Invitado'}</span>
               </div>
             </div>
           </div>
@@ -82,9 +87,59 @@ function App() {
         {activeRoutine ? (
           <WorkoutPlayer />
         ) : (
-          <RoutineSelector userData={userData} />
+          <div className="h-full">
+            {activeTab === 'map' && <WorldsMap />}
+            {activeTab === 'library' && <RoutineSelector userData={userData} />}
+            {activeTab === 'profile' && (
+              <div className="h-full flex flex-col items-center justify-center p-12 text-center">
+                <div className="w-32 h-32 rounded-[40px] bg-white/5 border border-white/10 flex items-center justify-center text-primary mb-8 shadow-2xl">
+                  <User size={64} />
+                </div>
+                <h2 className="text-4xl font-black mb-2 uppercase">{userData?.name || 'Guerrero'}</h2>
+                <p className="text-white/40 font-bold uppercase tracking-widest text-sm mb-12">Nivel {level} • {xp} XP Totales</p>
+                <div className="grid grid-cols-2 gap-4 w-full max-w-md">
+                   <div className="bg-white/5 p-6 rounded-3xl border border-white/5">
+                      <p className="text-[10px] font-black text-white/30 uppercase mb-2">Fuerza</p>
+                      <p className="text-2xl font-black text-primary">{userData?.strengthLevel || 'N/A'}</p>
+                   </div>
+                   <div className="bg-white/5 p-6 rounded-3xl border border-white/5">
+                      <p className="text-[10px] font-black text-white/30 uppercase mb-2">IMC</p>
+                      <p className="text-2xl font-black text-white">{userData?.imc || 'N/A'}</p>
+                   </div>
+                </div>
+                <button onClick={() => {localStorage.clear(); window.location.reload();}} className="mt-12 text-[10px] font-black text-white/20 uppercase hover:text-red-500 transition-colors">Cerrar Sesión / Reiniciar Perfil</button>
+              </div>
+            )}
+          </div>
         )}
       </main>
+
+      {/* Premium Bottom Navigation */}
+      {!activeRoutine && (
+        <nav className="h-20 bg-[#030014]/90 backdrop-blur-3xl border-t border-white/5 flex items-center justify-around px-4 z-50 shrink-0 pb-2">
+          <button 
+            onClick={() => setActiveTab('map')}
+            className={`flex flex-col items-center gap-1 transition-all ${activeTab === 'map' ? 'text-primary' : 'text-white/30 hover:text-white/60'}`}
+          >
+            <MapIcon size={activeTab === 'map' ? 24 : 20} strokeWidth={activeTab === 'map' ? 3 : 2} />
+            <span className="text-[8px] font-black uppercase tracking-widest">Aventura</span>
+          </button>
+          <button 
+            onClick={() => setActiveTab('library')}
+            className={`flex flex-col items-center gap-1 transition-all ${activeTab === 'library' ? 'text-primary' : 'text-white/30 hover:text-white/60'}`}
+          >
+            <LayoutGrid size={activeTab === 'library' ? 24 : 20} strokeWidth={activeTab === 'library' ? 3 : 2} />
+            <span className="text-[8px] font-black uppercase tracking-widest">Biblioteca</span>
+          </button>
+          <button 
+            onClick={() => setActiveTab('profile')}
+            className={`flex flex-col items-center gap-1 transition-all ${activeTab === 'profile' ? 'text-primary' : 'text-white/30 hover:text-white/60'}`}
+          >
+            <User size={activeTab === 'profile' ? 24 : 20} strokeWidth={activeTab === 'profile' ? 3 : 2} />
+            <span className="text-[8px] font-black uppercase tracking-widest">Perfil</span>
+          </button>
+        </nav>
+      )}
     </div>
   );
 }

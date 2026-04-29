@@ -42,7 +42,10 @@
     "gif_url": "videos/0001-2gPfomN.gif",
     "created_at": "2026-03-18 12:31:32.854798+00:00",
     "name_en": "3/4 sit-up",
-    "name_es": "Abdominal 3/4"
+    "name_es": "Abdominal 3/4",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0002",
@@ -86,7 +89,10 @@
     "gif_url": "videos/0002-Hy9D21L.gif",
     "created_at": "2026-03-18 12:31:32.854953+00:00",
     "name_en": "45° side bend",
-    "name_es": "Inclinación lateral 45°"
+    "name_es": "Inclinación lateral 45°",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0003",
@@ -130,7 +136,10 @@
     "gif_url": "videos/0003-1ZFqTDN.gif",
     "created_at": "2026-03-18 12:31:32.854977+00:00",
     "name_en": "air bike",
-    "name_es": "Bicicleta abdominal"
+    "name_es": "Bicicleta abdominal",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1512",
@@ -175,7 +184,10 @@
     "gif_url": "videos/1512-qBcKorM.gif",
     "created_at": "2026-03-18 12:31:32.854997+00:00",
     "name_en": "all fours squad stretch",
-    "name_es": "Estiramiento de cuádriceps a gatas"
+    "name_es": "Estiramiento de cuádriceps a gatas",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0006",
@@ -219,7 +231,10 @@
     "gif_url": "videos/0006-qaZVsGk.gif",
     "created_at": "2026-03-18 12:31:32.855018+00:00",
     "name_en": "alternate heel touchers",
-    "name_es": "Toques de talón alternos"
+    "name_es": "Toques de talón alternos",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1368",
@@ -260,7 +275,10 @@
     "gif_url": "videos/1368-uL9CsKm.gif",
     "created_at": "2026-03-18 12:31:32.855057+00:00",
     "name_en": "ankle circles",
-    "name_es": "Círculos de tobillo"
+    "name_es": "Círculos de tobillo",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "3293",
@@ -308,7 +326,10 @@
     "gif_url": "videos/3293-72BC5Za.gif",
     "created_at": "2026-03-18 12:31:32.855077+00:00",
     "name_en": "archer pull up",
-    "name_es": "Dominada de arquero"
+    "name_es": "Dominada de arquero",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3294",
@@ -357,7 +378,10 @@
     "gif_url": "videos/3294-A9qxk2F.gif",
     "created_at": "2026-03-18 12:31:32.855098+00:00",
     "name_en": "archer push up",
-    "name_es": "Flexión de arquero"
+    "name_es": "Flexión de arquero",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "2355",
@@ -399,7 +423,10 @@
     "gif_url": "videos/2355-uWpxD4v.gif",
     "created_at": "2026-03-18 12:31:32.855118+00:00",
     "name_en": "arm slingers hanging bent knee legs",
-    "name_es": "Elevación de rodillas colgado"
+    "name_es": "Elevación de rodillas colgado",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "2333",
@@ -441,7 +468,10 @@
     "gif_url": "videos/2333-PXTIwgu.gif",
     "created_at": "2026-03-18 12:31:32.855138+00:00",
     "name_en": "arm slingers hanging straight legs",
-    "name_es": "Elevación de piernas colgado"
+    "name_es": "Elevación de piernas colgado",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3214",
@@ -487,7 +517,10 @@
     "gif_url": "videos/3214-RtyAsy1.gif",
     "created_at": "2026-03-18 12:31:32.855158+00:00",
     "name_en": "arms apart circular toe touch (male)",
-    "name_es": "Toque de puntas circular"
+    "name_es": "Toque de puntas circular",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3204",
@@ -532,7 +565,10 @@
     "gif_url": "videos/3204-NAkmgdx.gif",
     "created_at": "2026-03-18 12:31:32.855178+00:00",
     "name_en": "arms overhead full sit-up (male)",
-    "name_es": "Abdominal completo brazos arriba"
+    "name_es": "Abdominal completo brazos arriba",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3220",
@@ -581,7 +617,10 @@
     "gif_url": "videos/3220-f9lVSSI.gif",
     "created_at": "2026-03-18 12:31:32.855601+00:00",
     "name_en": "astride jumps (male)",
-    "name_es": "Astride jumps (male)"
+    "name_es": "Astride jumps (male)",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "3672",
@@ -631,7 +670,10 @@
     "gif_url": "videos/3672-fNGumX0.gif",
     "created_at": "2026-03-18 12:31:32.855618+00:00",
     "name_en": "back and forth step",
-    "name_es": "Espalda and forth step"
+    "name_es": "Espalda and forth step",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "3297",
@@ -680,7 +722,10 @@
     "gif_url": "videos/3297-GaSzzuh.gif",
     "created_at": "2026-03-18 12:31:32.855652+00:00",
     "name_en": "back lever",
-    "name_es": "Back lever"
+    "name_es": "Back lever",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1405",
@@ -731,7 +776,10 @@
     "gif_url": "videos/1405-chfnQnM.gif",
     "created_at": "2026-03-18 12:31:32.855671+00:00",
     "name_en": "back pec stretch",
-    "name_es": "Espalda pec stretch"
+    "name_es": "Espalda pec stretch",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1473",
@@ -774,7 +822,10 @@
     "gif_url": "videos/1473-SaDOwk7.gif",
     "created_at": "2026-03-18 12:31:32.855688+00:00",
     "name_en": "backward jump",
-    "name_es": "Backward salto"
+    "name_es": "Backward salto",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0020",
@@ -820,7 +871,10 @@
     "gif_url": "videos/0020-xAySMB0.gif",
     "created_at": "2026-03-18 12:31:32.855708+00:00",
     "name_en": "balance board",
-    "name_es": "Balance board"
+    "name_es": "Balance board",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3212",
@@ -865,7 +919,10 @@
     "gif_url": "videos/3212-BbfB8Gb.gif",
     "created_at": "2026-03-18 12:31:32.873554+00:00",
     "name_en": "basic toe touch (male)",
-    "name_es": "Basic toe touch (male)"
+    "name_es": "Basic toe touch (male)",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3360",
@@ -914,7 +971,10 @@
     "gif_url": "videos/3360-0Yz8WdV.gif",
     "created_at": "2026-03-18 12:31:32.873589+00:00",
     "name_en": "bear crawl",
-    "name_es": "Bear crawl"
+    "name_es": "Bear crawl",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "0129",
@@ -959,7 +1019,10 @@
     "gif_url": "videos/0129-RrLske5.gif",
     "created_at": "2026-03-18 12:31:32.873623+00:00",
     "name_en": "bench dip (knees bent)",
-    "name_es": "Bench fondo (knees bent)"
+    "name_es": "Bench fondo (knees bent)",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "1399",
@@ -1004,7 +1067,10 @@
     "gif_url": "videos/1399-9RT8oQW.gif",
     "created_at": "2026-03-18 12:31:32.873640+00:00",
     "name_en": "bench dip on floor",
-    "name_es": "Bench fondo on floor"
+    "name_es": "Bench fondo on floor",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0130",
@@ -1048,7 +1114,10 @@
     "gif_url": "videos/0130-u27Kcdz.gif",
     "created_at": "2026-03-18 12:31:32.873657+00:00",
     "name_en": "bench hip extension",
-    "name_es": "Bench hip extensión"
+    "name_es": "Bench hip extensión",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3019",
@@ -1099,7 +1168,10 @@
     "gif_url": "videos/3019-mExgrF9.gif",
     "created_at": "2026-03-18 12:31:32.873674+00:00",
     "name_en": "bench pull-ups",
-    "name_es": "Bench pull-ups"
+    "name_es": "Bench pull-ups",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3639",
@@ -1147,7 +1219,10 @@
     "gif_url": "videos/3639-6sYyrRX.gif",
     "created_at": "2026-03-18 12:31:32.873691+00:00",
     "name_en": "bent knee lying twist (male)",
-    "name_es": "Bent rodilla lying twist (male)"
+    "name_es": "Bent rodilla lying twist (male)",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1770",
@@ -1191,7 +1266,10 @@
     "gif_url": "videos/1770-sJFIDIp.gif",
     "created_at": "2026-03-18 12:31:32.873708+00:00",
     "name_en": "biceps leg concentration curl",
-    "name_es": "Biceps pierna concentration curl"
+    "name_es": "Biceps pierna concentration curl",
+    "target_es": "bíceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0139",
@@ -1233,7 +1311,10 @@
     "gif_url": "videos/0139-50BETrz.gif",
     "created_at": "2026-03-18 12:31:32.873726+00:00",
     "name_en": "biceps narrow pull-ups",
-    "name_es": "Biceps narrow pull-ups"
+    "name_es": "Biceps narrow pull-ups",
+    "target_es": "bíceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0140",
@@ -1275,7 +1356,10 @@
     "gif_url": "videos/0140-guT8YnS.gif",
     "created_at": "2026-03-18 12:31:32.873742+00:00",
     "name_en": "biceps pull-up",
-    "name_es": "Biceps dominada"
+    "name_es": "Biceps dominada",
+    "target_es": "bíceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0137",
@@ -1320,7 +1404,10 @@
     "gif_url": "videos/0137-U6G2gk9.gif",
     "created_at": "2026-03-18 12:31:32.873758+00:00",
     "name_en": "body-up",
-    "name_es": "Body-up"
+    "name_es": "Body-up",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "3543",
@@ -1369,7 +1456,10 @@
     "gif_url": "videos/3543-wfotm7S.gif",
     "created_at": "2026-03-18 12:31:32.873776+00:00",
     "name_en": "bodyweight drop jump squat",
-    "name_es": "Bodyweight drop salto sentadilla"
+    "name_es": "Bodyweight drop salto sentadilla",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3544",
@@ -1414,7 +1504,10 @@
     "gif_url": "videos/3544-5VXmnV5.gif",
     "created_at": "2026-03-18 12:31:32.873793+00:00",
     "name_en": "bodyweight incline side plank",
-    "name_es": "Bodyweight incline lateral plancha"
+    "name_es": "Bodyweight incline lateral plancha",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1771",
@@ -1462,7 +1555,10 @@
     "gif_url": "videos/1771-s0HKO2I.gif",
     "created_at": "2026-03-18 12:31:32.873812+00:00",
     "name_en": "bodyweight kneeling triceps extension",
-    "name_es": "Bodyweight kneeling triceps extensión"
+    "name_es": "Bodyweight kneeling triceps extensión",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "1769",
@@ -1503,7 +1599,10 @@
     "gif_url": "videos/1769-gscGLOU.gif",
     "created_at": "2026-03-18 12:31:32.873830+00:00",
     "name_en": "bodyweight side lying biceps curl",
-    "name_es": "Bodyweight lateral lying biceps curl"
+    "name_es": "Bodyweight lateral lying biceps curl",
+    "target_es": "bíceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "3168",
@@ -1548,7 +1647,10 @@
     "gif_url": "videos/3168-3xK09Sk.gif",
     "created_at": "2026-03-18 12:31:32.873847+00:00",
     "name_en": "bodyweight squatting row",
-    "name_es": "Bodyweight squatting remo"
+    "name_es": "Bodyweight squatting remo",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3167",
@@ -1593,7 +1695,10 @@
     "gif_url": "videos/3167-BReCuOn.gif",
     "created_at": "2026-03-18 12:31:32.873865+00:00",
     "name_en": "bodyweight squatting row (with towel)",
-    "name_es": "Bodyweight squatting remo (with towel)"
+    "name_es": "Bodyweight squatting remo (with towel)",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1373",
@@ -1638,7 +1743,10 @@
     "gif_url": "videos/1373-bJYHBIN.gif",
     "created_at": "2026-03-18 12:31:32.873882+00:00",
     "name_en": "bodyweight standing calf raise",
-    "name_es": "Bodyweight standing calf elevación"
+    "name_es": "Bodyweight standing calf elevación",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "3156",
@@ -1683,7 +1791,10 @@
     "gif_url": "videos/3156-v2DfH14.gif",
     "created_at": "2026-03-18 12:31:32.873899+00:00",
     "name_en": "bodyweight standing close-grip one arm row",
-    "name_es": "Bodyweight standing close-grip one brazo remo"
+    "name_es": "Bodyweight standing close-grip one brazo remo",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3158",
@@ -1731,7 +1842,10 @@
     "gif_url": "videos/3158-tig3PXb.gif",
     "created_at": "2026-03-18 12:31:32.873916+00:00",
     "name_en": "bodyweight standing close-grip row",
-    "name_es": "Bodyweight standing close-grip remo"
+    "name_es": "Bodyweight standing close-grip remo",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3162",
@@ -1782,7 +1896,10 @@
     "gif_url": "videos/3162-xbkPfaw.gif",
     "created_at": "2026-03-18 12:31:32.873934+00:00",
     "name_en": "bodyweight standing one arm row",
-    "name_es": "Bodyweight standing one brazo remo"
+    "name_es": "Bodyweight standing one brazo remo",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3161",
@@ -1827,7 +1944,10 @@
     "gif_url": "videos/3161-O4oIqQD.gif",
     "created_at": "2026-03-18 12:31:32.873951+00:00",
     "name_en": "bodyweight standing one arm row (with towel)",
-    "name_es": "Bodyweight standing one brazo remo (with towel)"
+    "name_es": "Bodyweight standing one brazo remo (with towel)",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3166",
@@ -1878,7 +1998,10 @@
     "gif_url": "videos/3166-wd4ds3s.gif",
     "created_at": "2026-03-18 12:31:32.873968+00:00",
     "name_en": "bodyweight standing row",
-    "name_es": "Bodyweight standing remo"
+    "name_es": "Bodyweight standing remo",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3165",
@@ -1923,7 +2046,10 @@
     "gif_url": "videos/3165-uTv34oq.gif",
     "created_at": "2026-03-18 12:31:32.873984+00:00",
     "name_en": "bodyweight standing row (with towel)",
-    "name_es": "Bodyweight standing remo (with towel)"
+    "name_es": "Bodyweight standing remo (with towel)",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0138",
@@ -1968,7 +2094,10 @@
     "gif_url": "videos/0138-CI6baTY.gif",
     "created_at": "2026-03-18 12:31:32.874000+00:00",
     "name_en": "bottoms-up",
-    "name_es": "Bottoms-up"
+    "name_es": "Bottoms-up",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1374",
@@ -2017,7 +2146,10 @@
     "gif_url": "videos/1374-iPm26QU.gif",
     "created_at": "2026-03-18 12:31:32.874018+00:00",
     "name_en": "box jump down with one leg stabilization",
-    "name_es": "Box salto down with one pierna stabilization"
+    "name_es": "Box salto down with one pierna stabilization",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "2466",
@@ -2071,7 +2203,10 @@
     "gif_url": "videos/2466-9c6T1YX.gif",
     "created_at": "2026-03-18 12:31:32.874036+00:00",
     "name_en": "bridge - mountain climber (cross body)",
-    "name_es": "Puente - mountain climber (cross body)"
+    "name_es": "Puente - mountain climber (cross body)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1160",
@@ -2125,7 +2260,10 @@
     "gif_url": "videos/1160-dK9394r.gif",
     "created_at": "2026-03-18 12:31:32.874053+00:00",
     "name_en": "burpee",
-    "name_es": "Burpee"
+    "name_es": "Burpee",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "0870",
@@ -2173,7 +2311,10 @@
     "gif_url": "videos/0870-qcNN2FN.gif",
     "created_at": "2026-03-18 12:31:32.874070+00:00",
     "name_en": "butt-ups",
-    "name_es": "Butt-ups"
+    "name_es": "Butt-ups",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1494",
@@ -2224,7 +2365,10 @@
     "gif_url": "videos/1494-bWlZvXh.gif",
     "created_at": "2026-03-18 12:31:32.874089+00:00",
     "name_en": "butterfly yoga pose",
-    "name_es": "Butterfly yoga pose"
+    "name_es": "Butterfly yoga pose",
+    "target_es": "aductores",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1407",
@@ -2271,7 +2415,10 @@
     "gif_url": "videos/1407-PzNxakt.gif",
     "created_at": "2026-03-18 12:31:32.876827+00:00",
     "name_en": "calf push stretch with hands against wall",
-    "name_es": "Calf push stretch with hands against pared"
+    "name_es": "Calf push stretch with hands against pared",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "1377",
@@ -2318,7 +2465,10 @@
     "gif_url": "videos/1377-m0tCHqc.gif",
     "created_at": "2026-03-18 12:31:32.876843+00:00",
     "name_en": "calf stretch with hands against wall",
-    "name_es": "Calf stretch with hands against pared"
+    "name_es": "Calf stretch with hands against pared",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "2963",
@@ -2365,7 +2515,10 @@
     "gif_url": "videos/2963-weoDEpH.gif",
     "created_at": "2026-03-18 12:31:32.876898+00:00",
     "name_en": "captains chair straight leg raise",
-    "name_es": "Captains chair straight pierna elevación"
+    "name_es": "Captains chair straight pierna elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1548",
@@ -2410,7 +2563,10 @@
     "gif_url": "videos/1548-xGgAGPm.gif",
     "created_at": "2026-03-18 12:31:32.876916+00:00",
     "name_en": "chair leg extended stretch",
-    "name_es": "Chair pierna extended stretch"
+    "name_es": "Chair pierna extended stretch",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1271",
@@ -2460,7 +2616,10 @@
     "gif_url": "videos/1271-Uto7l43.gif",
     "created_at": "2026-03-18 12:31:32.876933+00:00",
     "name_en": "chest and front of shoulder stretch",
-    "name_es": "Chest and frontal of shoulder stretch"
+    "name_es": "Chest and frontal of shoulder stretch",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0251",
@@ -2502,7 +2661,10 @@
     "gif_url": "videos/0251-9WTm7dq.gif",
     "created_at": "2026-03-18 12:31:32.876950+00:00",
     "name_en": "chest dip",
-    "name_es": "Chest fondo"
+    "name_es": "Chest fondo",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "1430",
@@ -2556,7 +2718,10 @@
     "gif_url": "videos/1430-XgWyAiA.gif",
     "created_at": "2026-03-18 12:31:32.876969+00:00",
     "name_en": "chest dip (on dip-pull-up cage)",
-    "name_es": "Chest fondo (on fondo-dominada cage)"
+    "name_es": "Chest fondo (on fondo-dominada cage)",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "2462",
@@ -2601,7 +2766,10 @@
     "gif_url": "videos/2462-LQFOrMn.gif",
     "created_at": "2026-03-18 12:31:32.876988+00:00",
     "name_en": "chest dip on straight bar",
-    "name_es": "Chest fondo on straight bar"
+    "name_es": "Chest fondo on straight bar",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "3216",
@@ -2649,7 +2817,10 @@
     "gif_url": "videos/3216-7E06s6d.gif",
     "created_at": "2026-03-18 12:31:32.877023+00:00",
     "name_en": "chest tap push-up (male)",
-    "name_es": "Chest tap flexión (male)"
+    "name_es": "Chest tap flexión (male)",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "1326",
@@ -2694,7 +2865,10 @@
     "gif_url": "videos/1326-T2mxWqc.gif",
     "created_at": "2026-03-18 12:31:32.877041+00:00",
     "name_en": "chin-up",
-    "name_es": "Chin-up"
+    "name_es": "Chin-up",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0253",
@@ -2739,7 +2913,10 @@
     "gif_url": "videos/0253-G70mEAJ.gif",
     "created_at": "2026-03-18 12:31:32.877059+00:00",
     "name_en": "chin-ups (narrow parallel grip)",
-    "name_es": "Chin-ups (narrow parallel grip)"
+    "name_es": "Chin-ups (narrow parallel grip)",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0257",
@@ -2781,7 +2958,10 @@
     "gif_url": "videos/0257-X7jbxra.gif",
     "created_at": "2026-03-18 12:31:32.877079+00:00",
     "name_en": "circles knee stretch",
-    "name_es": "Circles rodilla stretch"
+    "name_es": "Circles rodilla stretch",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "1273",
@@ -2826,7 +3006,10 @@
     "gif_url": "videos/1273-wigSg76.gif",
     "created_at": "2026-03-18 12:31:32.877097+00:00",
     "name_en": "clap push up",
-    "name_es": "Flexión con palmada"
+    "name_es": "Flexión con palmada",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0258",
@@ -2875,7 +3058,10 @@
     "gif_url": "videos/0258-CMAxnsG.gif",
     "created_at": "2026-03-18 12:31:32.877116+00:00",
     "name_en": "clock push-up",
-    "name_es": "Clock flexión"
+    "name_es": "Clock flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "1327",
@@ -2923,7 +3109,10 @@
     "gif_url": "videos/1327-VnfUNW7.gif",
     "created_at": "2026-03-18 12:31:32.877135+00:00",
     "name_en": "close grip chin-up",
-    "name_es": "Close grip chin-up"
+    "name_es": "Close grip chin-up",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0259",
@@ -2965,7 +3154,10 @@
     "gif_url": "videos/0259-x6KpKpq.gif",
     "created_at": "2026-03-18 12:31:32.877153+00:00",
     "name_en": "close-grip push-up",
-    "name_es": "Close-grip flexión"
+    "name_es": "Close-grip flexión",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "2398",
@@ -3010,7 +3202,10 @@
     "gif_url": "videos/2398-v3vLFW0.gif",
     "created_at": "2026-03-18 12:31:32.877171+00:00",
     "name_en": "close-grip push-up (on knees)",
-    "name_es": "Close-grip flexión (on knees)"
+    "name_es": "Close-grip flexión (on knees)",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0260",
@@ -3055,7 +3250,10 @@
     "gif_url": "videos/0260-SLKj2pX.gif",
     "created_at": "2026-03-18 12:31:32.877189+00:00",
     "name_en": "cocoons",
-    "name_es": "Cocoons"
+    "name_es": "Cocoons",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1468",
@@ -3100,7 +3298,10 @@
     "gif_url": "videos/1468-xgsGFVM.gif",
     "created_at": "2026-03-18 12:31:32.877206+00:00",
     "name_en": "crab twist toe touch",
-    "name_es": "Crab twist toe touch"
+    "name_es": "Crab twist toe touch",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0262",
@@ -3147,7 +3348,10 @@
     "gif_url": "videos/0262-rbu5UUb.gif",
     "created_at": "2026-03-18 12:31:32.877225+00:00",
     "name_en": "cross body crunch",
-    "name_es": "Cross body encogimiento"
+    "name_es": "Cross body encogimiento",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0267",
@@ -3191,7 +3395,10 @@
     "gif_url": "videos/0267-kjJ3VoQ.gif",
     "created_at": "2026-03-18 12:31:32.877243+00:00",
     "name_en": "crunch (hands overhead)",
-    "name_es": "Encogimiento (hands overhead)"
+    "name_es": "Encogimiento (hands overhead)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0274",
@@ -3235,7 +3442,10 @@
     "gif_url": "videos/0274-TFqbd8t.gif",
     "created_at": "2026-03-18 12:31:32.877296+00:00",
     "name_en": "crunch floor",
-    "name_es": "Abdominales en suelo"
+    "name_es": "Abdominales en suelo",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3016",
@@ -3279,7 +3489,10 @@
     "gif_url": "videos/3016-g2oKspu.gif",
     "created_at": "2026-03-18 12:31:32.877312+00:00",
     "name_en": "curl-up",
-    "name_es": "Curl-up"
+    "name_es": "Curl-up",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3769",
@@ -3328,7 +3541,10 @@
     "gif_url": "videos/3769-gUjqdei.gif",
     "created_at": "2026-03-18 12:31:32.877329+00:00",
     "name_en": "curtsey squat",
-    "name_es": "Curtsey sentadilla"
+    "name_es": "Curtsey sentadilla",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0276",
@@ -3379,7 +3595,10 @@
     "gif_url": "videos/0276-iny3m5y.gif",
     "created_at": "2026-03-18 12:31:32.877364+00:00",
     "name_en": "dead bug",
-    "name_es": "Dead bug"
+    "name_es": "Dead bug",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0277",
@@ -3423,7 +3642,10 @@
     "gif_url": "videos/0277-9Ap7miY.gif",
     "created_at": "2026-03-18 12:31:32.877380+00:00",
     "name_en": "decline crunch",
-    "name_es": "Decline encogimiento"
+    "name_es": "Decline encogimiento",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0279",
@@ -3468,7 +3690,10 @@
     "gif_url": "videos/0279-i5cEhka.gif",
     "created_at": "2026-03-18 12:31:32.877398+00:00",
     "name_en": "decline push-up",
-    "name_es": "Decline flexión"
+    "name_es": "Decline flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0282",
@@ -3513,7 +3738,10 @@
     "gif_url": "videos/0282-QLL2gdc.gif",
     "created_at": "2026-03-18 12:31:32.877415+00:00",
     "name_en": "decline sit-up",
-    "name_es": "Decline abdominal"
+    "name_es": "Decline abdominal",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0283",
@@ -3558,7 +3786,10 @@
     "gif_url": "videos/0283-soIB2rj.gif",
     "created_at": "2026-03-18 12:31:32.877452+00:00",
     "name_en": "diamond push-up",
-    "name_es": "Diamond flexión"
+    "name_es": "Diamond flexión",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0284",
@@ -3603,7 +3834,10 @@
     "gif_url": "videos/0284-u5ESqzH.gif",
     "created_at": "2026-03-18 12:31:32.877468+00:00",
     "name_en": "donkey calf raise",
-    "name_es": "Donkey calf elevación"
+    "name_es": "Donkey calf elevación",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "1275",
@@ -3648,7 +3882,10 @@
     "gif_url": "videos/1275-Q497lAE.gif",
     "created_at": "2026-03-18 12:31:32.877484+00:00",
     "name_en": "drop push up",
-    "name_es": "Drop flexión"
+    "name_es": "Drop flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "1167",
@@ -3696,7 +3933,10 @@
     "gif_url": "videos/1167-3uj0Ozg.gif",
     "created_at": "2026-03-18 12:31:32.882554+00:00",
     "name_en": "dynamic chest stretch (male)",
-    "name_es": "Dynamic chest stretch (male)"
+    "name_es": "Dynamic chest stretch (male)",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "3287",
@@ -3741,7 +3981,10 @@
     "gif_url": "videos/3287-LkoAWAE.gif",
     "created_at": "2026-03-18 12:31:32.882572+00:00",
     "name_en": "elbow dips",
-    "name_es": "Elbow fondos"
+    "name_es": "Elbow fondos",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "1772",
@@ -3786,7 +4029,10 @@
     "gif_url": "videos/1772-wbUYILZ.gif",
     "created_at": "2026-03-18 12:31:32.882589+00:00",
     "name_en": "elbow lift - reverse push-up",
-    "name_es": "Elbow lift - inverso flexión"
+    "name_es": "Elbow lift - inverso flexión",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0443",
@@ -3836,7 +4082,10 @@
     "gif_url": "videos/0443-jvp6DiD.gif",
     "created_at": "2026-03-18 12:31:32.882607+00:00",
     "name_en": "elbow-to-knee",
-    "name_es": "Elbow-to-rodilla"
+    "name_es": "Elbow-to-rodilla",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3292",
@@ -3881,7 +4130,10 @@
     "gif_url": "videos/3292-zYmNaoY.gif",
     "created_at": "2026-03-18 12:31:32.882624+00:00",
     "name_en": "elevator",
-    "name_es": "Elevator"
+    "name_es": "Elevator",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3303",
@@ -3929,7 +4181,10 @@
     "gif_url": "videos/3303-pQ0Mx1Z.gif",
     "created_at": "2026-03-18 12:31:32.883566+00:00",
     "name_en": "flag",
-    "name_es": "Flag"
+    "name_es": "Flag",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0456",
@@ -3976,7 +4231,10 @@
     "gif_url": "videos/0456-AR0ig3o.gif",
     "created_at": "2026-03-18 12:31:32.883584+00:00",
     "name_en": "flexion leg sit up (bent knee)",
-    "name_es": "Flexion pierna abdominal (bent rodilla)"
+    "name_es": "Flexion pierna abdominal (bent rodilla)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0457",
@@ -4021,7 +4279,10 @@
     "gif_url": "videos/0457-KZn52RC.gif",
     "created_at": "2026-03-18 12:31:32.883602+00:00",
     "name_en": "flexion leg sit up (straight arm)",
-    "name_es": "Flexion pierna abdominal (straight brazo)"
+    "name_es": "Flexion pierna abdominal (straight brazo)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0459",
@@ -4063,7 +4324,10 @@
     "gif_url": "videos/0459-UVo2Qs2.gif",
     "created_at": "2026-03-18 12:31:32.883638+00:00",
     "name_en": "flutter kicks",
-    "name_es": "Flutter kicks"
+    "name_es": "Flutter kicks",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1472",
@@ -4112,7 +4376,10 @@
     "gif_url": "videos/1472-uZKq7lo.gif",
     "created_at": "2026-03-18 12:31:32.883656+00:00",
     "name_en": "forward jump",
-    "name_es": "Forward salto"
+    "name_es": "Forward salto",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3470",
@@ -4158,7 +4425,10 @@
     "gif_url": "videos/3470-kMzUs9Y.gif",
     "created_at": "2026-03-18 12:31:32.883674+00:00",
     "name_en": "forward lunge (male)",
-    "name_es": "Forward zancada (male)"
+    "name_es": "Forward zancada (male)",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "2429",
@@ -4202,7 +4472,10 @@
     "gif_url": "videos/2429-FFRP97T.gif",
     "created_at": "2026-03-18 12:31:32.883719+00:00",
     "name_en": "frog crunch",
-    "name_es": "Frog encogimiento"
+    "name_es": "Frog encogimiento",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3301",
@@ -4248,7 +4521,10 @@
     "gif_url": "videos/3301-rQhGcin.gif",
     "created_at": "2026-03-18 12:31:32.883743+00:00",
     "name_en": "frog planche",
-    "name_es": "Frog planche"
+    "name_es": "Frog planche",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3296",
@@ -4300,7 +4576,10 @@
     "gif_url": "videos/3296-PkCN2lv.gif",
     "created_at": "2026-03-18 12:31:32.883764+00:00",
     "name_en": "front lever",
-    "name_es": "Frontal lever"
+    "name_es": "Frontal lever",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3295",
@@ -4348,7 +4627,10 @@
     "gif_url": "videos/3295-hbY9wqG.gif",
     "created_at": "2026-03-18 12:31:32.883782+00:00",
     "name_en": "front lever reps",
-    "name_es": "Frontal lever reps"
+    "name_es": "Frontal lever reps",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0464",
@@ -4399,7 +4681,10 @@
     "gif_url": "videos/0464-CosupLu.gif",
     "created_at": "2026-03-18 12:31:32.883799+00:00",
     "name_en": "front plank with twist",
-    "name_es": "Frontal plancha with twist"
+    "name_es": "Frontal plancha with twist",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3315",
@@ -4444,7 +4729,10 @@
     "gif_url": "videos/3315-YRaCa5Y.gif",
     "created_at": "2026-03-18 12:31:32.883815+00:00",
     "name_en": "full maltese",
-    "name_es": "Full maltese"
+    "name_es": "Full maltese",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3299",
@@ -4493,7 +4781,10 @@
     "gif_url": "videos/3299-YZ4961r.gif",
     "created_at": "2026-03-18 12:31:32.883831+00:00",
     "name_en": "full planche",
-    "name_es": "Full planche"
+    "name_es": "Full planche",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3327",
@@ -4545,7 +4836,10 @@
     "gif_url": "videos/3327-gw9PqGk.gif",
     "created_at": "2026-03-18 12:31:32.883847+00:00",
     "name_en": "full planche push-up",
-    "name_es": "Full planche flexión"
+    "name_es": "Full planche flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0466",
@@ -4594,7 +4888,10 @@
     "gif_url": "videos/0466-IL0JUxR.gif",
     "created_at": "2026-03-18 12:31:32.883864+00:00",
     "name_en": "gironda sternum chin",
-    "name_es": "Gironda sternum chin"
+    "name_es": "Gironda sternum chin",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3561",
@@ -4642,7 +4939,10 @@
     "gif_url": "videos/3561-GibBPPg.gif",
     "created_at": "2026-03-18 12:31:32.883884+00:00",
     "name_en": "glute bridge march",
-    "name_es": "Glute puente march"
+    "name_es": "Glute puente march",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3523",
@@ -4687,7 +4987,10 @@
     "gif_url": "videos/3523-aWedzZX.gif",
     "created_at": "2026-03-18 12:31:32.883900+00:00",
     "name_en": "glute bridge two legs on bench (male)",
-    "name_es": "Glute puente two legs on bench (male)"
+    "name_es": "Glute puente two legs on bench (male)",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3193",
@@ -4738,7 +5041,10 @@
     "gif_url": "videos/3193-Vvwjz6N.gif",
     "created_at": "2026-03-18 12:31:32.883917+00:00",
     "name_en": "glute-ham raise",
-    "name_es": "Glute-ham elevación"
+    "name_es": "Glute-ham elevación",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0467",
@@ -4786,7 +5092,10 @@
     "gif_url": "videos/0467-bmwlYvD.gif",
     "created_at": "2026-03-18 12:31:32.883934+00:00",
     "name_en": "gorilla chin",
-    "name_es": "Gorilla chin"
+    "name_es": "Gorilla chin",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0469",
@@ -4831,7 +5140,10 @@
     "gif_url": "videos/0469-mWppALS.gif",
     "created_at": "2026-03-18 12:31:32.883950+00:00",
     "name_en": "groin crunch",
-    "name_es": "Groin encogimiento"
+    "name_es": "Groin encogimiento",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3221",
@@ -4877,7 +5189,10 @@
     "gif_url": "videos/3221-ia6kIIl.gif",
     "created_at": "2026-03-18 12:31:32.884003+00:00",
     "name_en": "half knee bends (male)",
-    "name_es": "Half rodilla bends (male)"
+    "name_es": "Half rodilla bends (male)",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "3202",
@@ -4921,7 +5236,10 @@
     "gif_url": "videos/3202-iQ241UP.gif",
     "created_at": "2026-03-18 12:31:32.884021+00:00",
     "name_en": "half sit-up (male)",
-    "name_es": "Half abdominal (male)"
+    "name_es": "Half abdominal (male)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1511",
@@ -4965,7 +5283,10 @@
     "gif_url": "videos/1511-99rWm7w.gif",
     "created_at": "2026-03-18 12:31:32.884038+00:00",
     "name_en": "hamstring stretch",
-    "name_es": "Hamstring stretch"
+    "name_es": "Hamstring stretch",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3218",
@@ -5011,7 +5332,10 @@
     "gif_url": "videos/3218-B5xca8s.gif",
     "created_at": "2026-03-18 12:31:32.884074+00:00",
     "name_en": "hands clasped circular toe touch (male)",
-    "name_es": "Hands clasped circular toe touch (male)"
+    "name_es": "Hands clasped circular toe touch (male)",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3215",
@@ -5063,7 +5387,10 @@
     "gif_url": "videos/3215-yq3GAJX.gif",
     "created_at": "2026-03-18 12:31:32.884092+00:00",
     "name_en": "hands reversed clasped circular toe touch (male)",
-    "name_es": "Hands reversed clasped circular toe touch (male)"
+    "name_es": "Hands reversed clasped circular toe touch (male)",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3302",
@@ -5114,7 +5441,10 @@
     "gif_url": "videos/3302-XooAdhl.gif",
     "created_at": "2026-03-18 12:31:32.884110+00:00",
     "name_en": "handstand",
-    "name_es": "Handstand"
+    "name_es": "Handstand",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0471",
@@ -5160,7 +5490,10 @@
     "gif_url": "videos/0471-rQxwMxO.gif",
     "created_at": "2026-03-18 12:31:32.884128+00:00",
     "name_en": "handstand push-up",
-    "name_es": "Handstand flexión"
+    "name_es": "Handstand flexión",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "1764",
@@ -5202,7 +5535,10 @@
     "gif_url": "videos/1764-VEcJRo2.gif",
     "created_at": "2026-03-18 12:31:32.884145+00:00",
     "name_en": "hanging leg hip raise",
-    "name_es": "Hanging pierna hip elevación"
+    "name_es": "Hanging pierna hip elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0472",
@@ -5246,7 +5582,10 @@
     "gif_url": "videos/0472-I3tsCnC.gif",
     "created_at": "2026-03-18 12:31:32.884162+00:00",
     "name_en": "hanging leg raise",
-    "name_es": "Hanging pierna elevación"
+    "name_es": "Hanging pierna elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1761",
@@ -5290,7 +5629,10 @@
     "gif_url": "videos/1761-BaE7O6U.gif",
     "created_at": "2026-03-18 12:31:32.884180+00:00",
     "name_en": "hanging oblique knee raise",
-    "name_es": "Hanging oblique rodilla elevación"
+    "name_es": "Hanging oblique rodilla elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0473",
@@ -5335,7 +5677,10 @@
     "gif_url": "videos/0473-nuBF9MO.gif",
     "created_at": "2026-03-18 12:31:32.884197+00:00",
     "name_en": "hanging pike",
-    "name_es": "Hanging pike"
+    "name_es": "Hanging pike",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0474",
@@ -5376,7 +5721,10 @@
     "gif_url": "videos/0474-pj0X0tF.gif",
     "created_at": "2026-03-18 12:31:32.884215+00:00",
     "name_en": "hanging straight leg hip raise",
-    "name_es": "Hanging straight pierna hip elevación"
+    "name_es": "Hanging straight pierna hip elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0475",
@@ -5420,7 +5768,10 @@
     "gif_url": "videos/0475-4Ml7QFO.gif",
     "created_at": "2026-03-18 12:31:32.884233+00:00",
     "name_en": "hanging straight leg raise",
-    "name_es": "Hanging straight pierna elevación"
+    "name_es": "Hanging straight pierna elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0476",
@@ -5468,7 +5819,10 @@
     "gif_url": "videos/0476-Q6bvyen.gif",
     "created_at": "2026-03-18 12:31:32.884251+00:00",
     "name_en": "hanging straight twisting leg hip raise",
-    "name_es": "Hanging straight twisting pierna hip elevación"
+    "name_es": "Hanging straight twisting pierna hip elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3636",
@@ -5521,7 +5875,10 @@
     "gif_url": "videos/3636-ealLwvX.gif",
     "created_at": "2026-03-18 12:31:32.884270+00:00",
     "name_en": "high knee against wall",
-    "name_es": "High rodilla against pared"
+    "name_es": "High rodilla against pared",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "0484",
@@ -5566,7 +5923,10 @@
     "gif_url": "videos/0484-196HJGw.gif",
     "created_at": "2026-03-18 12:31:32.884287+00:00",
     "name_en": "hip raise (bent knee)",
-    "name_es": "Hip elevación (bent rodilla)"
+    "name_es": "Hip elevación (bent rodilla)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1418",
@@ -5611,7 +5971,10 @@
     "gif_url": "videos/1418-znP9SIh.gif",
     "created_at": "2026-03-18 12:31:32.884304+00:00",
     "name_en": "hug keens to chest",
-    "name_es": "Hug keens to chest"
+    "name_es": "Hug keens to chest",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0489",
@@ -5656,7 +6019,10 @@
     "gif_url": "videos/0489-zhMwOwE.gif",
     "created_at": "2026-03-18 12:31:32.884336+00:00",
     "name_en": "hyperextension",
-    "name_es": "Hyperextension"
+    "name_es": "Hyperextension",
+    "target_es": "lumbares",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0488",
@@ -5701,7 +6067,10 @@
     "gif_url": "videos/0488-zkgRrbK.gif",
     "created_at": "2026-03-18 12:31:32.884352+00:00",
     "name_en": "hyperextension (on bench)",
-    "name_es": "Hyperextension (on bench)"
+    "name_es": "Hyperextension (on bench)",
+    "target_es": "lumbares",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3289",
@@ -5746,7 +6115,10 @@
     "gif_url": "videos/3289-05Cf2v8.gif",
     "created_at": "2026-03-18 12:31:32.884370+00:00",
     "name_en": "impossible dips",
-    "name_es": "Impossible fondos"
+    "name_es": "Impossible fondos",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "1471",
@@ -5794,7 +6166,10 @@
     "gif_url": "videos/1471-ZgsNQ6d.gif",
     "created_at": "2026-03-18 12:31:32.884388+00:00",
     "name_en": "inchworm",
-    "name_es": "Inchworm"
+    "name_es": "Inchworm",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3698",
@@ -5839,7 +6214,10 @@
     "gif_url": "videos/3698-TV87DNB.gif",
     "created_at": "2026-03-18 12:31:32.884405+00:00",
     "name_en": "inchworm v. 2",
-    "name_es": "Inchworm v. 2"
+    "name_es": "Inchworm v. 2",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0490",
@@ -5884,7 +6262,10 @@
     "gif_url": "videos/0490-1YB40kg.gif",
     "created_at": "2026-03-18 12:31:32.884423+00:00",
     "name_en": "incline close-grip push-up",
-    "name_es": "Incline close-grip flexión"
+    "name_es": "Incline close-grip flexión",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0491",
@@ -5928,7 +6309,10 @@
     "gif_url": "videos/0491-eVxAzgz.gif",
     "created_at": "2026-03-18 12:31:32.884445+00:00",
     "name_en": "incline leg hip raise (leg straight)",
-    "name_es": "Incline pierna hip elevación (pierna straight)"
+    "name_es": "Incline pierna hip elevación (pierna straight)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0492",
@@ -5977,7 +6361,10 @@
     "gif_url": "videos/0492-CB8WET1.gif",
     "created_at": "2026-03-18 12:31:32.884464+00:00",
     "name_en": "incline push up depth jump",
-    "name_es": "Incline flexión depth salto"
+    "name_es": "Incline flexión depth salto",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0493",
@@ -6022,7 +6409,10 @@
     "gif_url": "videos/0493-B1EVP9F.gif",
     "created_at": "2026-03-18 12:31:32.884482+00:00",
     "name_en": "incline push-up",
-    "name_es": "Incline flexión"
+    "name_es": "Incline flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "3785",
@@ -6067,7 +6457,10 @@
     "gif_url": "videos/3785-F7vjXqT.gif",
     "created_at": "2026-03-18 12:31:32.884499+00:00",
     "name_en": "incline push-up (on box)",
-    "name_es": "Incline flexión (on box)"
+    "name_es": "Incline flexión (on box)",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0494",
@@ -6112,7 +6505,10 @@
     "gif_url": "videos/0494-XaaRnRn.gif",
     "created_at": "2026-03-18 12:31:32.884517+00:00",
     "name_en": "incline reverse grip push-up",
-    "name_es": "Incline inverso grip flexión"
+    "name_es": "Incline inverso grip flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "3011",
@@ -6163,7 +6559,10 @@
     "gif_url": "videos/3011-GdMa1ET.gif",
     "created_at": "2026-03-18 12:31:32.884536+00:00",
     "name_en": "incline scapula push up",
-    "name_es": "Incline scapula flexión"
+    "name_es": "Incline scapula flexión",
+    "target_es": "serrato anterior",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0495",
@@ -6216,7 +6615,10 @@
     "gif_url": "videos/0495-9ZGZuOD.gif",
     "created_at": "2026-03-18 12:31:32.884554+00:00",
     "name_en": "incline twisting sit-up",
-    "name_es": "Incline twisting abdominal"
+    "name_es": "Incline twisting abdominal",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0496",
@@ -6261,7 +6663,10 @@
     "gif_url": "videos/0496-ms7tjSG.gif",
     "created_at": "2026-03-18 12:31:32.884590+00:00",
     "name_en": "inverse leg curl (bench support)",
-    "name_es": "Inverse pierna curl (bench support)"
+    "name_es": "Inverse pierna curl (bench support)",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "2400",
@@ -6309,7 +6714,10 @@
     "gif_url": "videos/2400-0rHfvy9.gif",
     "created_at": "2026-03-18 12:31:32.884608+00:00",
     "name_en": "inverse leg curl (on pull-up cable machine)",
-    "name_es": "Inverse pierna curl (on dominada cable machine)"
+    "name_es": "Inverse pierna curl (on dominada cable machine)",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0499",
@@ -6360,7 +6768,10 @@
     "gif_url": "videos/0499-bZGHsAZ.gif",
     "created_at": "2026-03-18 12:31:32.884626+00:00",
     "name_en": "inverted row",
-    "name_es": "Inverted remo"
+    "name_es": "Inverted remo",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "2300",
@@ -6408,7 +6819,10 @@
     "gif_url": "videos/2300-VPPtusI.gif",
     "created_at": "2026-03-18 12:31:32.884645+00:00",
     "name_en": "inverted row bent knees",
-    "name_es": "Inverted remo bent knees"
+    "name_es": "Inverted remo bent knees",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "2298",
@@ -6459,7 +6873,10 @@
     "gif_url": "videos/2298-Mxa7Cr8.gif",
     "created_at": "2026-03-18 12:31:32.884663+00:00",
     "name_en": "inverted row on bench",
-    "name_es": "Inverted remo on bench"
+    "name_es": "Inverted remo on bench",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0497",
@@ -6507,7 +6924,10 @@
     "gif_url": "videos/0497-uX3sUBz.gif",
     "created_at": "2026-03-18 12:31:32.884681+00:00",
     "name_en": "inverted row v. 2",
-    "name_es": "Inverted remo v. 2"
+    "name_es": "Inverted remo v. 2",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0498",
@@ -6558,7 +6978,10 @@
     "gif_url": "videos/0498-jdiExfW.gif",
     "created_at": "2026-03-18 12:31:32.884699+00:00",
     "name_en": "inverted row with straps",
-    "name_es": "Inverted remo with straps"
+    "name_es": "Inverted remo with straps",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1419",
@@ -6606,7 +7029,10 @@
     "gif_url": "videos/1419-pZwUsKB.gif",
     "created_at": "2026-03-18 12:31:32.884719+00:00",
     "name_en": "iron cross stretch",
-    "name_es": "Iron cross stretch"
+    "name_es": "Iron cross stretch",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1297",
@@ -6654,7 +7080,10 @@
     "gif_url": "videos/1297-HbSG1Pw.gif",
     "created_at": "2026-03-18 12:31:32.884736+00:00",
     "name_en": "isometric chest squeeze",
-    "name_es": "Isometric chest squeeze"
+    "name_es": "Isometric chest squeeze",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0500",
@@ -6706,7 +7135,10 @@
     "gif_url": "videos/0500-11wrviz.gif",
     "created_at": "2026-03-18 12:31:32.884755+00:00",
     "name_en": "isometric wipers",
-    "name_es": "Isometric wipers"
+    "name_es": "Isometric wipers",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0501",
@@ -6761,7 +7193,10 @@
     "gif_url": "videos/0501-mr7pkqP.gif",
     "created_at": "2026-03-18 12:31:32.884774+00:00",
     "name_en": "jack burpee",
-    "name_es": "Jack burpee"
+    "name_es": "Jack burpee",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "3224",
@@ -6803,7 +7238,10 @@
     "gif_url": "videos/3224-1g5bPpA.gif",
     "created_at": "2026-03-18 12:31:32.884791+00:00",
     "name_en": "jack jump (male)",
-    "name_es": "Jack salto (male)"
+    "name_es": "Jack salto (male)",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "0507",
@@ -6844,7 +7282,10 @@
     "gif_url": "videos/0507-mbkgB44.gif",
     "created_at": "2026-03-18 12:31:32.884807+00:00",
     "name_en": "jackknife sit-up",
-    "name_es": "Jackknife abdominal"
+    "name_es": "Jackknife abdominal",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0508",
@@ -6889,7 +7330,10 @@
     "gif_url": "videos/0508-1GPHRyK.gif",
     "created_at": "2026-03-18 12:31:32.884824+00:00",
     "name_en": "janda sit-up",
-    "name_es": "Janda abdominal"
+    "name_es": "Janda abdominal",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0514",
@@ -6938,7 +7382,10 @@
     "gif_url": "videos/0514-LIlE5Tn.gif",
     "created_at": "2026-03-18 12:31:32.884861+00:00",
     "name_en": "jump squat",
-    "name_es": "Salto sentadilla"
+    "name_es": "Salto sentadilla",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0513",
@@ -6984,7 +7431,10 @@
     "gif_url": "videos/0513-TDYiji6.gif",
     "created_at": "2026-03-18 12:31:32.884882+00:00",
     "name_en": "jump squat v. 2",
-    "name_es": "Salto sentadilla v. 2"
+    "name_es": "Salto sentadilla v. 2",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0555",
@@ -7029,7 +7479,10 @@
     "gif_url": "videos/0555-v7p5bYl.gif",
     "created_at": "2026-03-18 12:31:32.885711+00:00",
     "name_en": "kick out sit",
-    "name_es": "Patada out sit"
+    "name_es": "Patada out sit",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0558",
@@ -7079,7 +7532,10 @@
     "gif_url": "videos/0558-pM07UxU.gif",
     "created_at": "2026-03-18 12:31:32.885734+00:00",
     "name_en": "kipping muscle up",
-    "name_es": "Kipping muscle up"
+    "name_es": "Kipping muscle up",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3640",
@@ -7123,7 +7579,10 @@
     "gif_url": "videos/3640-dTg95eZ.gif",
     "created_at": "2026-03-18 12:31:32.885758+00:00",
     "name_en": "knee touch crunch",
-    "name_es": "Rodilla touch encogimiento"
+    "name_es": "Rodilla touch encogimiento",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1346",
@@ -7171,7 +7630,10 @@
     "gif_url": "videos/1346-f38OEuO.gif",
     "created_at": "2026-03-18 12:31:32.885794+00:00",
     "name_en": "kneeling lat stretch",
-    "name_es": "Kneeling lat stretch"
+    "name_es": "Kneeling lat stretch",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3239",
@@ -7216,7 +7678,10 @@
     "gif_url": "videos/3239-h1ezqSu.gif",
     "created_at": "2026-03-18 12:31:32.885812+00:00",
     "name_en": "kneeling plank tap shoulder (male)",
-    "name_es": "Kneeling plancha tap shoulder (male)"
+    "name_es": "Kneeling plancha tap shoulder (male)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3211",
@@ -7261,7 +7726,10 @@
     "gif_url": "videos/3211-ZOuKWir.gif",
     "created_at": "2026-03-18 12:31:32.885831+00:00",
     "name_en": "kneeling push-up (male)",
-    "name_es": "Kneeling flexión (male)"
+    "name_es": "Kneeling flexión (male)",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "3288",
@@ -7303,7 +7771,10 @@
     "gif_url": "videos/3288-rWoBmi5.gif",
     "created_at": "2026-03-18 12:31:32.885854+00:00",
     "name_en": "korean dips",
-    "name_es": "Korean fondos"
+    "name_es": "Korean fondos",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "3418",
@@ -7351,7 +7822,10 @@
     "gif_url": "videos/3418-d1GgzTU.gif",
     "created_at": "2026-03-18 12:31:32.885876+00:00",
     "name_en": "l-pull-up",
-    "name_es": "L-dominada"
+    "name_es": "L-dominada",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3419",
@@ -7401,7 +7875,10 @@
     "gif_url": "videos/3419-UpWmA5E.gif",
     "created_at": "2026-03-18 12:31:32.885893+00:00",
     "name_en": "l-sit on floor",
-    "name_es": "L-sit on floor"
+    "name_es": "L-sit on floor",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3300",
@@ -7447,7 +7924,10 @@
     "gif_url": "videos/3300-LYJodFS.gif",
     "created_at": "2026-03-18 12:31:32.885944+00:00",
     "name_en": "lean planche",
-    "name_es": "Lean planche"
+    "name_es": "Lean planche",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "2271",
@@ -7493,7 +7973,10 @@
     "gif_url": "videos/2271-hoXt6wv.gif",
     "created_at": "2026-03-18 12:31:32.885972+00:00",
     "name_en": "left hook. boxing",
-    "name_es": "Left hook. boxing"
+    "name_es": "Left hook. boxing",
+    "target_es": "hombros",
+    "equipment_es": "peso corporal",
+    "category_es": "shoulders"
   },
   {
     "id": "0570",
@@ -7538,7 +8021,10 @@
     "gif_url": "videos/0570-OyoZ3Pu.gif",
     "created_at": "2026-03-18 12:31:32.885990+00:00",
     "name_en": "leg pull in flat bench",
-    "name_es": "Pierna pull in flat bench"
+    "name_es": "Pierna pull in flat bench",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1576",
@@ -7582,7 +8068,10 @@
     "gif_url": "videos/1576-sU5BrfP.gif",
     "created_at": "2026-03-18 12:31:32.886008+00:00",
     "name_en": "leg up hamstring stretch",
-    "name_es": "Pierna up hamstring stretch"
+    "name_es": "Pierna up hamstring stretch",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3013",
@@ -7630,7 +8119,10 @@
     "gif_url": "videos/3013-u0cNiij.gif",
     "created_at": "2026-03-18 12:31:32.887363+00:00",
     "name_en": "low glute bridge on floor",
-    "name_es": "Low glute puente on floor"
+    "name_es": "Low glute puente on floor",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1352",
@@ -7672,7 +8164,10 @@
     "gif_url": "videos/1352-ANbbry2.gif",
     "created_at": "2026-03-18 12:31:32.887382+00:00",
     "name_en": "lower back curl",
-    "name_es": "Lower espalda curl"
+    "name_es": "Lower espalda curl",
+    "target_es": "lumbares",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3582",
@@ -7718,7 +8213,10 @@
     "gif_url": "videos/3582-PM1PZjg.gif",
     "created_at": "2026-03-18 12:31:32.887400+00:00",
     "name_en": "lunge with jump",
-    "name_es": "Zancada with salto"
+    "name_es": "Zancada with salto",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1688",
@@ -7767,7 +8265,10 @@
     "gif_url": "videos/1688-K9VL0Jq.gif",
     "created_at": "2026-03-18 12:31:32.887418+00:00",
     "name_en": "lunge with twist",
-    "name_es": "Zancada with twist"
+    "name_es": "Zancada with twist",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0613",
@@ -7811,7 +8312,10 @@
     "gif_url": "videos/0613-BWnJR72.gif",
     "created_at": "2026-03-18 12:31:32.887435+00:00",
     "name_en": "lying (side) quads stretch",
-    "name_es": "Lying (lateral) quads stretch"
+    "name_es": "Lying (lateral) quads stretch",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "2312",
@@ -7862,7 +8366,10 @@
     "gif_url": "videos/2312-AQIhRjM.gif",
     "created_at": "2026-03-18 12:31:32.887453+00:00",
     "name_en": "lying elbow to knee",
-    "name_es": "Lying elbow to rodilla"
+    "name_es": "Lying elbow to rodilla",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0620",
@@ -7906,7 +8413,10 @@
     "gif_url": "videos/0620-WhuFnR7.gif",
     "created_at": "2026-03-18 12:31:32.887471+00:00",
     "name_en": "lying leg raise flat bench",
-    "name_es": "Lying pierna elevación flat bench"
+    "name_es": "Lying pierna elevación flat bench",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0865",
@@ -7950,7 +8460,10 @@
     "gif_url": "videos/0865-9IxJdtC.gif",
     "created_at": "2026-03-18 12:31:32.887488+00:00",
     "name_en": "lying leg-hip raise",
-    "name_es": "Lying pierna-hip elevación"
+    "name_es": "Lying pierna-hip elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0624",
@@ -7996,7 +8509,10 @@
     "gif_url": "videos/0624-sVQCCeG.gif",
     "created_at": "2026-03-18 12:31:32.887523+00:00",
     "name_en": "march sit (wall)",
-    "name_es": "March sit (pared)"
+    "name_es": "March sit (pared)",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0627",
@@ -8044,7 +8560,10 @@
     "gif_url": "videos/0627-T8UpLkb.gif",
     "created_at": "2026-03-18 12:31:32.887705+00:00",
     "name_en": "mixed grip chin-up",
-    "name_es": "Mixed grip chin-up"
+    "name_es": "Mixed grip chin-up",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3217",
@@ -8090,7 +8609,10 @@
     "gif_url": "videos/3217-epOSYUZ.gif",
     "created_at": "2026-03-18 12:31:32.887723+00:00",
     "name_en": "modified hindu push-up (male)",
-    "name_es": "Modified hindu flexión (male)"
+    "name_es": "Modified hindu flexión (male)",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "1421",
@@ -8136,7 +8658,10 @@
     "gif_url": "videos/1421-arvaszz.gif",
     "created_at": "2026-03-18 12:31:32.887742+00:00",
     "name_en": "modified push up to lower arms",
-    "name_es": "Modified flexión to lower arms"
+    "name_es": "Modified flexión to lower arms",
+    "target_es": "antebrazos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower arms"
   },
   {
     "id": "0628",
@@ -8181,7 +8706,10 @@
     "gif_url": "videos/0628-O95afRA.gif",
     "created_at": "2026-03-18 12:31:32.887759+00:00",
     "name_en": "monster walk",
-    "name_es": "Monster walk"
+    "name_es": "Monster walk",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0630",
@@ -8227,7 +8755,10 @@
     "gif_url": "videos/0630-RJgzwny.gif",
     "created_at": "2026-03-18 12:31:32.887777+00:00",
     "name_en": "mountain climber",
-    "name_es": "Escalador"
+    "name_es": "Escalador",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "0631",
@@ -8277,7 +8808,10 @@
     "gif_url": "videos/0631-yJUHKTn.gif",
     "created_at": "2026-03-18 12:31:32.887794+00:00",
     "name_en": "muscle up",
-    "name_es": "Muscle up"
+    "name_es": "Muscle up",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1401",
@@ -8326,7 +8860,10 @@
     "gif_url": "videos/1401-Af0EW2I.gif",
     "created_at": "2026-03-18 12:31:32.887810+00:00",
     "name_en": "muscle-up (on vertical bar)",
-    "name_es": "Muscle-up (on vertical bar)"
+    "name_es": "Muscle-up (on vertical bar)",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1403",
@@ -8371,7 +8908,10 @@
     "gif_url": "videos/1403-x2chWLO.gif",
     "created_at": "2026-03-18 12:31:32.887845+00:00",
     "name_en": "neck side stretch",
-    "name_es": "Neck lateral stretch"
+    "name_es": "Neck lateral stretch",
+    "target_es": "elevador de la escápula",
+    "equipment_es": "peso corporal",
+    "category_es": "neck"
   },
   {
     "id": "0634",
@@ -8415,7 +8955,10 @@
     "gif_url": "videos/0634-szIn2UK.gif",
     "created_at": "2026-03-18 12:31:32.887862+00:00",
     "name_en": "negative crunch",
-    "name_es": "Negative encogimiento"
+    "name_es": "Negative encogimiento",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1495",
@@ -8462,7 +9005,10 @@
     "gif_url": "videos/1495-cJgSTmh.gif",
     "created_at": "2026-03-18 12:31:32.887879+00:00",
     "name_en": "oblique crunch v. 2",
-    "name_es": "Oblique encogimiento v. 2"
+    "name_es": "Oblique encogimiento v. 2",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0635",
@@ -8506,7 +9052,10 @@
     "gif_url": "videos/0635-QUDd8WS.gif",
     "created_at": "2026-03-18 12:31:32.887896+00:00",
     "name_en": "oblique crunches floor",
-    "name_es": "Oblique encogimientos floor"
+    "name_es": "Oblique encogimientos floor",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1355",
@@ -8551,7 +9100,10 @@
     "gif_url": "videos/1355-ZZTGMKh.gif",
     "created_at": "2026-03-18 12:31:32.887950+00:00",
     "name_en": "one arm against wall",
-    "name_es": "One brazo against pared"
+    "name_es": "One brazo against pared",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0638",
@@ -8599,7 +9151,10 @@
     "gif_url": "videos/0638-HjdqmZa.gif",
     "created_at": "2026-03-18 12:31:32.887967+00:00",
     "name_en": "one arm chin-up",
-    "name_es": "One brazo chin-up"
+    "name_es": "One brazo chin-up",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0639",
@@ -8647,7 +9202,10 @@
     "gif_url": "videos/0639-FAoIFMw.gif",
     "created_at": "2026-03-18 12:31:32.887985+00:00",
     "name_en": "one arm dip",
-    "name_es": "One brazo fondo"
+    "name_es": "One brazo fondo",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "1773",
@@ -8695,7 +9253,10 @@
     "gif_url": "videos/1773-bKWbrTA.gif",
     "created_at": "2026-03-18 12:31:32.888022+00:00",
     "name_en": "one arm towel row",
-    "name_es": "One brazo towel remo"
+    "name_es": "One brazo towel remo",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1386",
@@ -8743,7 +9304,10 @@
     "gif_url": "videos/1386-A2upspL.gif",
     "created_at": "2026-03-18 12:31:32.888040+00:00",
     "name_en": "one leg donkey calf raise",
-    "name_es": "One pierna donkey calf elevación"
+    "name_es": "One pierna donkey calf elevación",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "1387",
@@ -8788,7 +9352,10 @@
     "gif_url": "videos/1387-0jp9Rlz.gif",
     "created_at": "2026-03-18 12:31:32.888058+00:00",
     "name_en": "one leg floor calf raise",
-    "name_es": "One pierna floor calf elevación"
+    "name_es": "One pierna floor calf elevación",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "1476",
@@ -8837,7 +9404,10 @@
     "gif_url": "videos/1476-C31LMnP.gif",
     "created_at": "2026-03-18 12:31:32.888076+00:00",
     "name_en": "one leg squat",
-    "name_es": "One pierna sentadilla"
+    "name_es": "One pierna sentadilla",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0642",
@@ -8883,7 +9453,10 @@
     "gif_url": "videos/0642-jNU1gFQ.gif",
     "created_at": "2026-03-18 12:31:32.888112+00:00",
     "name_en": "outside leg kick push-up",
-    "name_es": "Outside pierna patada flexión"
+    "name_es": "Outside pierna patada flexión",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0643",
@@ -8927,7 +9500,10 @@
     "gif_url": "videos/0643-Z5YStHW.gif",
     "created_at": "2026-03-18 12:31:32.888129+00:00",
     "name_en": "overhead triceps stretch",
-    "name_es": "Overhead triceps stretch"
+    "name_es": "Overhead triceps stretch",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "3147",
@@ -8974,7 +9550,10 @@
     "gif_url": "videos/3147-NKJ8o6x.gif",
     "created_at": "2026-03-18 12:31:32.888146+00:00",
     "name_en": "pelvic tilt",
-    "name_es": "Pelvic tilt"
+    "name_es": "Pelvic tilt",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1422",
@@ -9025,7 +9604,10 @@
     "gif_url": "videos/1422-D9qe7CM.gif",
     "created_at": "2026-03-18 12:31:32.888164+00:00",
     "name_en": "pelvic tilt into bridge",
-    "name_es": "Pelvic tilt into puente"
+    "name_es": "Pelvic tilt into puente",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3662",
@@ -9080,7 +9662,10 @@
     "gif_url": "videos/3662-XPUDTt7.gif",
     "created_at": "2026-03-18 12:31:32.888200+00:00",
     "name_en": "pike-to-cobra push-up",
-    "name_es": "Pike-to-cobra flexión"
+    "name_es": "Pike-to-cobra flexión",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1306",
@@ -9126,7 +9711,10 @@
     "gif_url": "videos/1306-Snj1wSv.gif",
     "created_at": "2026-03-18 12:31:32.888218+00:00",
     "name_en": "plyo push up",
-    "name_es": "Plyo flexión"
+    "name_es": "Plyo flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "1687",
@@ -9179,7 +9767,10 @@
     "gif_url": "videos/1687-ErqK3UL.gif",
     "created_at": "2026-03-18 12:31:32.888236+00:00",
     "name_en": "posterior step to overhead reach",
-    "name_es": "Posterior step to overhead reach"
+    "name_es": "Posterior step to overhead reach",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3119",
@@ -9227,7 +9818,10 @@
     "gif_url": "videos/3119-75Bgtjy.gif",
     "created_at": "2026-03-18 12:31:32.888271+00:00",
     "name_en": "potty squat",
-    "name_es": "Potty sentadilla"
+    "name_es": "Potty sentadilla",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3132",
@@ -9276,7 +9870,10 @@
     "gif_url": "videos/3132-b63ZzGe.gif",
     "created_at": "2026-03-18 12:31:32.888287+00:00",
     "name_en": "potty squat with support",
-    "name_es": "Potty sentadilla with support"
+    "name_es": "Potty sentadilla with support",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3665",
@@ -9325,7 +9922,10 @@
     "gif_url": "videos/3665-hCjGsRQ.gif",
     "created_at": "2026-03-18 12:31:32.888320+00:00",
     "name_en": "power point plank",
-    "name_es": "Power point plancha"
+    "name_es": "Power point plancha",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3203",
@@ -9369,7 +9969,10 @@
     "gif_url": "videos/3203-mgejmGP.gif",
     "created_at": "2026-03-18 12:31:32.888336+00:00",
     "name_en": "prisoner half sit-up (male)",
-    "name_es": "Prisoner half abdominal (male)"
+    "name_es": "Prisoner half abdominal (male)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0651",
@@ -9417,7 +10020,10 @@
     "gif_url": "videos/0651-0V2YQjW.gif",
     "created_at": "2026-03-18 12:31:32.888370+00:00",
     "name_en": "pull up (neutral grip)",
-    "name_es": "Dominada (neutral grip)"
+    "name_es": "Dominada (neutral grip)",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0652",
@@ -9462,7 +10068,10 @@
     "gif_url": "videos/0652-lBDjFxJ.gif",
     "created_at": "2026-03-18 12:31:32.888404+00:00",
     "name_en": "pull-up",
-    "name_es": "Dominada"
+    "name_es": "Dominada",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1689",
@@ -9510,7 +10119,10 @@
     "gif_url": "videos/1689-wXvUZC8.gif",
     "created_at": "2026-03-18 12:31:32.888422+00:00",
     "name_en": "push and pull bodyweight",
-    "name_es": "Push and pull bodyweight"
+    "name_es": "Push and pull bodyweight",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "3638",
@@ -9559,7 +10171,10 @@
     "gif_url": "videos/3638-PrQbjvB.gif",
     "created_at": "2026-03-18 12:31:32.888441+00:00",
     "name_en": "push to run",
-    "name_es": "Push to run"
+    "name_es": "Push to run",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "0662",
@@ -9602,7 +10217,10 @@
     "gif_url": "videos/0662-I4hDWkc.gif",
     "created_at": "2026-03-18 12:31:32.888477+00:00",
     "name_en": "push-up",
-    "name_es": "Flexión"
+    "name_es": "Flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0659",
@@ -9650,7 +10268,10 @@
     "gif_url": "videos/0659-LEH9jxP.gif",
     "created_at": "2026-03-18 12:31:32.888554+00:00",
     "name_en": "push-up (wall)",
-    "name_es": "Flexión (pared)"
+    "name_es": "Flexión (pared)",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0658",
@@ -9701,7 +10322,10 @@
     "gif_url": "videos/0658-NCmbLCw.gif",
     "created_at": "2026-03-18 12:31:32.888573+00:00",
     "name_en": "push-up (wall) v. 2",
-    "name_es": "Flexión (pared) v. 2"
+    "name_es": "Flexión (pared) v. 2",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0661",
@@ -9748,7 +10372,10 @@
     "gif_url": "videos/0661-0br45wL.gif",
     "created_at": "2026-03-18 12:31:32.888609+00:00",
     "name_en": "push-up inside leg kick",
-    "name_es": "Flexión inside pierna patada"
+    "name_es": "Flexión inside pierna patada",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1467",
@@ -9793,7 +10420,10 @@
     "gif_url": "videos/1467-4Jt8QsQ.gif",
     "created_at": "2026-03-18 12:31:32.888644+00:00",
     "name_en": "push-up on lower arms",
-    "name_es": "Flexión on lower arms"
+    "name_es": "Flexión on lower arms",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "3145",
@@ -9841,7 +10471,10 @@
     "gif_url": "videos/3145-pvBMLHA.gif",
     "created_at": "2026-03-18 12:31:32.888662+00:00",
     "name_en": "push-up plus",
-    "name_es": "Flexión plus"
+    "name_es": "Flexión plus",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0664",
@@ -9893,7 +10526,10 @@
     "gif_url": "videos/0664-KhHJ338.gif",
     "created_at": "2026-03-18 12:31:32.888679+00:00",
     "name_en": "push-up to side plank",
-    "name_es": "Flexión to lateral plancha"
+    "name_es": "Flexión to lateral plancha",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3533",
@@ -9941,7 +10577,10 @@
     "gif_url": "videos/3533-6YUfHPL.gif",
     "created_at": "2026-03-18 12:31:32.888697+00:00",
     "name_en": "quads",
-    "name_es": "Quads"
+    "name_es": "Quads",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3201",
@@ -9985,7 +10624,10 @@
     "gif_url": "videos/3201-enxnJcM.gif",
     "created_at": "2026-03-18 12:31:32.888715+00:00",
     "name_en": "quarter sit-up",
-    "name_es": "Quarter abdominal"
+    "name_es": "Quarter abdominal",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3552",
@@ -10027,7 +10669,10 @@
     "gif_url": "videos/3552-mweqJin.gif",
     "created_at": "2026-03-18 12:31:32.888732+00:00",
     "name_en": "quick feet v. 2",
-    "name_es": "Quick feet v. 2"
+    "name_es": "Quick feet v. 2",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0666",
@@ -10073,7 +10718,10 @@
     "gif_url": "videos/0666-13TpY4H.gif",
     "created_at": "2026-03-18 12:31:32.888750+00:00",
     "name_en": "raise single arm push-up",
-    "name_es": "Elevación single brazo flexión"
+    "name_es": "Elevación single brazo flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0668",
@@ -10118,7 +10766,10 @@
     "gif_url": "videos/0668-UpAlold.gif",
     "created_at": "2026-03-18 12:31:32.888768+00:00",
     "name_en": "rear decline bridge",
-    "name_es": "Rear decline puente"
+    "name_es": "Rear decline puente",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0669",
@@ -10163,7 +10814,10 @@
     "gif_url": "videos/0669-xifhB5W.gif",
     "created_at": "2026-03-18 12:31:32.888785+00:00",
     "name_en": "rear deltoid stretch",
-    "name_es": "Rear deltoid stretch"
+    "name_es": "Rear deltoid stretch",
+    "target_es": "hombros",
+    "equipment_es": "peso corporal",
+    "category_es": "shoulders"
   },
   {
     "id": "0670",
@@ -10211,7 +10865,10 @@
     "gif_url": "videos/0670-CbFSYC1.gif",
     "created_at": "2026-03-18 12:31:32.888801+00:00",
     "name_en": "rear pull-up",
-    "name_es": "Rear dominada"
+    "name_es": "Rear dominada",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0872",
@@ -10255,7 +10912,10 @@
     "gif_url": "videos/0872-nCU1Ekp.gif",
     "created_at": "2026-03-18 12:31:32.888959+00:00",
     "name_en": "reverse crunch",
-    "name_es": "Crunch inverso"
+    "name_es": "Crunch inverso",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0672",
@@ -10297,7 +10957,10 @@
     "gif_url": "videos/0672-NZ5Qqkz.gif",
     "created_at": "2026-03-18 12:31:32.888976+00:00",
     "name_en": "reverse dip",
-    "name_es": "Inverso fondo"
+    "name_es": "Inverso fondo",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0674",
@@ -10345,7 +11008,10 @@
     "gif_url": "videos/0674-YAk5dIw.gif",
     "created_at": "2026-03-18 12:31:32.889012+00:00",
     "name_en": "reverse grip pull-up",
-    "name_es": "Inverso grip dominada"
+    "name_es": "Inverso grip dominada",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1423",
@@ -10393,7 +11059,10 @@
     "gif_url": "videos/1423-OrETs32.gif",
     "created_at": "2026-03-18 12:31:32.889047+00:00",
     "name_en": "reverse hyper on flat bench",
-    "name_es": "Inverso hyper on flat bench"
+    "name_es": "Inverso hyper on flat bench",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3663",
@@ -10442,7 +11111,10 @@
     "gif_url": "videos/3663-tFToB7l.gif",
     "created_at": "2026-03-18 12:31:32.889065+00:00",
     "name_en": "reverse plank with leg lift",
-    "name_es": "Inverso plancha with pierna lift"
+    "name_es": "Inverso plancha with pierna lift",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0677",
@@ -10484,7 +11156,10 @@
     "gif_url": "videos/0677-ezTvXcr.gif",
     "created_at": "2026-03-18 12:31:32.889083+00:00",
     "name_en": "ring dips",
-    "name_es": "Ring fondos"
+    "name_es": "Ring fondos",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "2571",
@@ -10535,7 +11210,10 @@
     "gif_url": "videos/2571-2Dk4xQV.gif",
     "created_at": "2026-03-18 12:31:32.889101+00:00",
     "name_en": "rocking frog stretch",
-    "name_es": "Rocking frog stretch"
+    "name_es": "Rocking frog stretch",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0678",
@@ -10583,7 +11261,10 @@
     "gif_url": "videos/0678-cQ19bBP.gif",
     "created_at": "2026-03-18 12:31:32.889118+00:00",
     "name_en": "rocky pull-up pulldown",
-    "name_es": "Rocky dominada pulldown"
+    "name_es": "Rocky dominada pulldown",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0685",
@@ -10629,7 +11310,10 @@
     "gif_url": "videos/0685-oLrKqDH.gif",
     "created_at": "2026-03-18 12:31:32.889299+00:00",
     "name_en": "run",
-    "name_es": "Run"
+    "name_es": "Run",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "0684",
@@ -10675,7 +11359,10 @@
     "gif_url": "videos/0684-y5p0H8a.gif",
     "created_at": "2026-03-18 12:31:32.889316+00:00",
     "name_en": "run (equipment)",
-    "name_es": "Run (equipment)"
+    "name_es": "Run (equipment)",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "1585",
@@ -10720,7 +11407,10 @@
     "gif_url": "videos/1585-0mB6wHO.gif",
     "created_at": "2026-03-18 12:31:32.889332+00:00",
     "name_en": "runners stretch",
-    "name_es": "Runners stretch"
+    "name_es": "Runners stretch",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0687",
@@ -10770,7 +11460,10 @@
     "gif_url": "videos/0687-XVDdcoj.gif",
     "created_at": "2026-03-18 12:31:32.889348+00:00",
     "name_en": "russian twist",
-    "name_es": "Russian twist"
+    "name_es": "Russian twist",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3012",
@@ -10815,7 +11508,10 @@
     "gif_url": "videos/3012-7xeukSt.gif",
     "created_at": "2026-03-18 12:31:32.889364+00:00",
     "name_en": "scapula dips",
-    "name_es": "Scapula fondos"
+    "name_es": "Scapula fondos",
+    "target_es": "trapecios",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3021",
@@ -10860,7 +11556,10 @@
     "gif_url": "videos/3021-jV65tKx.gif",
     "created_at": "2026-03-18 12:31:32.889382+00:00",
     "name_en": "scapula push-up",
-    "name_es": "Scapula flexión"
+    "name_es": "Scapula flexión",
+    "target_es": "serrato anterior",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0688",
@@ -10906,7 +11605,10 @@
     "gif_url": "videos/0688-uTBt1HV.gif",
     "created_at": "2026-03-18 12:31:32.889400+00:00",
     "name_en": "scapular pull-up",
-    "name_es": "Scapular dominada"
+    "name_es": "Scapular dominada",
+    "target_es": "trapecios",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3219",
@@ -10952,7 +11654,10 @@
     "gif_url": "videos/3219-Eh2v5Iu.gif",
     "created_at": "2026-03-18 12:31:32.889417+00:00",
     "name_en": "scissor jumps (male)",
-    "name_es": "Scissor jumps (male)"
+    "name_es": "Scissor jumps (male)",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "1390",
@@ -10996,7 +11701,10 @@
     "gif_url": "videos/1390-17bqEXD.gif",
     "created_at": "2026-03-18 12:31:32.889435+00:00",
     "name_en": "seated calf stretch (male)",
-    "name_es": "Seated calf stretch (male)"
+    "name_es": "Seated calf stretch (male)",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "1424",
@@ -11043,7 +11751,10 @@
     "gif_url": "videos/1424-DeDThfG.gif",
     "created_at": "2026-03-18 12:31:32.889454+00:00",
     "name_en": "seated glute stretch",
-    "name_es": "Seated glute stretch"
+    "name_es": "Seated glute stretch",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0689",
@@ -11087,7 +11798,10 @@
     "gif_url": "videos/0689-Hgs6Nl1.gif",
     "created_at": "2026-03-18 12:31:32.889473+00:00",
     "name_en": "seated leg raise",
-    "name_es": "Seated pierna elevación"
+    "name_es": "Seated pierna elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0690",
@@ -11132,7 +11846,10 @@
     "gif_url": "videos/0690-QFmz6ch.gif",
     "created_at": "2026-03-18 12:31:32.889490+00:00",
     "name_en": "seated lower back stretch",
-    "name_es": "Seated lower espalda stretch"
+    "name_es": "Seated lower espalda stretch",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "2567",
@@ -11173,7 +11890,10 @@
     "gif_url": "videos/2567-QY39eBr.gif",
     "created_at": "2026-03-18 12:31:32.889508+00:00",
     "name_en": "seated piriformis stretch",
-    "name_es": "Seated piriformis stretch"
+    "name_es": "Seated piriformis stretch",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0691",
@@ -11223,7 +11943,10 @@
     "gif_url": "videos/0691-Y9hNPcN.gif",
     "created_at": "2026-03-18 12:31:32.889525+00:00",
     "name_en": "seated side crunch (wall)",
-    "name_es": "Seated lateral encogimiento (pared)"
+    "name_es": "Seated lateral encogimiento (pared)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1587",
@@ -11277,7 +12000,10 @@
     "gif_url": "videos/1587-HIgYKAB.gif",
     "created_at": "2026-03-18 12:31:32.889543+00:00",
     "name_en": "seated wide angle pose sequence",
-    "name_es": "Seated wide angle pose sequence"
+    "name_es": "Seated wide angle pose sequence",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0697",
@@ -11322,7 +12048,10 @@
     "gif_url": "videos/0697-GwYwElT.gif",
     "created_at": "2026-03-18 12:31:32.889561+00:00",
     "name_en": "self assisted inverse leg curl",
-    "name_es": "Self assisted inverse pierna curl"
+    "name_es": "Self assisted inverse pierna curl",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1766",
@@ -11370,7 +12099,10 @@
     "gif_url": "videos/1766-ZSY3MsL.gif",
     "created_at": "2026-03-18 12:31:32.889582+00:00",
     "name_en": "self assisted inverse leg curl",
-    "name_es": "Self assisted inverse pierna curl"
+    "name_es": "Self assisted inverse pierna curl",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0696",
@@ -11421,7 +12153,10 @@
     "gif_url": "videos/0696-E4PwJqI.gif",
     "created_at": "2026-03-18 12:31:32.889604+00:00",
     "name_en": "self assisted inverse leg curl (on floor)",
-    "name_es": "Self assisted inverse pierna curl (on floor)"
+    "name_es": "Self assisted inverse pierna curl (on floor)",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3222",
@@ -11467,7 +12202,10 @@
     "gif_url": "videos/3222-6FMU51h.gif",
     "created_at": "2026-03-18 12:31:32.889623+00:00",
     "name_en": "semi squat jump (male)",
-    "name_es": "Semi sentadilla salto (male)"
+    "name_es": "Semi sentadilla salto (male)",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "3656",
@@ -11513,7 +12251,10 @@
     "gif_url": "videos/3656-CcWEoWV.gif",
     "created_at": "2026-03-18 12:31:32.889640+00:00",
     "name_en": "short stride run",
-    "name_es": "Short stride run"
+    "name_es": "Short stride run",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "1763",
@@ -11558,7 +12299,10 @@
     "gif_url": "videos/1763-YtgD7Xq.gif",
     "created_at": "2026-03-18 12:31:32.889658+00:00",
     "name_en": "shoulder grip pull-up",
-    "name_es": "Shoulder grip dominada"
+    "name_es": "Shoulder grip dominada",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3699",
@@ -11603,7 +12347,10 @@
     "gif_url": "videos/3699-yRpV5TC.gif",
     "created_at": "2026-03-18 12:31:32.889676+00:00",
     "name_en": "shoulder tap",
-    "name_es": "Shoulder tap"
+    "name_es": "Shoulder tap",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0699",
@@ -11654,7 +12401,10 @@
     "gif_url": "videos/0699-qEse6fe.gif",
     "created_at": "2026-03-18 12:31:32.889694+00:00",
     "name_en": "shoulder tap push-up",
-    "name_es": "Shoulder tap flexión"
+    "name_es": "Shoulder tap flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "1774",
@@ -11702,7 +12452,10 @@
     "gif_url": "videos/1774-WL4EmxJ.gif",
     "created_at": "2026-03-18 12:31:32.889712+00:00",
     "name_en": "side bridge hip abduction",
-    "name_es": "Lateral puente hip abduction"
+    "name_es": "Lateral puente hip abduction",
+    "target_es": "abductores",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0705",
@@ -11750,7 +12503,10 @@
     "gif_url": "videos/0705-RKjH6Lt.gif",
     "created_at": "2026-03-18 12:31:32.889730+00:00",
     "name_en": "side bridge v. 2",
-    "name_es": "Lateral puente v. 2"
+    "name_es": "Lateral puente v. 2",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0709",
@@ -11795,7 +12551,10 @@
     "gif_url": "videos/0709-jTkSc6o.gif",
     "created_at": "2026-03-18 12:31:32.889747+00:00",
     "name_en": "side hip (on parallel bars)",
-    "name_es": "Lateral hip (on parallel bars)"
+    "name_es": "Lateral hip (on parallel bars)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0710",
@@ -11840,7 +12599,10 @@
     "gif_url": "videos/0710-7WaDzyL.gif",
     "created_at": "2026-03-18 12:31:32.889765+00:00",
     "name_en": "side hip abduction",
-    "name_es": "Lateral hip abduction"
+    "name_es": "Lateral hip abduction",
+    "target_es": "abductores",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1358",
@@ -11888,7 +12650,10 @@
     "gif_url": "videos/1358-jDOKRM5.gif",
     "created_at": "2026-03-18 12:31:32.889781+00:00",
     "name_en": "side lying floor stretch",
-    "name_es": "Lateral lying floor stretch"
+    "name_es": "Lateral lying floor stretch",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3667",
@@ -11933,7 +12698,10 @@
     "gif_url": "videos/3667-c8f5cSY.gif",
     "created_at": "2026-03-18 12:31:32.889798+00:00",
     "name_en": "side lying hip adduction (male)",
-    "name_es": "Lateral lying hip adduction (male)"
+    "name_es": "Lateral lying hip adduction (male)",
+    "target_es": "aductores",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1775",
@@ -11981,7 +12749,10 @@
     "gif_url": "videos/1775-VO2qeJg.gif",
     "created_at": "2026-03-18 12:31:32.889815+00:00",
     "name_en": "side plank hip adduction",
-    "name_es": "Lateral plancha hip adduction"
+    "name_es": "Lateral plancha hip adduction",
+    "target_es": "aductores",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0716",
@@ -12029,7 +12800,10 @@
     "gif_url": "videos/0716-oQRJYkC.gif",
     "created_at": "2026-03-18 12:31:32.889832+00:00",
     "name_en": "side push neck stretch",
-    "name_es": "Lateral push neck stretch"
+    "name_es": "Lateral push neck stretch",
+    "target_es": "elevador de la escápula",
+    "equipment_es": "peso corporal",
+    "category_es": "neck"
   },
   {
     "id": "0717",
@@ -12078,7 +12852,10 @@
     "gif_url": "videos/0717-wpbD28t.gif",
     "created_at": "2026-03-18 12:31:32.889848+00:00",
     "name_en": "side push-up",
-    "name_es": "Lateral flexión"
+    "name_es": "Lateral flexión",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0721",
@@ -12123,7 +12900,10 @@
     "gif_url": "videos/0721-UtmIqcI.gif",
     "created_at": "2026-03-18 12:31:32.889865+00:00",
     "name_en": "side wrist pull stretch",
-    "name_es": "Lateral wrist pull stretch"
+    "name_es": "Lateral wrist pull stretch",
+    "target_es": "antebrazos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower arms"
   },
   {
     "id": "0720",
@@ -12171,7 +12951,10 @@
     "gif_url": "videos/0720-isAAZWA.gif",
     "created_at": "2026-03-18 12:31:32.889884+00:00",
     "name_en": "side-to-side chin",
-    "name_es": "Lateral-to-lateral chin"
+    "name_es": "Lateral-to-lateral chin",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3213",
@@ -12213,7 +12996,10 @@
     "gif_url": "videos/3213-WCAvOfC.gif",
     "created_at": "2026-03-18 12:31:32.889901+00:00",
     "name_en": "side-to-side toe touch (male)",
-    "name_es": "Lateral-to-lateral toe touch (male)"
+    "name_es": "Lateral-to-lateral toe touch (male)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0725",
@@ -12259,7 +13045,10 @@
     "gif_url": "videos/0725-MUic5zN.gif",
     "created_at": "2026-03-18 12:31:32.889919+00:00",
     "name_en": "single arm push-up",
-    "name_es": "Single brazo flexión"
+    "name_es": "Single brazo flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "3645",
@@ -12304,7 +13093,10 @@
     "gif_url": "videos/3645-rmEukuS.gif",
     "created_at": "2026-03-18 12:31:32.889937+00:00",
     "name_en": "single leg bridge with outstretched leg",
-    "name_es": "Single pierna puente with outstretched pierna"
+    "name_es": "Single pierna puente with outstretched pierna",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0730",
@@ -12349,7 +13141,10 @@
     "gif_url": "videos/0730-LNE3wfo.gif",
     "created_at": "2026-03-18 12:31:32.889974+00:00",
     "name_en": "single leg platform slide",
-    "name_es": "Single pierna platform slide"
+    "name_es": "Single pierna platform slide",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1759",
@@ -12401,7 +13196,10 @@
     "gif_url": "videos/1759-nqs5HGV.gif",
     "created_at": "2026-03-18 12:31:32.889992+00:00",
     "name_en": "single leg squat (pistol) male",
-    "name_es": "Single pierna sentadilla (pistol) male"
+    "name_es": "Single pierna sentadilla (pistol) male",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1489",
@@ -12449,7 +13247,10 @@
     "gif_url": "videos/1489-xdYPUtE.gif",
     "created_at": "2026-03-18 12:31:32.890010+00:00",
     "name_en": "sissy squat",
-    "name_es": "Sissy sentadilla"
+    "name_es": "Sissy sentadilla",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0735",
@@ -12493,7 +13294,10 @@
     "gif_url": "videos/0735-Bn6TXyO.gif",
     "created_at": "2026-03-18 12:31:32.890027+00:00",
     "name_en": "sit-up v. 2",
-    "name_es": "Abdominal v. 2"
+    "name_es": "Abdominal v. 2",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3679",
@@ -12537,7 +13341,10 @@
     "gif_url": "videos/3679-6ZCiYWQ.gif",
     "created_at": "2026-03-18 12:31:32.890044+00:00",
     "name_en": "sit-up with arms on chest",
-    "name_es": "Abdominal with arms on chest"
+    "name_es": "Abdominal with arms on chest",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3361",
@@ -12590,7 +13397,10 @@
     "gif_url": "videos/3361-zfNHMN9.gif",
     "created_at": "2026-03-18 12:31:32.890062+00:00",
     "name_en": "skater hops",
-    "name_es": "Skater hops"
+    "name_es": "Skater hops",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "3671",
@@ -12640,7 +13450,10 @@
     "gif_url": "videos/3671-5MRH8H2.gif",
     "created_at": "2026-03-18 12:31:32.890098+00:00",
     "name_en": "ski step",
-    "name_es": "Ski step"
+    "name_es": "Ski step",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "3304",
@@ -12688,7 +13501,10 @@
     "gif_url": "videos/3304-MSfvriJ.gif",
     "created_at": "2026-03-18 12:31:32.890116+00:00",
     "name_en": "skin the cat",
-    "name_es": "Skin the cat"
+    "name_es": "Skin the cat",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1362",
@@ -12733,7 +13549,10 @@
     "gif_url": "videos/1362-DIVyqrU.gif",
     "created_at": "2026-03-18 12:31:32.891306+00:00",
     "name_en": "sphinx",
-    "name_es": "Sphinx"
+    "name_es": "Sphinx",
+    "target_es": "lumbares",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0778",
@@ -12779,7 +13598,10 @@
     "gif_url": "videos/0778-P9GFBME.gif",
     "created_at": "2026-03-18 12:31:32.891324+00:00",
     "name_en": "spider crawl push up",
-    "name_es": "Spider crawl flexión"
+    "name_es": "Spider crawl flexión",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1363",
@@ -12827,7 +13649,10 @@
     "gif_url": "videos/1363-JbC2iaV.gif",
     "created_at": "2026-03-18 12:31:32.891340+00:00",
     "name_en": "spine stretch",
-    "name_es": "Spine stretch"
+    "name_es": "Spine stretch",
+    "target_es": "lumbares",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "2329",
@@ -12878,7 +13703,10 @@
     "gif_url": "videos/2329-2jl9K55.gif",
     "created_at": "2026-03-18 12:31:32.891357+00:00",
     "name_en": "spine twist",
-    "name_es": "Spine twist"
+    "name_es": "Spine twist",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "2368",
@@ -12927,7 +13755,10 @@
     "gif_url": "videos/2368-9E25EOx.gif",
     "created_at": "2026-03-18 12:31:32.891374+00:00",
     "name_en": "split squats",
-    "name_es": "Split squats"
+    "name_es": "Split squats",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1685",
@@ -12973,7 +13804,10 @@
     "gif_url": "videos/1685-QChZi3x.gif",
     "created_at": "2026-03-18 12:31:32.891427+00:00",
     "name_en": "squat to overhead reach",
-    "name_es": "Sentadilla to overhead reach"
+    "name_es": "Sentadilla to overhead reach",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1686",
@@ -13019,7 +13853,10 @@
     "gif_url": "videos/1686-5BZHW9s.gif",
     "created_at": "2026-03-18 12:31:32.891459+00:00",
     "name_en": "squat to overhead reach with twist",
-    "name_es": "Sentadilla to overhead reach with twist"
+    "name_es": "Sentadilla to overhead reach with twist",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3291",
@@ -13067,7 +13904,10 @@
     "gif_url": "videos/3291-zd4P4B2.gif",
     "created_at": "2026-03-18 12:31:32.891496+00:00",
     "name_en": "stalder press",
-    "name_es": "Stalder press"
+    "name_es": "Stalder press",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "3669",
@@ -13119,7 +13959,10 @@
     "gif_url": "videos/3669-JF8AkMX.gif",
     "created_at": "2026-03-18 12:31:32.891514+00:00",
     "name_en": "standing archer",
-    "name_es": "Standing archer"
+    "name_es": "Standing archer",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1490",
@@ -13164,7 +14007,10 @@
     "gif_url": "videos/1490-6HmFgmx.gif",
     "created_at": "2026-03-18 12:31:32.891550+00:00",
     "name_en": "standing calf raise (on a staircase)",
-    "name_es": "Standing calf elevación (on a staircase)"
+    "name_es": "Standing calf elevación (on a staircase)",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "1397",
@@ -13206,7 +14052,10 @@
     "gif_url": "videos/1397-XIHEoCG.gif",
     "created_at": "2026-03-18 12:31:32.891567+00:00",
     "name_en": "standing calves",
-    "name_es": "Standing calves"
+    "name_es": "Standing calves",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "1398",
@@ -13257,7 +14106,10 @@
     "gif_url": "videos/1398-qOKcgVP.gif",
     "created_at": "2026-03-18 12:31:32.891585+00:00",
     "name_en": "standing calves calf stretch",
-    "name_es": "Standing calves calf stretch"
+    "name_es": "Standing calves calf stretch",
+    "target_es": "gemelos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower legs"
   },
   {
     "id": "0794",
@@ -13305,7 +14157,10 @@
     "gif_url": "videos/0794-1jXLYEw.gif",
     "created_at": "2026-03-18 12:31:32.891621+00:00",
     "name_en": "standing lateral stretch",
-    "name_es": "Standing lateral stretch"
+    "name_es": "Standing lateral stretch",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1364",
@@ -13349,7 +14204,10 @@
     "gif_url": "videos/1364-cuKYxhu.gif",
     "created_at": "2026-03-18 12:31:32.891639+00:00",
     "name_en": "standing pelvic tilt",
-    "name_es": "Standing pelvic tilt"
+    "name_es": "Standing pelvic tilt",
+    "target_es": "lumbares",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0795",
@@ -13393,7 +14251,10 @@
     "gif_url": "videos/0795-C5jncD2.gif",
     "created_at": "2026-03-18 12:31:32.891656+00:00",
     "name_en": "standing single leg curl",
-    "name_es": "Standing single pierna curl"
+    "name_es": "Standing single pierna curl",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3223",
@@ -13439,7 +14300,10 @@
     "gif_url": "videos/3223-HtfCpfi.gif",
     "created_at": "2026-03-18 12:31:32.891692+00:00",
     "name_en": "star jump (male)",
-    "name_es": "Star salto (male)"
+    "name_es": "Star salto (male)",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "3314",
@@ -13484,7 +14348,10 @@
     "gif_url": "videos/3314-HfqciZF.gif",
     "created_at": "2026-03-18 12:31:32.904937+00:00",
     "name_en": "straddle maltese",
-    "name_es": "Straddle maltese"
+    "name_es": "Straddle maltese",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3298",
@@ -13530,7 +14397,10 @@
     "gif_url": "videos/3298-BL3GHeY.gif",
     "created_at": "2026-03-18 12:31:32.904967+00:00",
     "name_en": "straddle planche",
-    "name_es": "Straddle planche"
+    "name_es": "Straddle planche",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1427",
@@ -13575,7 +14445,10 @@
     "gif_url": "videos/1427-mQ1tBXn.gif",
     "created_at": "2026-03-18 12:31:32.904992+00:00",
     "name_en": "straight leg outer hip abductor",
-    "name_es": "Straight pierna outer hip abductor"
+    "name_es": "Straight pierna outer hip abductor",
+    "target_es": "abductores",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "0803",
@@ -13623,7 +14496,10 @@
     "gif_url": "videos/0803-4GqRrAk.gif",
     "created_at": "2026-03-18 12:31:32.905020+00:00",
     "name_en": "superman push-up",
-    "name_es": "Superman flexión"
+    "name_es": "Superman flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0805",
@@ -13671,7 +14547,10 @@
     "gif_url": "videos/0805-X3TCNEU.gif",
     "created_at": "2026-03-18 12:31:32.905044+00:00",
     "name_en": "suspended abdominal fallout",
-    "name_es": "Suspended abdominal fallout"
+    "name_es": "Suspended abdominal fallout",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0806",
@@ -13720,7 +14599,10 @@
     "gif_url": "videos/0806-IaGQCrC.gif",
     "created_at": "2026-03-18 12:31:32.905069+00:00",
     "name_en": "suspended push-up",
-    "name_es": "Suspended flexión"
+    "name_es": "Suspended flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0807",
@@ -13761,7 +14643,10 @@
     "gif_url": "videos/0807-R1WYG5D.gif",
     "created_at": "2026-03-18 12:31:32.905092+00:00",
     "name_en": "suspended reverse crunch",
-    "name_es": "Suspended inverso encogimiento"
+    "name_es": "Suspended inverso encogimiento",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0808",
@@ -13812,7 +14697,10 @@
     "gif_url": "videos/0808-4OaumBr.gif",
     "created_at": "2026-03-18 12:31:32.905118+00:00",
     "name_en": "suspended row",
-    "name_es": "Suspended remo"
+    "name_es": "Suspended remo",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "0809",
@@ -13858,7 +14746,10 @@
     "gif_url": "videos/0809-QpXqiq8.gif",
     "created_at": "2026-03-18 12:31:32.905143+00:00",
     "name_en": "suspended split squat",
-    "name_es": "Suspended split sentadilla"
+    "name_es": "Suspended split sentadilla",
+    "target_es": "cuádriceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3433",
@@ -13904,7 +14795,10 @@
     "gif_url": "videos/3433-SP3hUez.gif",
     "created_at": "2026-03-18 12:31:32.905169+00:00",
     "name_en": "swimmer kicks v. 2 (male)",
-    "name_es": "Swimmer kicks v. 2 (male)"
+    "name_es": "Swimmer kicks v. 2 (male)",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3318",
@@ -13949,7 +14843,10 @@
     "gif_url": "videos/3318-tnaj0mT.gif",
     "created_at": "2026-03-18 12:31:32.905188+00:00",
     "name_en": "swing 360",
-    "name_es": "Swing 360"
+    "name_es": "Swing 360",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "1753",
@@ -13994,7 +14891,10 @@
     "gif_url": "videos/1753-DQ0cqkT.gif",
     "created_at": "2026-03-18 12:31:32.905212+00:00",
     "name_en": "three bench dip",
-    "name_es": "Three bench fondo"
+    "name_es": "Three bench fondo",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0814",
@@ -14039,7 +14939,10 @@
     "gif_url": "videos/0814-X6C6i5Y.gif",
     "created_at": "2026-03-18 12:31:32.905285+00:00",
     "name_en": "triceps dip",
-    "name_es": "Fondos de tríceps"
+    "name_es": "Fondos de tríceps",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0812",
@@ -14084,7 +14987,10 @@
     "gif_url": "videos/0812-VuoerH0.gif",
     "created_at": "2026-03-18 12:31:32.905305+00:00",
     "name_en": "triceps dip (bench leg)",
-    "name_es": "Triceps fondo (bench pierna)"
+    "name_es": "Triceps fondo (bench pierna)",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0813",
@@ -14129,7 +15035,10 @@
     "gif_url": "videos/0813-Wgbn9qo.gif",
     "created_at": "2026-03-18 12:31:32.905328+00:00",
     "name_en": "triceps dip (between benches)",
-    "name_es": "Triceps fondo (between benches)"
+    "name_es": "Triceps fondo (between benches)",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0815",
@@ -14177,7 +15086,10 @@
     "gif_url": "videos/0815-7aVz15j.gif",
     "created_at": "2026-03-18 12:31:32.905350+00:00",
     "name_en": "triceps dips floor",
-    "name_es": "Triceps fondos floor"
+    "name_es": "Triceps fondos floor",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0816",
@@ -14221,7 +15133,10 @@
     "gif_url": "videos/0816-fSrPP6B.gif",
     "created_at": "2026-03-18 12:31:32.905370+00:00",
     "name_en": "triceps press",
-    "name_es": "Triceps press"
+    "name_es": "Triceps press",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0817",
@@ -14265,7 +15180,10 @@
     "gif_url": "videos/0817-uOV3Itw.gif",
     "created_at": "2026-03-18 12:31:32.905391+00:00",
     "name_en": "triceps stretch",
-    "name_es": "Triceps stretch"
+    "name_es": "Triceps stretch",
+    "target_es": "tríceps",
+    "equipment_es": "peso corporal",
+    "category_es": "upper arms"
   },
   {
     "id": "0871",
@@ -14309,7 +15227,10 @@
     "gif_url": "videos/0871-BMMolZ3.gif",
     "created_at": "2026-03-18 12:31:32.905412+00:00",
     "name_en": "tuck crunch",
-    "name_es": "Tuck encogimiento"
+    "name_es": "Tuck encogimiento",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1466",
@@ -14357,7 +15278,10 @@
     "gif_url": "videos/1466-AX1kB0o.gif",
     "created_at": "2026-03-18 12:31:32.905457+00:00",
     "name_en": "twist hip lift",
-    "name_es": "Twist hip lift"
+    "name_es": "Twist hip lift",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "2802",
@@ -14408,7 +15332,10 @@
     "gif_url": "videos/2802-C0eCeEt.gif",
     "created_at": "2026-03-18 12:31:32.905477+00:00",
     "name_en": "twisted leg raise",
-    "name_es": "Twisted pierna elevación"
+    "name_es": "Twisted pierna elevación",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "2801",
@@ -14456,7 +15383,10 @@
     "gif_url": "videos/2801-yT9tk17.gif",
     "created_at": "2026-03-18 12:31:32.905496+00:00",
     "name_en": "twisted leg raise (female)",
-    "name_es": "Twisted pierna elevación (female)"
+    "name_es": "Twisted pierna elevación (female)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3231",
@@ -14501,7 +15431,10 @@
     "gif_url": "videos/3231-p195zsJ.gif",
     "created_at": "2026-03-18 12:31:32.905517+00:00",
     "name_en": "two toe touch (male)",
-    "name_es": "Two toe touch (male)"
+    "name_es": "Two toe touch (male)",
+    "target_es": "lumbares",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1365",
@@ -14548,7 +15481,10 @@
     "gif_url": "videos/1365-GSDioYu.gif",
     "created_at": "2026-03-18 12:31:32.905536+00:00",
     "name_en": "upper back stretch",
-    "name_es": "Upper espalda stretch"
+    "name_es": "Upper espalda stretch",
+    "target_es": "espalda alta",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1366",
@@ -14596,7 +15532,10 @@
     "gif_url": "videos/1366-01qpYSe.gif",
     "created_at": "2026-03-18 12:31:32.905556+00:00",
     "name_en": "upward facing dog",
-    "name_es": "Upward facing dog"
+    "name_es": "Upward facing dog",
+    "target_es": "lumbares",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "3420",
@@ -14640,7 +15579,10 @@
     "gif_url": "videos/3420-ZuXu4Eq.gif",
     "created_at": "2026-03-18 12:31:32.905577+00:00",
     "name_en": "v-sit on floor",
-    "name_es": "V-sit on floor"
+    "name_es": "V-sit on floor",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "0826",
@@ -14684,7 +15626,10 @@
     "gif_url": "videos/0826-ZNgOYQU.gif",
     "created_at": "2026-03-18 12:31:32.905598+00:00",
     "name_en": "vertical leg raise (on parallel bars)",
-    "name_es": "Vertical pierna elevación (on parallel bars)"
+    "name_es": "Vertical pierna elevación (on parallel bars)",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "3655",
@@ -14737,7 +15682,10 @@
     "gif_url": "videos/3655-J9zIWig.gif",
     "created_at": "2026-03-18 12:31:32.905640+00:00",
     "name_en": "walking high knees lunge",
-    "name_es": "Walking high knees zancada"
+    "name_es": "Walking high knees zancada",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "1460",
@@ -14786,7 +15734,10 @@
     "gif_url": "videos/1460-IZVHb27.gif",
     "created_at": "2026-03-18 12:31:32.905661+00:00",
     "name_en": "walking lunge",
-    "name_es": "Zancada caminando"
+    "name_es": "Zancada caminando",
+    "target_es": "glúteos",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "3637",
@@ -14832,7 +15783,10 @@
     "gif_url": "videos/3637-km2Ljzj.gif",
     "created_at": "2026-03-18 12:31:32.906470+00:00",
     "name_en": "wheel run",
-    "name_es": "Wheel run"
+    "name_es": "Wheel run",
+    "target_es": "cardio",
+    "equipment_es": "peso corporal",
+    "category_es": "cardio"
   },
   {
     "id": "1429",
@@ -14877,7 +15831,10 @@
     "gif_url": "videos/1429-Qqi7bko.gif",
     "created_at": "2026-03-18 12:31:32.906491+00:00",
     "name_en": "wide grip pull-up",
-    "name_es": "Wide grip dominada"
+    "name_es": "Wide grip dominada",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1367",
@@ -14925,7 +15882,10 @@
     "gif_url": "videos/1367-OYFhXVD.gif",
     "created_at": "2026-03-18 12:31:32.906510+00:00",
     "name_en": "wide grip rear pull-up",
-    "name_es": "Wide grip rear dominada"
+    "name_es": "Wide grip rear dominada",
+    "target_es": "espalda (dorsales)",
+    "equipment_es": "peso corporal",
+    "category_es": "back"
   },
   {
     "id": "1311",
@@ -14970,7 +15930,10 @@
     "gif_url": "videos/1311-JmMVpR3.gif",
     "created_at": "2026-03-18 12:31:32.906529+00:00",
     "name_en": "wide hand push up",
-    "name_es": "Wide hand flexión"
+    "name_es": "Wide hand flexión",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "2363",
@@ -15012,7 +15975,10 @@
     "gif_url": "videos/2363-O2K9Vb5.gif",
     "created_at": "2026-03-18 12:31:32.906549+00:00",
     "name_en": "wide-grip chest dip on high parallel bars",
-    "name_es": "Wide-grip chest fondo on high parallel bars"
+    "name_es": "Wide-grip chest fondo on high parallel bars",
+    "target_es": "pecho",
+    "equipment_es": "peso corporal",
+    "category_es": "chest"
   },
   {
     "id": "0858",
@@ -15058,7 +16024,10 @@
     "gif_url": "videos/0858-Qoujh3Q.gif",
     "created_at": "2026-03-18 12:31:32.906568+00:00",
     "name_en": "wind sprints",
-    "name_es": "Wind sprints"
+    "name_es": "Wind sprints",
+    "target_es": "abdominales",
+    "equipment_es": "peso corporal",
+    "category_es": "waist"
   },
   {
     "id": "1604",
@@ -15107,7 +16076,10 @@
     "gif_url": "videos/1604-DFGXwZr.gif",
     "created_at": "2026-03-18 12:31:32.906591+00:00",
     "name_en": "world greatest stretch",
-    "name_es": "World greatest stretch"
+    "name_es": "World greatest stretch",
+    "target_es": "isquiotibiales",
+    "equipment_es": "peso corporal",
+    "category_es": "upper legs"
   },
   {
     "id": "1428",
@@ -15149,6 +16121,9 @@
     "gif_url": "videos/1428-2zNKRUB.gif",
     "created_at": "2026-03-18 12:31:32.906611+00:00",
     "name_en": "wrist circles",
-    "name_es": "Wrist circles"
+    "name_es": "Wrist circles",
+    "target_es": "antebrazos",
+    "equipment_es": "peso corporal",
+    "category_es": "lower arms"
   }
 ]

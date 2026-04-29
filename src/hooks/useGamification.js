@@ -5,13 +5,27 @@ export const useGamificationStore = create((set, get) => ({
   streak: parseInt(localStorage.getItem('calisteniapp_streak') || '0'),
   lastDate: localStorage.getItem('calisteniapp_last_date') || null,
   level: Math.floor(parseInt(localStorage.getItem('calisteniapp_xp') || '0') / 500) + 1,
+  completedNodes: JSON.parse(localStorage.getItem('calisteniapp_completed_nodes') || '[]'),
+  currentWorldId: localStorage.getItem('calisteniapp_current_world') || 'world_1',
 
   addXP: (amount) => {
     const newXP = get().xp + amount;
     const newLevel = Math.floor(newXP / 500) + 1;
-    
     localStorage.setItem('calisteniapp_xp', newXP.toString());
     set({ xp: newXP, level: newLevel });
+  },
+
+  completeNode: (nodeId) => {
+    const completed = get().completedNodes;
+    if (completed.includes(nodeId)) return;
+    const updated = [...completed, nodeId];
+    localStorage.setItem('calisteniapp_completed_nodes', JSON.stringify(updated));
+    set({ completedNodes: updated });
+  },
+
+  setWorld: (worldId) => {
+    localStorage.setItem('calisteniapp_current_world', worldId);
+    set({ currentWorldId: worldId });
   },
 
   updateStreak: () => {
@@ -22,11 +36,14 @@ export const useGamificationStore = create((set, get) => ({
 
     let newStreak = get().streak;
     if (last) {
-      const yesterday = new Date();
-      yesterday.setDate(yesterday.getDate() - 1);
-      if (last === yesterday.toLocaleDateString()) {
+      const lastDateObj = new Date(last);
+      const todayDateObj = new Date(today);
+      const diffTime = Math.abs(todayDateObj - lastDateObj);
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+      if (diffDays === 1) {
         newStreak += 1;
-      } else {
+      } else if (diffDays > 1) {
         newStreak = 1;
       }
     } else {

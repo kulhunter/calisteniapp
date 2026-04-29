@@ -89,15 +89,16 @@ export const WorkoutPlayer = () => {
     };
   }, [workoutState, stepData, nextStep, setWorkoutState, isResting, isPaused]);
 
-  const { addXP } = useGamificationStore();
+  const { addXP, completeNode } = useGamificationStore();
   const [hasAwardedXP, setHasAwardedXP] = useState(false);
 
   useEffect(() => {
     if (workoutState === 'finished' && activeRoutine && !hasAwardedXP) {
       addXP(activeRoutine.xp || 200);
+      completeNode(activeRoutine.id);
       setHasAwardedXP(true);
     }
-  }, [workoutState, activeRoutine, hasAwardedXP]);
+  }, [workoutState, activeRoutine, hasAwardedXP, addXP, completeNode]);
 
   if (!activeRoutine || !stepData) return null;
 

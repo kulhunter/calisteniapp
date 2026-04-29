@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronRight, ShieldCheck, User, Activity } from 'lucide-react';
+import { useGamificationStore } from '../hooks/useGamification';
 
 export const Onboarding = ({ onComplete }) => {
   const [step, setStep] = useState(0);
@@ -30,6 +31,17 @@ export const Onboarding = ({ onComplete }) => {
     const scores = calculateScores();
     const userProfile = { ...data, ...scores };
     localStorage.setItem('calisteniapp_user', JSON.stringify(userProfile));
+    
+    // Set initial world based on strength
+    const { setWorld } = useGamificationStore.getState();
+    if (scores.strengthLevel === 'Master') {
+      setWorld('world_3');
+    } else if (scores.strengthLevel === 'Avanzado' || scores.strengthLevel === 'Intermedio') {
+      setWorld('world_2');
+    } else {
+      setWorld('world_1');
+    }
+    
     onComplete();
   };
 

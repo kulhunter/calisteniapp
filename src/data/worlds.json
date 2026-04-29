@@ -1,0 +1,51 @@
+[
+  {
+    "id": "world_1",
+    "name": "Mundo 1: Fundamentos",
+    "description": "Domina los pilares de la calistenia y construye una base sólida.",
+    "minLevel": 1,
+    "chapters": [
+      {
+        "id": "w1_c1",
+        "name": "Semana 1: Adaptación Anatómica",
+        "routines": ["casa_abs_1", "casa_quads_2", "casa_pectorals_3"]
+      },
+      {
+        "id": "w1_c2",
+        "name": "Semana 2: Empuje y Tracción",
+        "routines": ["casa_triceps_4", "casa_biceps_5", "casa_delts_6"]
+      }
+    ]
+  },
+  {
+    "id": "world_2",
+    "name": "Mundo 2: El Olimpo",
+    "description": "Entrena con la intensidad de los dioses para máxima hipertrofia.",
+    "minLevel": 3,
+    "chapters": [
+      {
+        "id": "w2_c1",
+        "name": "Semana 1: Explosividad",
+        "routines": ["gimnasio_pectorals_7", "gimnasio_lats_8", "gimnasio_abs_9"]
+      },
+      {
+        "id": "w2_c2",
+        "name": "Semana 2: Resistencia Total",
+        "routines": ["gimnasio_quads_10", "gimnasio_glutes_11", "gimnasio_cardiovascular system_12"]
+      }
+    ]
+  },
+  {
+    "id": "world_3",
+    "name": "Mundo 3: Maestría",
+    "description": "El nivel final. Solo para guerreros de élite.",
+    "minLevel": 6,
+    "chapters": [
+      {
+        "id": "w3_c1",
+        "name": "Semana 1: Control Corporal",
+        "routines": ["casa_upper back_13", "casa_spine_14", "casa_hamstrings_15"]
+      }
+    ]
+  }
+]
