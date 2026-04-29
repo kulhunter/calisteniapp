@@ -4,21 +4,18 @@ export function SEO() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": "Calisteniapp",
+    "name": "Calisteniapp Pro",
     "url": "https://calisteniapp.cl",
-    "description": "Entrenador 3D interactivo para calistenia y fitness. Visualiza la técnica correcta de ejercicios con un modelo anatómico.",
+    "description": "Plataforma Pro de Calistenia. Rutinas guiadas, cronómetros y técnica avanzada.",
     "applicationCategory": "HealthApplication",
-    "operatingSystem": "Web",
-    "author": {
-      "@type": "Organization",
-      "name": "Calisteniapp"
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "CLP"
-    }
+    "operatingSystem": "Web"
   };
+
+  React.useEffect(() => {
+    document.title = "Calisteniapp Pro - Entrena como un Guerrero";
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', "La aplicación definitiva de calistenia. Rutinas guiadas y cronómetros Pro.");
+  }, []);
 
   return (
     <script type="application/ld+json">
