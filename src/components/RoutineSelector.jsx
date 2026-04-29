@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import routines from '../data/routines.json';
 import { useExerciseStore } from '../hooks/useExercise';
-import { Play, Clock, BarChart, Home, ShieldCheck, Dumbbell, Search, Plus } from 'lucide-react';
+import { Play, Clock, BarChart, Home, ShieldCheck, Dumbbell, Search, Plus, Zap } from 'lucide-react';
 
 import { CustomRoutineBuilder } from './CustomRoutineBuilder';
 
