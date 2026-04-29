@@ -83,11 +83,11 @@ export function ExercisePanel() {
             <Activity size={28} className="text-primary/40" />
           </div>
           <h3 className="text-lg font-bold mb-2">Selecciona un Músculo</h3>
-          <p className="text-xs text-white/30 leading-relaxed max-w-[200px] mb-8">
-            Haz clic en el modelo 3D o elige uno de la lista para ver los ejercicios.
+          <p className="text-xs text-white/30 leading-relaxed max-w-[300px] mb-8">
+            Elige un grupo muscular de la lista para explorar la videoteca de ejercicios.
           </p>
           
-          <div className="w-full grid grid-cols-2 gap-2">
+          <div className="w-full max-w-4xl grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {musclesList.map((muscle) => (
               <button
                 key={muscle.id}

@@ -1,8 +1,7 @@
 import React from 'react';
 import { ExercisePanel } from './components/ExercisePanel';
-import { Scene } from './components/Scene';
 import { SEO } from './components/SEO';
-import { Search, Settings, User, Layers, Maximize2, ZoomIn, Activity, Info } from 'lucide-react';
+import { Search, Settings, User, Activity } from 'lucide-react';
 
 function App() {
   return (
@@ -38,66 +37,10 @@ function App() {
 
       {/* Main Content Area */}
       <main className="flex-1 flex overflow-hidden relative">
-        
-        {/* Left Toolbar - View Selection */}
-        <aside className="w-20 glass-panel border-r border-white/5 flex flex-col items-center py-8 gap-8 z-20">
-          <div className="flex flex-col items-center gap-2 group cursor-pointer">
-            <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center group-hover:bg-primary/20 group-hover:text-primary transition-all border border-transparent group-hover:border-primary/30">
-              <Layers size={20} />
-            </div>
-            <span className="text-[10px] uppercase font-bold text-white/30 group-hover:text-primary transition-colors">Frontal</span>
-          </div>
-          <div className="flex flex-col items-center gap-2 group cursor-pointer">
-            <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center group-hover:bg-primary/20 group-hover:text-primary transition-all border border-transparent group-hover:border-primary/30">
-              <Layers size={20} className="rotate-90" />
-            </div>
-            <span className="text-[10px] uppercase font-bold text-white/30 group-hover:text-primary transition-colors">Lateral</span>
-          </div>
-          <div className="flex flex-col items-center gap-2 group cursor-pointer">
-            <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center group-hover:bg-primary/20 group-hover:text-primary transition-all border border-transparent group-hover:border-primary/30">
-              <Layers size={20} className="rotate-180" />
-            </div>
-            <span className="text-[10px] uppercase font-bold text-white/30 group-hover:text-primary transition-colors">Posterior</span>
-          </div>
-          
-          <div className="mt-auto flex flex-col items-center gap-4">
-            <div className="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center border border-primary/20 shadow-[0_0_15px_rgba(0,163,255,0.2)]">
-              <Layers size={20} />
-            </div>
-            <span className="text-[10px] uppercase font-bold text-primary">Capas</span>
-          </div>
-        </aside>
-
-        {/* 3D Scene Area */}
-        <section className="flex-1 relative bg-[#050505]">
-          <div className="w-full h-full">
-            <Scene />
-          </div>
-          
-          {/* Quick Info Overlay */}
-          <div className="absolute top-8 left-8 z-20 pointer-events-none">
-            <div className="glass-panel p-4 rounded-2xl border border-white/10 max-w-[200px] shadow-2xl">
-              <p className="text-[10px] text-primary font-bold uppercase tracking-widest mb-1 glow-text">Vista 360°</p>
-              <p className="text-xs text-white/60 leading-relaxed italic">"Arrastra para rotar el modelo y pulsa en un músculo para ver los ejercicios"</p>
-            </div>
-          </div>
-
-          {/* Callout Controls */}
-          <div className="absolute bottom-8 right-8 flex gap-4 z-20">
-            <button className="w-10 h-10 rounded-xl glass-panel flex items-center justify-center hover:bg-white/10 transition-all border border-white/5 hover:border-primary/30 text-white/50 hover:text-primary">
-              <ZoomIn size={18} />
-            </button>
-            <button className="w-10 h-10 rounded-xl glass-panel flex items-center justify-center hover:bg-white/10 transition-all border border-white/5 hover:border-primary/30 text-white/50 hover:text-primary">
-              <Maximize2 size={18} />
-            </button>
-          </div>
-        </section>
-
-        {/* Right Panel - Exercise Selection */}
-        <aside className="w-96 flex flex-col z-20 border-l border-white/5">
+        {/* Main Panel - Exercise Selection & GIFs */}
+        <section className="flex-1 flex flex-col z-20">
           <ExercisePanel />
-        </aside>
-
+        </section>
       </main>
 
       {/* Footer - Routine Progress Bar */}
