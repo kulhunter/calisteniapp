@@ -1,0 +1,58 @@
+[
+  {
+    "id": "quadriceps",
+    "name": "Cuádriceps",
+    "scientific": "Quadriceps femoris",
+    "function": "Extensión de rodilla e inclinación de cadera. Fundamental en sentadillas, saltos y estabilización en planchas.",
+    "tip": "Realiza estiramientos de cuádriceps de pie llevando el talón al glúteo durante 20 segundos por lado.",
+    "mesh": "thigh_front"
+  },
+  {
+    "id": "biceps",
+    "name": "Bíceps",
+    "scientific": "Biceps brachii",
+    "function": "Flexión de codo y supinación del antebrazo. Clave en dominadas en supinación (chin-ups) y tracciones.",
+    "tip": "Estira extendiendo el brazo con la mano apoyada en una pared girando suavemente el torso hacia el lado opuesto.",
+    "mesh": "upper_arm_front"
+  },
+  {
+    "id": "abs",
+    "name": "Abdominales",
+    "scientific": "Rectus abdominis & Obliquus",
+    "function": "Estabilización de la pelvis y flexión de columna. Clave para evitar el arqueamiento lumbar en flexiones y planchas.",
+    "tip": "Estira haciendo la postura del perro mirando hacia arriba (Cobra) de forma suave, relajando el abdomen.",
+    "mesh": "torso_front"
+  },
+  {
+    "id": "glutes",
+    "name": "Glúteos",
+    "scientific": "Gluteus maximus",
+    "function": "Extensión y rotación externa de cadera. Impulsor potente en sentadillas y estabilizador en la plancha abdominal.",
+    "tip": "Cruza una pierna sobre la otra sentado y abraza la rodilla contra tu pecho para estirar la zona glútea.",
+    "mesh": "buttocks"
+  },
+  {
+    "id": "triceps",
+    "name": "Tríceps",
+    "scientific": "Triceps brachii",
+    "function": "Extensión del codo y aducción del hombro. El músculo de empuje principal en fondos, flexiones y paradas de manos.",
+    "tip": "Lleva el codo por detrás de la cabeza y empújalo suavemente hacia abajo con la mano contraria.",
+    "mesh": "upper_arm_back"
+  },
+  {
+    "id": "chest",
+    "name": "Pecho",
+    "scientific": "Pectoralis major",
+    "function": "Aducción y rotación interna del brazo. Principal motor en flexiones de brazos, fondos y flexiones inclinadas.",
+    "tip": "Entrelaza las manos por detrás de la espalda y estira los hombros y pecho abriendo el torso hacia el frente.",
+    "mesh": "torso_front"
+  },
+  {
+    "id": "back",
+    "name": "Espalda",
+    "scientific": "Latissimus dorsi & Trapezius",
+    "function": "Aducción, extensión y rotación interna del brazo. Principal motor en dominadas y remos calisténicos.",
+    "tip": "Cuélgate de una barra de forma pasiva relajando los hombros para descomprimir los dorsales y la columna.",
+    "mesh": "torso_back"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "flexiones",
+    "name": "Flexiones de Brazos",
+    "difficulty": "Principiante",
+    "equipment": "Peso corporal",
+    "primary": ["chest", "triceps"],
+    "secondary": ["abs"],
+    "muscles": ["chest", "triceps", "abs"],
+    "animation": "pushup",
+    "repTarget": "12 reps",
+    "description": "Un ejercicio fundamental para el pecho, hombros y tríceps que además activa todo el core para mantener la estabilidad corporal.",
+    "instructions": [
+      { "text": "Mantén la espalda recta y el abdomen firme", "target": "spine" },
+      { "text": "Baja hasta que el pecho roce el suelo", "target": "chest" },
+      { "text": "Empuja manteniendo los codos a 45 grados", "target": "elbow" }
+    ]
+  },
+  {
+    "id": "sentadillas",
+    "name": "Sentadillas",
+    "difficulty": "Principiante",
+    "equipment": "Peso corporal",
+    "primary": ["quadriceps", "glutes"],
+    "secondary": ["abs"],
+    "muscles": ["quadriceps", "glutes", "abs"],
+    "animation": "squat",
+    "repTarget": "15 reps",
+    "description": "El mejor ejercicio calisténico para el tren inferior, enfocado en el desarrollo de la fuerza en cuádriceps, glúteos y estabilidad del core.",
+    "instructions": [
+      { "text": "Mantén la espalda neutra y vista al frente", "target": "spine" },
+      { "text": "Rodillas alineadas con la punta de los pies", "target": "knees" }
+    ]
+  },
+  {
+    "id": "dominadas",
+    "name": "Dominadas",
+    "difficulty": "Intermedio",
+    "equipment": "Barra de dominadas",
+    "primary": ["back", "biceps"],
+    "secondary": ["abs"],
+    "muscles": ["back", "biceps", "abs"],
+    "animation": "pullup",
+    "repTarget": "8 reps",
+    "description": "El ejercicio rey para la espalda. Desarrolla una gran fuerza en los dorsales, bíceps y la fuerza de agarre del antebrazo.",
+    "instructions": [
+      { "text": "Supera la barra con la barbilla", "target": "head" },
+      { "text": "Controla el descenso de manera uniforme", "target": "back" }
+    ]
+  },
+  {
+    "id": "fondos",
+    "name": "Fondos en Paralelas",
+    "difficulty": "Intermedio",
+    "equipment": "Barras paralelas",
+    "primary": ["triceps", "chest"],
+    "secondary": ["abs"],
+    "muscles": ["triceps", "chest", "abs"],
+    "animation": "dip",
+    "repTarget": "10 reps",
+    "description": "Excelente ejercicio de empuje vertical que enfatiza el trabajo en la parte inferior del pecho y la cabeza lateral del tríceps.",
+    "instructions": [
+      { "text": "Baja controlado hasta formar un ángulo de 90°", "target": "elbow" },
+      { "text": "Mantén el core firme y evita balanceos", "target": "abs" }
+    ]
+  },
+  {
+    "id": "plancha",
+    "name": "Plancha Abdominal",
+    "difficulty": "Principiante",
+    "equipment": "Peso corporal",
+    "primary": ["abs"],
+    "secondary": ["quadriceps", "chest"],
+    "muscles": ["abs", "quadriceps", "chest"],
+    "animation": "plank",
+    "repTarget": "45 seg",
+    "description": "Un ejercicio estático isométrico diseñado para construir una resistencia excepcional en toda la faja abdominal y estabilizadores.",
+    "instructions": [
+      { "text": "Cuerpo totalmente recto como una tabla", "target": "spine" },
+      { "text": "Apóyate firmemente en los antebrazos", "target": "elbow" }
+    ]
+  }
+]
